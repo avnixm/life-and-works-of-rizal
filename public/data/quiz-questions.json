@@ -954,6 +954,372 @@
         }
       ]
     },
+    "19th-century": {
+      "title": "19th Century Philippines",
+      "description": "Questions about the historical context of the Philippines during the Spanish colonial period",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Who appointed the Governor-General of the Philippines during Spanish colonial rule?",
+          "options": [
+            "The Spanish Parliament",
+            "The Spanish monarch",
+            "The Council of the Indies",
+            "The Archbishop of Manila"
+          ],
+          "correct": 1,
+          "explanation": "The Governor-General was appointed by the Spanish monarch and served as the highest authority in the Philippines with executive, legislative, and judicial powers."
+        },
+        {
+          "id": 2,
+          "question": "What was the typical term of office for a Spanish Governor-General in the Philippines?",
+          "options": [
+            "2-3 years",
+            "3-6 years",
+            "7-10 years",
+            "Life tenure"
+          ],
+          "correct": 1,
+          "explanation": "The Governor-General typically served for 3-6 years and resided in Malacañang Palace in Manila, representing the Spanish Crown."
+        },
+        {
+          "id": 3,
+          "question": "What was the 'gobernadorcillo' in the Spanish colonial system?",
+          "options": [
+            "A Spanish military officer",
+            "A little governor or town mayor",
+            "A church official",
+            "A tax collector"
+          ],
+          "correct": 1,
+          "explanation": "The gobernadorcillo was the town mayor selected from the principalia class who served without salary for two years and was responsible for peace and order."
+        },
+        {
+          "id": 4,
+          "question": "What was the 'polo y servicio' system?",
+          "options": [
+            "A trade monopoly",
+            "A taxation system",
+            "Forced labor for 40 days",
+            "A land grant system"
+          ],
+          "correct": 2,
+          "explanation": "Polo y servicio was a forced labor system requiring males aged 16-60 to work for 40 days annually without pay, which could be commuted by paying 1.5 pesos."
+        },
+        {
+          "id": 5,
+          "question": "What was the 'bandala' system?",
+          "options": [
+            "Forced sale of products to government",
+            "Free trade with foreign countries",
+            "Agricultural tax collection",
+            "Military recruitment"
+          ],
+          "correct": 0,
+          "explanation": "The bandala system forced farmers to sell rice and other products to the government at below-market prices, creating artificial scarcity and high food prices."
+        },
+        {
+          "id": 6,
+          "question": "Which social class held the highest positions in government and church during Spanish colonial rule?",
+          "options": [
+            "Insulares (Creoles)",
+            "Mestizos",
+            "Peninsulares",
+            "Principalia"
+          ],
+          "correct": 2,
+          "explanation": "Peninsulares were Spaniards born in Spain who occupied the highest positions in government and church, enjoying the greatest privileges and social status."
+        },
+        {
+          "id": 7,
+          "question": "What was the difference between Peninsulares and Insulares?",
+          "options": [
+            "Peninsulares were military, Insulares were civilians",
+            "Peninsulares were born in Spain, Insulares were Spaniards born in the Philippines",
+            "Peninsulares were wealthy, Insulares were poor",
+            "Peninsulares were priests, Insulares were government officials"
+          ],
+          "correct": 1,
+          "explanation": "Peninsulares were Spaniards born in Spain with the highest status, while Insulares (Creoles) were Spaniards born in the Philippines who felt marginalized by peninsulares."
+        },
+        {
+          "id": 8,
+          "question": "What does 'Mestizo de Sangley' refer to?",
+          "options": [
+            "Filipino-Spanish descent",
+            "Filipino-Chinese descent",
+            "Spanish-Chinese descent",
+            "Pure Chinese immigrants"
+          ],
+          "correct": 1,
+          "explanation": "Mestizo de Sangley refers to people of Filipino-Chinese descent who dominated retail trade and commerce but faced periodic persecution and restrictions."
+        },
+        {
+          "id": 9,
+          "question": "What were the 'Tornatras' in colonial Philippine society?",
+          "options": [
+            "Spanish soldiers",
+            "Chinese merchants",
+            "People of mixed Spanish, Chinese, and Filipino descent",
+            "Native Filipino chiefs"
+          ],
+          "correct": 2,
+          "explanation": "Tornatras were people of complex heritage with Spanish, Chinese, and Filipino descent, creating unique social challenges as they navigated multiple cultural identities."
+        },
+        {
+          "id": 10,
+          "question": "Who were the 'Principalia' in colonial Philippine society?",
+          "options": [
+            "Spanish governors",
+            "Native Filipino aristocracy",
+            "Church officials",
+            "Chinese merchants"
+          ],
+          "correct": 1,
+          "explanation": "The Principalia were the native Filipino aristocracy, including former datus, wealthy landowners, and local officials who enjoyed privileges like exemption from tribute and forced labor."
+        },
+        {
+          "id": 11,
+          "question": "What characterized the 'Ilustrados' class?",
+          "options": [
+            "They were Spanish-born elites",
+            "They were the educated Filipino class",
+            "They were Chinese merchants",
+            "They were church officials"
+          ],
+          "correct": 1,
+          "explanation": "The Ilustrados were the educated Filipino class, often from principalia or mestizo families, who studied in prestigious schools and became leaders of reform and independence movements."
+        },
+        {
+          "id": 12,
+          "question": "What was the majority class of native Filipinos called during Spanish colonial rule?",
+          "options": [
+            "Principalia",
+            "Ilustrados",
+            "Indios",
+            "Barangay"
+          ],
+          "correct": 2,
+          "explanation": "The 'Indios' were the vast majority of native Filipinos - farmers, laborers, artisans, and fishermen who were subject to tribute, forced labor, and various taxes."
+        },
+        {
+          "id": 13,
+          "question": "Where were Chinese immigrants (Sangleys) forced to live in Manila?",
+          "options": [
+            "Intramuros",
+            "Binondo",
+            "Parian",
+            "Malate"
+          ],
+          "correct": 2,
+          "explanation": "Chinese immigrants were forced to live in designated areas like the Parian in Manila, despite their crucial roles in Philippine commerce."
+        },
+        {
+          "id": 14,
+          "question": "Which religious orders controlled most parishes and educational institutions?",
+          "options": [
+            "Augustinians, Dominicans, Franciscans, Jesuits, Recollects",
+            "Benedictines and Carmelites",
+            "Salesians and Redemptorists",
+            "Capuchins and Passionists"
+          ],
+          "correct": 0,
+          "explanation": "The five major religious orders - Augustinians, Dominicans, Franciscans, Jesuits, and Recollects - controlled most parishes, owned extensive estates, and dominated education."
+        },
+        {
+          "id": 15,
+          "question": "What was the primary source of the Catholic Church's economic power in colonial Philippines?",
+          "options": [
+            "Government subsidies",
+            "Donations from Spain",
+            "Vast haciendas and agricultural estates",
+            "Maritime trade"
+          ],
+          "correct": 2,
+          "explanation": "The Catholic Church owned vast haciendas and agricultural estates, controlling some of the most fertile lands and collecting rent from Filipino tenant farmers."
+        },
+        {
+          "id": 16,
+          "question": "What was the 'Secularization Movement' about?",
+          "options": [
+            "Separating church and state",
+            "Replacing Spanish friars with Filipino secular priests",
+            "Ending religious education",
+            "Closing all churches"
+          ],
+          "correct": 1,
+          "explanation": "The Secularization Movement demanded replacing Spanish friars with Filipino secular priests, leading to tensions between Spanish religious orders and Filipino clergy."
+        },
+        {
+          "id": 17,
+          "question": "Who were Gomez, Burgos, and Zamora (GOMBURZA)?",
+          "options": [
+            "Spanish governors",
+            "Filipino priests executed in 1872",
+            "Chinese merchants",
+            "Revolutionary leaders"
+          ],
+          "correct": 1,
+          "explanation": "GOMBURZA were Filipino priests executed in 1872 on charges of sedition. This event galvanized Filipino nationalism and anti-friar sentiment."
+        },
+        {
+          "id": 18,
+          "question": "What was the oldest university in Asia established during Spanish colonial rule?",
+          "options": [
+            "Ateneo Municipal de Manila",
+            "Colegio de San Juan de Letran",
+            "University of Santo Tomas",
+            "San Carlos Seminary"
+          ],
+          "correct": 2,
+          "explanation": "The University of Santo Tomas, founded in 1611 and run by the Dominican Order, is the oldest university in Asia."
+        },
+        {
+          "id": 19,
+          "question": "Which institution was known for more progressive education and where José Rizal studied?",
+          "options": [
+            "University of Santo Tomas",
+            "Ateneo Municipal de Manila",
+            "Colegio de San Juan de Letran",
+            "San Carlos Seminary"
+          ],
+          "correct": 1,
+          "explanation": "The Ateneo Municipal de Manila, run by Jesuits since 1859, was more progressive with better academic standards and discipline, where José Rizal received excellent education."
+        },
+        {
+          "id": 20,
+          "question": "What was the main problem with primary education during Spanish colonial rule?",
+          "options": [
+            "Too many schools were built",
+            "Limited to towns with Spanish presence",
+            "Only taught in Filipino languages",
+            "Focused only on mathematics"
+          ],
+          "correct": 1,
+          "explanation": "Primary education was limited to towns with Spanish presence, with most rural areas lacking formal schools and higher enrollment only in Manila and major cities."
+        },
+        {
+          "id": 21,
+          "question": "What was the Educational Decree of 1863?",
+          "options": [
+            "It abolished all education",
+            "It established a public education system",
+            "It restricted education to elites",
+            "It banned Filipino languages"
+          ],
+          "correct": 1,
+          "explanation": "The Educational Decree of 1863 established a public education system, marking a significant change from previous limited educational access."
+        },
+        {
+          "id": 22,
+          "question": "What was the 'Galleon Trade' that connected Manila to Acapulco?",
+          "options": [
+            "Annual trade between Philippines and Mexico",
+            "Daily shipping service",
+            "Military supply route",
+            "Religious pilgrimage route"
+          ],
+          "correct": 0,
+          "explanation": "The Galleon Trade (1565-1815) was annual trade between Manila and Acapulco, with Manila serving as an entrepôt for Asian goods traded for Mexican silver."
+        },
+        {
+          "id": 23,
+          "question": "When did the Galleon Trade end?",
+          "options": [
+            "1800",
+            "1815",
+            "1820",
+            "1834"
+          ],
+          "correct": 1,
+          "explanation": "The Galleon Trade ended in 1815 due to competition and changing global trade patterns, after operating from 1565-1815."
+        },
+        {
+          "id": 24,
+          "question": "When was Manila opened to world trade?",
+          "options": [
+            "1815",
+            "1834",
+            "1850",
+            "1860"
+          ],
+          "correct": 1,
+          "explanation": "Manila was opened to world trade in 1834, ending the trade monopoly and allowing direct trade with Europe, America, and other Asian countries."
+        },
+        {
+          "id": 25,
+          "question": "What were the major export crops that grew after opening Manila to world trade?",
+          "options": [
+            "Rice and corn",
+            "Sugar, tobacco, and hemp",
+            "Coconut and bananas",
+            "Coffee and cacao"
+          ],
+          "correct": 1,
+          "explanation": "After 1834, sugar, tobacco, and abaca (Manila hemp) became major export crops, leading to the growth of export agriculture."
+        },
+        {
+          "id": 26,
+          "question": "What was the tobacco monopoly period in the Philippines?",
+          "options": [
+            "1750-1850",
+            "1782-1881",
+            "1800-1900",
+            "1834-1898"
+          ],
+          "correct": 1,
+          "explanation": "The tobacco monopoly operated from 1782-1881, with the government controlling tobacco production and trade as a major revenue source."
+        },
+        {
+          "id": 27,
+          "question": "What was 'abaca' also known as?",
+          "options": [
+            "Philippine cotton",
+            "Manila hemp",
+            "Luzon silk",
+            "Mindanao fiber"
+          ],
+          "correct": 1,
+          "explanation": "Abaca was also known as Manila hemp, an important fiber export crop that became significant in the 19th century Philippine economy."
+        },
+        {
+          "id": 28,
+          "question": "What economic system granted land and native labor to Spanish settlers?",
+          "options": [
+            "Hacienda system",
+            "Encomienda system",
+            "Plantation system",
+            "Feudal system"
+          ],
+          "correct": 1,
+          "explanation": "The encomienda system granted land and labor to Spanish settlers, creating concentrated land ownership and rural inequality."
+        },
+        {
+          "id": 29,
+          "question": "Who typically worked as tenants or laborers on large estates?",
+          "options": [
+            "Spanish colonists",
+            "Chinese immigrants",
+            "Filipino farmers",
+            "Mestizo merchants"
+          ],
+          "correct": 2,
+          "explanation": "Filipino farmers mostly worked as tenants or laborers on Spanish-owned lands and church haciendas, creating a system of rural inequality."
+        },
+        {
+          "id": 30,
+          "question": "What often caused periodic famines in colonial Philippines?",
+          "options": [
+            "Natural disasters only",
+            "The bandala system and focus on export crops",
+            "Lack of agricultural land",
+            "Population growth"
+          ],
+          "correct": 1,
+          "explanation": "The bandala system and focus on export crops over food production led to periodic food shortages and famines, especially during bad harvests."
+        }
+      ]
+    },
     "legacy": {
       "title": "Legacy",
       "description": "Questions about Rizal's impact and commemoration",
