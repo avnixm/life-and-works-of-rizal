@@ -1,0 +1,281 @@
+{
+  "title": "Education",
+  "subtitle": "The Academic Journey of José Rizal (1872-1885)",
+  "sections": [
+    {
+      "id": "early-education",
+      "icon": "📚",
+      "title": "A. Early Education",
+      "type": "educational_stages",
+      "content": [
+        {
+          "id": "first-teacher",
+          "icon": "👩‍🏫",
+          "title": "First Teacher: His Mother (Teodora Alonso)",
+          "color": "pink",
+          "type": "grid",
+          "details": [
+            {
+              "subtitle": "What She Taught:",
+              "items": [
+                "Basic reading and writing",
+                "Catholic prayers and catechism",
+                "Spanish alphabet and numbers",
+                "Stories and legends",
+                "Moral values and good behavior"
+              ]
+            },
+            {
+              "subtitle": "Teaching Methods:",
+              "items": [
+                "Patient and encouraging approach",
+                "Use of storytelling to teach lessons",
+                "Integration of religious instruction",
+                "Emphasis on memorization and recitation",
+                "Practical application of lessons"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "binan-school",
+          "icon": "🏫",
+          "title": "Biñan School (1870-1871)",
+          "color": "blue",
+          "type": "complex",
+          "details": [
+            {
+              "subtitle": "School Details:",
+              "items": [
+                "Private school run by Maestro Justiniano Aquino Cruz",
+                "Located in Biñan, Laguna",
+                "José was 9 years old when he started",
+                "Stayed with his aunt (Tía Isabel)",
+                "Duration: About 1 year and 5 months"
+              ]
+            },
+            {
+              "subtitle": "Subjects Studied:",
+              "items": [
+                "Latin grammar and vocabulary",
+                "Spanish reading and writing",
+                "Arithmetic and basic mathematics",
+                "Christian doctrine and catechism",
+                "Penmanship and calligraphy"
+              ]
+            }
+          ],
+          "notable_experiences": {
+            "title": "Notable Experiences:",
+            "items": [
+              "First time away from family",
+              "Homesickness and adjustment difficulties",
+              "Excellence in studies, especially Latin",
+              "Some conflicts with classmates",
+              "Developed independence and resilience"
+            ]
+          }
+        },
+        {
+          "id": "ateneo-municipal",
+          "icon": "🎓",
+          "title": "Ateneo Municipal de Manila (1872-1877)",
+          "color": "green",
+          "type": "complex",
+          "details": [
+            {
+              "subtitle": "Institution Details:",
+              "items": [
+                "Run by Jesuit priests",
+                "Premier educational institution in Manila",
+                "Rigorous academic standards",
+                "Character formation emphasis",
+                "Graduated Bachiller en Artes (Bachelor of Arts)"
+              ]
+            },
+            {
+              "subtitle": "Academic Performance:",
+              "items": [
+                "Consistently first in class",
+                "Received numerous awards and medals",
+                "Sobresaliente (excellent) in all subjects",
+                "Member of the honor society",
+                "Graduated with highest honors (1877)"
+              ]
+            }
+          ],
+          "extracurricular": {
+            "title": "Extracurricular Activities:",
+            "activities": [
+              {
+                "items": [
+                  "Member of the Marian Congregation",
+                  "Participated in school dramas",
+                  "Contributed to school publications",
+                  "Gymnastics and physical exercises"
+                ]
+              },
+              {
+                "items": [
+                  "Poetry writing and competitions",
+                  "Art and drawing classes",
+                  "Religious activities and retreats",
+                  "Debate and oratory"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "ust",
+          "icon": "🏛️",
+          "title": "University of Santo Tomas (1877-1882)",
+          "color": "orange",
+          "type": "complex",
+          "details": [
+            {
+              "subtitle": "Courses Taken:",
+              "items": [
+                "Philosophy and Letters (1877-1879)",
+                "Medicine (1878-1882)",
+                "Surveying (1879-1882)",
+                "Did not complete medical degree",
+                "Left for Europe in 1882"
+              ]
+            },
+            {
+              "subtitle": "Academic Challenges:",
+              "items": [
+                "Outdated teaching methods",
+                "Discrimination against Filipino students",
+                "Limited access to modern facilities",
+                "Conservative curriculum",
+                "Language barriers in some subjects"
+              ]
+            }
+          ],
+          "leaving_reasons": {
+            "title": "Reasons for Leaving UST:",
+            "items": [
+              "Seek better educational opportunities in Europe",
+              "Study modern medicine and sciences",
+              "Escape discrimination and limitations in the Philippines",
+              "Broaden his knowledge and worldview",
+              "Complete his medical studies in a more progressive environment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "higher-education-abroad",
+      "icon": "🌍",
+      "title": "B. Higher Education Abroad",
+      "type": "international_studies",
+      "content": [
+        {
+          "id": "madrid-university",
+          "icon": "🇪🇸",
+          "title": "Universidad Central de Madrid, Spain (1882-1885)",
+          "color": "purple",
+          "type": "grid",
+          "details": [
+            {
+              "subtitle": "Academic Achievements:",
+              "items": [
+                "Completed Licentiate in Medicine (1884)",
+                "Earned Doctor of Medicine degree (1885)",
+                "Graduated with the grade \"Notable\" (Very Good)",
+                "Dissertation: \"The Treatment of Madness\"",
+                "Specialized in ophthalmology"
+              ]
+            },
+            {
+              "subtitle": "Other Studies:",
+              "items": [
+                "Philosophy and Letters",
+                "History and Geography",
+                "Modern languages (French, German)",
+                "Art and painting",
+                "Sculpture and clay modeling"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paris-heidelberg",
+          "icon": "🏥",
+          "title": "Studies in Paris, France & Heidelberg, Germany",
+          "color": "cyan",
+          "type": "dual_city",
+          "cities": [
+            {
+              "flag": "🇫🇷",
+              "name": "Paris (1885-1886)",
+              "items": [
+                "Specialized in ophthalmology",
+                "Studied under Dr. Louis de Wecker",
+                "Advanced surgical techniques",
+                "Modern medical practices",
+                "Clinical experience in hospitals"
+              ]
+            },
+            {
+              "flag": "🇩🇪",
+              "name": "Heidelberg (1886)",
+              "items": [
+                "Further studies in ophthalmology",
+                "Research on eye diseases",
+                "University of Heidelberg courses",
+                "German language proficiency",
+                "Scientific research methods"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fields-summary",
+          "icon": "🎯",
+          "title": "Fields of Study: Medicine, Philosophy, Ophthalmology",
+          "color": "gray",
+          "type": "fields_grid",
+          "fields": [
+            {
+              "icon": "⚕️",
+              "name": "Medicine",
+              "color": "red",
+              "subjects": [
+                "General medicine",
+                "Surgery",
+                "Anatomy",
+                "Pathology"
+              ]
+            },
+            {
+              "icon": "🤔",
+              "name": "Philosophy",
+              "color": "blue",
+              "subjects": [
+                "Logic",
+                "Ethics",
+                "Metaphysics",
+                "History of philosophy"
+              ]
+            },
+            {
+              "icon": "👁️",
+              "name": "Ophthalmology",
+              "color": "green",
+              "subjects": [
+                "Eye anatomy",
+                "Vision disorders",
+                "Eye surgery",
+                "Clinical practice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,338 @@
+{
+  "title": "Martyrdom and Legacy",
+  "subtitle": "The Ultimate Sacrifice for Freedom (1896)",
+  "sections": [
+    {
+      "id": "return-and-arrest",
+      "icon": "⚓",
+      "title": "Return to Manila and Arrest",
+      "type": "arrest_details",
+      "content": [
+        {
+          "id": "journey-from-dapitan",
+          "icon": "🚢",
+          "title": "Journey from Dapitan",
+          "color": "red",
+          "travel_details": {
+            "title": "Travel to Manila:",
+            "items": [
+              "Left Dapitan on July 31, 1896",
+              "Bound for Cuba as military doctor",
+              "Stopped in Manila on August 6, 1896",
+              "Stayed aboard ship at Port of Manila",
+              "Under Spanish surveillance"
+            ]
+          },
+          "revolution_context": {
+            "title": "The Philippine Revolution Begins:",
+            "items": [
+              "Katipunan discovered by Spanish authorities",
+              "Revolution started on August 23, 1896",
+              "Bonifacio led the armed uprising",
+              "Spanish blamed Rizal for inspiring revolution",
+              "Rizal denied direct involvement"
+            ]
+          }
+        },
+        {
+          "id": "arrest-imprisonment",
+          "icon": "🚨",
+          "title": "Arrest and Imprisonment",
+          "color": "orange",
+          "arrest_details": {
+            "title": "September 3, 1896 - Arrest:",
+            "description": "Despite having no direct connection to the Katipunan, Rizal was arrested while aboard the ship bound for Spain. Spanish authorities accused him of being the intellectual author of the revolution through his writings."
+          },
+          "prison_details": {
+            "title": "Fort Santiago Prison:",
+            "description": "Rizal was imprisoned in Fort Santiago, the same place where many Filipino patriots were held. He spent his final months in a small cell, writing letters and preparing for what he knew would be his fate."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trial",
+      "icon": "⚖️",
+      "title": "Trial and Conviction",
+      "type": "trial_proceedings",
+      "content": [
+        {
+          "id": "charges",
+          "icon": "📋",
+          "title": "Charges Against Rizal",
+          "color": "purple",
+          "primary_charges": [
+            "Rebellion against Spanish rule",
+            "Sedition through his writings",
+            "Founding illegal organizations",
+            "Promoting independence movement",
+            "Inspiring armed revolution"
+          ],
+          "evidence_presented": [
+            "Novels \"Noli\" and \"El Fili\"",
+            "Essays and articles",
+            "Letters to fellow reformists",
+            "Founding of La Liga Filipina",
+            "Influence on revolutionary leaders"
+          ]
+        },
+        {
+          "id": "trial-proceedings",
+          "icon": "🏛️",
+          "title": "Military Trial Proceedings",
+          "color": "yellow",
+          "court_details": {
+            "left_column": [
+              "Military court (court martial)",
+              "Presided by Spanish officers",
+              "No Filipino judges",
+              "Limited defense rights"
+            ],
+            "right_column": [
+              "Proceedings in Spanish",
+              "Predetermined outcome",
+              "Political rather than legal trial",
+              "Meant to send message to rebels"
+            ]
+          },
+          "rizal_defense": "Rizal maintained his innocence of direct involvement in the revolution. He argued that his writings promoted peaceful reform, not violent rebellion. He denied knowledge of the Katipunan's armed plans."
+        },
+        {
+          "id": "verdict",
+          "icon": "⚡",
+          "title": "Verdict and Sentence",
+          "color": "red",
+          "verdict": "GUILTY - SENTENCED TO DEATH",
+          "date": "December 26, 1896",
+          "description": "The military court found Rizal guilty of rebellion, sedition, and conspiracy. The sentence was death by firing squad, to be carried out at Bagumbayan (now Luneta Park). The verdict was a foregone conclusion designed to intimidate other revolutionaries."
+        }
+      ]
+    },
+    {
+      "id": "final-days",
+      "icon": "📅",
+      "title": "Final Days and Preparation",
+      "type": "final_preparations",
+      "content": [
+        {
+          "id": "last-works",
+          "icon": "✍️",
+          "title": "Last Works and Letters",
+          "color": "blue",
+          "mi_ultimo_adios": [
+            "Written on December 29, 1896",
+            "Hidden in alcohol lamp",
+            "His farewell to the Philippines",
+            "Expresses love for country",
+            "Calls for peaceful struggle"
+          ],
+          "final_letters": [
+            "Letter to family",
+            "Letter to Ferdinand Blumentritt",
+            "Instructions for his burial",
+            "Messages of forgiveness",
+            "Expression of faith in Filipino future"
+          ]
+        },
+        {
+          "id": "final-visitors",
+          "icon": "👥",
+          "title": "Final Visitors",
+          "color": "green",
+          "family_members": [
+            "Mother Teodora Alonso",
+            "Sisters Trinidad and Josefa",
+            "Brother-in-law Manuel Hidalgo",
+            "Nephew Teodosio Hidalgo",
+            "Other relatives and friends"
+          ],
+          "religious_preparation": [
+            "Confession with Fr. Balaguer",
+            "Refused to retract his writings",
+            "Maintained his beliefs",
+            "Spiritual preparation for death",
+            "Peaceful acceptance of fate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "execution",
+      "icon": "💀",
+      "title": "Execution at Bagumbayan",
+      "type": "execution_details",
+      "content": {
+        "date_time": "December 30, 1896 - 7:03 AM",
+        "color": "gray",
+        "final_moments": {
+          "left_column": [
+            "Walked calmly to execution site",
+            "Refused blindfold",
+            "Requested to face the firing squad",
+            "Said final prayers",
+            "Shouted \"Consummatum est!\" (It is finished)"
+          ],
+          "right_column": [
+            "Fell facing the sky",
+            "Age 35 at time of death",
+            "Died instantly from gunshots",
+            "Body left for public viewing",
+            "Later buried in Paco Cemetery"
+          ]
+        },
+        "witnesses_atmosphere": "The execution was attended by Spanish officials, military personnel, and some Filipino spectators. The atmosphere was tense, with many Filipinos mourning silently. The Spanish hoped the execution would deter further rebellion, but it had the opposite effect."
+      }
+    },
+    {
+      "id": "national-mourning",
+      "icon": "😢",
+      "title": "National Mourning and Hero Status",
+      "type": "mourning_hero_status",
+      "content": [
+        {
+          "id": "immediate-impact",
+          "icon": "🇵🇭",
+          "title": "Immediate Impact",
+          "color": "purple",
+          "public_reaction": [
+            "Widespread grief and mourning",
+            "Silent protests and gatherings",
+            "Increased anti-Spanish sentiment",
+            "More recruits joined revolution",
+            "International attention and sympathy"
+          ],
+          "revolutionary_response": [
+            "Strengthened resolve of revolutionaries",
+            "Rizal became martyr symbol",
+            "Increased recruitment to Katipunan",
+            "Unified different revolutionary groups",
+            "Inspired continued struggle"
+          ]
+        },
+        {
+          "id": "national-hero-recognition",
+          "icon": "🏆",
+          "title": "Recognition as National Hero",
+          "color": "blue",
+          "official_declaration": "While never officially proclaimed by law, Rizal was recognized as the national hero through popular acclaim and government recognition. His heroism was acknowledged by American colonial government and later by the Philippine Republic.",
+          "why_national_hero": [
+            "Embodied Filipino ideals and aspirations",
+            "Promoted peaceful reform over violent revolution",
+            "His martyrdom unified the nation",
+            "Acceptable to both Americans and Filipinos",
+            "Represented the educated, peaceful approach"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monuments",
+      "icon": "🗿",
+      "title": "Monuments and Global Recognition",
+      "type": "monuments_recognition",
+      "content": [
+        {
+          "id": "major-monuments",
+          "icon": "🏛️",
+          "title": "Major Monuments",
+          "color": "green",
+          "rizal_monument_manila": [
+            "Located at Luneta Park (former Bagumbayan)",
+            "Marks the exact execution site",
+            "Designed by Swiss sculptor Richard Kissling",
+            "Unveiled on December 30, 1913",
+            "Guards of honor maintain 24/7 vigil"
+          ],
+          "other_monuments": [
+            "Rizal Monument in Calamba, Laguna",
+            "Dapitan monuments and shrines",
+            "International monuments in various countries",
+            "Statues in schools and universities",
+            "Memorial sites across the Philippines"
+          ]
+        },
+        {
+          "id": "international-recognition",
+          "icon": "🌍",
+          "title": "International Recognition",
+          "color": "orange",
+          "countries": [
+            {
+              "name": "Spain",
+              "recognitions": [
+                "Monuments in Madrid",
+                "Street named after him",
+                "Academic recognition"
+              ]
+            },
+            {
+              "name": "Germany",
+              "recognitions": [
+                "Heidelberg memorial",
+                "University recognition",
+                "Historical markers"
+              ]
+            },
+            {
+              "name": "Other Countries",
+              "recognitions": [
+                "Japan monuments",
+                "Singapore markers",
+                "US memorials"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nationalism-influence",
+      "icon": "🔥",
+      "title": "Influence on Philippine Nationalism",
+      "type": "lasting_legacy",
+      "content": {
+        "title": "Lasting Legacy",
+        "color": "amber",
+        "legacy_areas": [
+          {
+            "title": "Educational Impact:",
+            "items": [
+              "Mandatory Rizal courses in schools",
+              "Republic Act 1425 (Rizal Law)",
+              "Inspiration for educators",
+              "Model of intellectual achievement"
+            ]
+          },
+          {
+            "title": "Cultural Influence:",
+            "items": [
+              "December 30 as Rizal Day (national holiday)",
+              "Inspiration for literature and arts",
+              "Symbol of Filipino identity",
+              "Model of peaceful resistance"
+            ]
+          },
+          {
+            "title": "Political Legacy:",
+            "items": [
+              "Inspiration for independence movement",
+              "Model of democratic ideals",
+              "Advocate for human rights",
+              "Symbol of national sovereignty"
+            ]
+          },
+          {
+            "title": "Modern Relevance:",
+            "items": [
+              "Inspiration for overseas Filipino workers",
+              "Model for social reformers",
+              "Symbol of Filipino excellence",
+              "Advocate for peaceful change"
+            ]
+          }
+        ],
+        "eternal_message": "The youth is the hope of our future. Today's generation must continue the work of nation-building through education, moral excellence, and love of country. Rizal's sacrifice reminds us that true heroism lies not in violence, but in serving others and standing for what is right."
+      }
+    }
+  ]
+} 

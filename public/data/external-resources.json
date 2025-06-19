@@ -1,0 +1,283 @@
+{
+  "rizalWorks": {
+    "category": "Rizal's Major Works",
+    "description": "Links to official sources hosting Rizal's original works",
+    "items": [
+      {
+        "id": "noli-me-tangere-tagalog",
+        "title": "Noli Me Tangere",
+        "subtitle": "Original Filipino Edition",
+        "language": "Spanish",
+        "pages": 385,
+        "description": "The original Spanish text of Rizal's first novel",
+        "tags": ["novel", "filipino", "original", "social-cancer"],
+        "yearPublished": 1887,
+        "externalUrl": "https://www.gutenberg.org/ebooks/47629",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Free digital library with public domain texts",
+        "accessType": "Free"
+      },
+      {
+        "id": "noli-me-tangere-english",
+        "title": "Noli Me Tangere",
+        "subtitle": "English Translation",
+        "language": "English",
+        "pages": 420,
+        "description": "English translation of Rizal's first novel",
+        "tags": ["novel", "english", "translation", "social-cancer"],
+        "yearPublished": 1887,
+        "externalUrl": "https://www.gutenberg.org/ebooks/6737",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Free digital library with public domain texts",
+        "accessType": "Free"
+      },
+      {
+        "id": "el-filibusterismo-spanish",
+        "title": "El Filibusterismo",
+        "subtitle": "Original Spanish Edition",
+        "language": "Spanish",
+        "pages": 445,
+        "description": "The original Spanish text of Rizal's second novel",
+        "tags": ["novel", "spanish", "original", "revolution"],
+        "yearPublished": 1891,
+        "externalUrl": "https://www.gutenberg.org/ebooks/30903",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Free digital library with public domain texts",
+        "accessType": "Free"
+      },
+      {
+        "id": "el-filibusterismo-english",
+        "title": "El Filibusterismo",
+        "subtitle": "English Translation",
+        "language": "English",
+        "pages": 480,
+        "description": "English translation of Rizal's second novel",
+        "tags": ["novel", "english", "translation", "revolution"],
+        "yearPublished": 1891,
+        "externalUrl": "https://www.gutenberg.org/ebooks/10676",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Free digital library with public domain texts",
+        "accessType": "Free"
+      },
+      {
+        "id": "mi-ultimo-adios",
+        "title": "Mi Último Adiós",
+        "subtitle": "Original Spanish with English Translation",
+        "language": "Spanish/English",
+        "pages": 8,
+        "description": "Rizal's farewell poem written before his execution",
+        "tags": ["poem", "farewell", "bilingual", "martyrdom"],
+        "yearPublished": 1896,
+        "externalUrl": "https://philippinestudies.uk/files/mi-ultimo-adios.pdf",
+        "source": "Philippine Studies UK",
+        "sourceDescription": "Academic resource for Philippine studies",
+        "accessType": "Free"
+      },
+      {
+        "id": "essays-collection",
+        "title": "Essays Collection",
+        "subtitle": "The Indolence, Philippines a Century Hence, etc.",
+        "language": "English",
+        "pages": 125,
+        "description": "Compilation of Rizal's major essays and articles",
+        "tags": ["essays", "indolence", "philippines", "analysis"],
+        "yearPublished": "1889-1890",
+        "externalUrl": "https://archive.org/details/joserizalslifehi00anch",
+        "source": "Internet Archive",
+        "sourceDescription": "Digital library of historical documents",
+        "accessType": "Free"
+      },
+      {
+        "id": "rizal-complete-works-open-library",
+        "title": "Jose Rizal Complete Works",
+        "subtitle": "Comprehensive Collection on Open Library",
+        "language": "English/Spanish",
+        "pages": 1000,
+        "description": "Open Library's collection of 108 works by and about Jose Rizal",
+        "tags": ["complete-works", "open-library", "comprehensive", "digital"],
+        "yearPublished": "Various",
+        "externalUrl": "https://openlibrary.org/authors/OL178062A/José_Rizal",
+        "source": "Open Library",
+        "sourceDescription": "Internet Archive's open library project",
+        "accessType": "Free"
+      }
+    ]
+  },
+  "legalDocs": {
+    "category": "Legal and Historical Documents",
+    "description": "Official government and legal documents",
+    "items": [
+      {
+        "id": "republic-act-1425",
+        "title": "Republic Act 1425",
+        "subtitle": "The Rizal Law - Full Text",
+        "language": "English",
+        "pages": 12,
+        "description": "Complete text of the law mandating Rizal courses",
+        "tags": ["law", "education", "curriculum", "mandate"],
+        "yearPublished": 1956,
+        "externalUrl": "https://lawphil.net/statutes/repacts/ra1956/ra_1425_1956.html",
+        "source": "LawPhil.net",
+        "sourceDescription": "Legal documents archive",
+        "accessType": "Free"
+      },
+      {
+        "id": "trial-transcripts",
+        "title": "Jose Rizal Trial Documents",
+        "subtitle": "Court Proceedings and Defense Statements",
+        "language": "English",
+        "pages": 95,
+        "description": "Historical documents from Rizal's military trial proceedings",
+        "tags": ["trial", "court", "defense", "legal"],
+        "yearPublished": 1896,
+        "externalUrl": "https://nhcp.gov.ph",
+        "source": "National Historical Commission of the Philippines",
+        "sourceDescription": "Official historical archives",
+        "accessType": "Free"
+      },
+      {
+        "id": "historical-documents",
+        "title": "National Library Rizal Collection",
+        "subtitle": "Manuscripts and Historical Documents",
+        "language": "English",
+        "pages": 200,
+        "description": "National Library's comprehensive Rizal manuscript collection",
+        "tags": ["manuscripts", "library", "official", "history"],
+        "yearPublished": "1880-1896",
+        "externalUrl": "https://web.nlp.gov.ph/filipiniana/special-collections/",
+        "source": "National Library of the Philippines",
+        "sourceDescription": "National Cultural Treasures collection",
+        "accessType": "Free"
+      }
+    ]
+  },
+  "studyGuides": {
+    "category": "Educational Resources",
+    "description": "Academic and educational materials from educational institutions",
+    "items": [
+      {
+        "id": "deped-curriculum-guide",
+        "title": "DepEd K to 12 Curriculum Guide",
+        "subtitle": "Official Teaching Guidelines",
+        "language": "English",
+        "pages": 50,
+        "description": "Department of Education's official curriculum guide including Rizal studies",
+        "tags": ["curriculum", "deped", "teaching", "guidelines"],
+        "targetLevel": "All Levels",
+        "yearPublished": 2023,
+        "externalUrl": "https://www.deped.gov.ph/k-to-12/about/k-to-12-basic-education-curriculum/",
+        "source": "Department of Education Philippines",
+        "sourceDescription": "Official educational ministry",
+        "accessType": "Free"
+      },
+      {
+        "id": "university-research-papers",
+        "title": "Academic Research Papers",
+        "subtitle": "Peer-Reviewed Studies on Rizal",
+        "language": "English",
+        "pages": 300,
+        "description": "Collection of academic papers from Philippine universities",
+        "tags": ["research", "academic", "university", "papers"],
+        "targetLevel": "College",
+        "yearPublished": "2020-2024",
+        "externalUrl": "https://scholar.google.com/scholar?q=jose+rizal+philippines",
+        "source": "Google Scholar",
+        "sourceDescription": "Academic search engine",
+        "accessType": "Free"
+      },
+      {
+        "id": "filipinas-heritage-library",
+        "title": "Filipinas Heritage Library Rizaliana",
+        "subtitle": "Digital Collection of Rizal Works",
+        "language": "English/Filipino",
+        "pages": 500,
+        "description": "Comprehensive digital collection of Rizal's works and related materials",
+        "tags": ["library", "archives", "digital", "heritage"],
+        "targetLevel": "All Levels",
+        "yearPublished": "Various",
+        "externalUrl": "https://opac.filipinaslibrary.org.ph/cgi-bin/koha/opac-shelves.pl?op=view&shelfnumber=304",
+        "source": "Filipinas Heritage Library",
+        "sourceDescription": "Heritage library with Rizaliana collection",
+        "accessType": "Free"
+      },
+      {
+        "id": "khan-academy-philippines",
+        "title": "Khan Academy Philippines History",
+        "subtitle": "Interactive Learning Modules",
+        "language": "English",
+        "pages": 0,
+        "description": "Interactive lessons about Philippine history including Rizal",
+        "tags": ["interactive", "lessons", "history", "education"],
+        "targetLevel": "Secondary",
+        "yearPublished": 2023,
+        "externalUrl": "https://www.khanacademy.org/humanities/world-history/asia-pacific-history",
+        "source": "Khan Academy",
+        "sourceDescription": "Free online learning platform",
+        "accessType": "Free"
+      },
+      {
+        "id": "up-diliman-rizal-studies",
+        "title": "UP Diliman English Department",
+        "subtitle": "Academic Programs and Resources",
+        "language": "English",
+        "pages": 0,
+        "description": "University of the Philippines Diliman's premier English department with Rizal studies",
+        "tags": ["university", "academic", "up-diliman", "literature"],
+        "targetLevel": "College",
+        "yearPublished": 2024,
+        "externalUrl": "https://decl.kal.upd.edu.ph/",
+        "source": "UP Diliman Department of English and Comparative Literature",
+        "sourceDescription": "Premier English department in the Philippines",
+        "accessType": "Free"
+      }
+    ]
+  },
+  "museums": {
+    "category": "Museums and Cultural Sites",
+    "description": "Virtual tours and digital collections from museums",
+    "items": [
+      {
+        "id": "rizal-shrine-calamba",
+        "title": "Rizal Shrine Virtual Tour",
+        "subtitle": "Calamba, Laguna",
+        "language": "English",
+        "pages": 0,
+        "description": "Virtual tour of Rizal's birthplace and family home",
+        "tags": ["museum", "virtual-tour", "calamba", "birthplace"],
+        "yearPublished": 2023,
+        "externalUrl": "https://nhcp.gov.ph/virtual-tours/rizal-shrine-calamba/",
+        "source": "National Historical Commission of the Philippines",
+        "sourceDescription": "Official historical commission",
+        "accessType": "Free"
+      },
+      {
+        "id": "fort-santiago-museum",
+        "title": "Fort Santiago Digital Exhibits",
+        "subtitle": "Rizal's Final Days",
+        "language": "English",
+        "pages": 0,
+        "description": "Digital exhibits from Fort Santiago where Rizal was imprisoned",
+        "tags": ["museum", "fort-santiago", "prison", "exhibits"],
+        "yearPublished": 2023,
+        "externalUrl": "https://intramuros.gov.ph/fort-santiago/",
+        "source": "Intramuros Administration",
+        "sourceDescription": "Official heritage site administration",
+        "accessType": "Free"
+      },
+      {
+        "id": "dapitan-museum",
+        "title": "Dapitan Museum Collection",
+        "subtitle": "Rizal's Exile Period",
+        "language": "English",
+        "pages": 0,
+        "description": "Museum collection from Rizal's exile in Dapitan",
+        "tags": ["museum", "dapitan", "exile", "collection"],
+        "yearPublished": 2023,
+        "externalUrl": "https://zamboanga.com/z/index.php?title=Rizal_Shrine",
+        "source": "Zamboanga Tourism",
+        "sourceDescription": "Regional tourism office",
+        "accessType": "Free"
+      }
+    ]
+  }
+} 

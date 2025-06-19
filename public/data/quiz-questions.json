@@ -1,0 +1,1085 @@
+{
+  "categories": {
+    "rizal-law": {
+      "title": "Rizal Law",
+      "description": "Questions about Republic Act 1425 and its provisions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the official name of the Rizal Law?",
+          "options": [
+            "Republic Act 1425",
+            "Commonwealth Act 1425", 
+            "Presidential Decree 1425",
+            "Executive Order 1425"
+          ],
+          "correct": 0,
+          "explanation": "The Rizal Law is officially known as Republic Act 1425, enacted on June 12, 1956."
+        },
+        {
+          "id": 2,
+          "question": "Who authored the Rizal Law?",
+          "options": [
+            "Senator Claro M. Recto",
+            "Senator Jose P. Laurel",
+            "Senator Lorenzo Tañada",
+            "Senator Benigno Aquino Sr."
+          ],
+          "correct": 0,
+          "explanation": "Senator Claro M. Recto authored the Rizal Law to promote nationalism among Filipino students."
+        },
+        {
+          "id": 3,
+          "question": "The Rizal Law mandates the teaching of Rizal's works in which educational levels?",
+          "options": [
+            "Elementary only",
+            "High school only",
+            "College only",
+            "High school and college"
+          ],
+          "correct": 3,
+          "explanation": "The Rizal Law requires the teaching of Rizal's life and works in both high school and college curricula."
+        },
+        {
+          "id": 4,
+          "question": "Which two novels are specifically mentioned in the Rizal Law as required reading?",
+          "options": [
+            "Noli Me Tangere and El Filibusterismo",
+            "Mi Último Adiós and The Indolence",
+            "Noli Me Tangere and Mi Último Adiós",
+            "El Filibusterismo and The Philippines a Century Hence"
+          ],
+          "correct": 0,
+          "explanation": "The Rizal Law specifically mandates the reading of Noli Me Tangere and El Filibusterismo."
+        },
+        {
+          "id": 5,
+          "question": "What was the main opposition to the Rizal Law?",
+          "options": [
+            "Government officials",
+            "Student organizations",
+            "Catholic Church",
+            "Private schools"
+          ],
+          "correct": 2,
+          "explanation": "The Catholic Church was the main opposition to the Rizal Law, arguing that Rizal's novels were anti-Catholic."
+        },
+        {
+          "id": 6,
+          "question": "Who was the President of the Philippines when the Rizal Law was signed?",
+          "options": [
+            "Elpidio Quirino",
+            "Ramon Magsaysay",
+            "Carlos P. Garcia",
+            "Manuel Roxas"
+          ],
+          "correct": 1,
+          "explanation": "President Ramon Magsaysay signed the Rizal Law (Republic Act 1425) into law on June 12, 1956."
+        },
+        {
+          "id": 7,
+          "question": "What compromise was made to pass the Rizal Law?",
+          "options": [
+            "Rizal's novels could be read in Filipino translation only",
+            "Only excerpts of the novels needed to be read",
+            "Reading of unexpurgated versions was not required",
+            "The law would only apply to public schools"
+          ],
+          "correct": 2,
+          "explanation": "A compromise was made allowing schools to use expurgated (edited) versions of Rizal's novels rather than requiring the complete, unexpurgated versions."
+        },
+        {
+          "id": 8,
+          "question": "According to the Rizal Law, what should be established in all schools?",
+          "options": [
+            "Rizal libraries",
+            "Rizal museums",
+            "Rizal monuments",
+            "All of the above"
+          ],
+          "correct": 0,
+          "explanation": "The Rizal Law mandates the establishment of Rizal libraries in all schools to house his works and related materials."
+        }
+      ]
+    },
+    "early-life": {
+      "title": "Early Life",
+      "description": "Questions about Rizal's childhood and family background",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What was José Rizal's complete full name?",
+          "options": [
+            "José Protasio Rizal Mercado y Alonso Realonda",
+            "José Rizal Mercado y Alonso",
+            "José Protasio Mercado Rizal",
+            "José Rizal Alonso y Mercado"
+          ],
+          "correct": 0,
+          "explanation": "José Rizal's complete full name was José Protasio Rizal Mercado y Alonso Realonda."
+        },
+        {
+          "id": 2,
+          "question": "On what day of the week was Rizal born?",
+          "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "correct": 1,
+          "explanation": "José Rizal was born on Wednesday, June 19, 1861."
+        },
+        {
+          "id": 3,
+          "question": "What was Rizal's father's occupation?",
+          "options": [
+            "Teacher",
+            "Doctor",
+            "Farmer and businessman",
+            "Government official"
+          ],
+          "correct": 2,
+          "explanation": "Francisco Mercado Rizal was a successful farmer and businessman who owned rice fields and other agricultural lands."
+        },
+        {
+          "id": 4,
+          "question": "Which sister was Rizal's confidante who remained unmarried?",
+          "options": [
+            "Saturnina",
+            "Narcisa",
+            "Trinidad",
+            "Josefa"
+          ],
+          "correct": 2,
+          "explanation": "Trinidad (nicknamed Trining) was José's confidante and remained unmarried throughout her life."
+        },
+        {
+          "id": 5,
+          "question": "Which sister died young and was deeply mourned by José?",
+          "options": [
+            "Olimpia",
+            "Concepcion (Concha)",
+            "Lucia",
+            "Maria"
+          ],
+          "correct": 1,
+          "explanation": "Concepcion (nicknamed Concha) died young, and her death deeply affected José who mourned her loss."
+        },
+        {
+          "id": 6,
+          "question": "What was the name of Rizal's only brother?",
+          "options": [
+            "Francisco",
+            "Manuel",
+            "Paciano",
+            "Antonio"
+          ],
+          "correct": 2,
+          "explanation": "Paciano was Rizal's only brother and served as his mentor, supporter, and political guide."
+        },
+        {
+          "id": 7,
+          "question": "From whom did Rizal receive his first formal education?",
+          "options": [
+            "His father Francisco",
+            "His mother Teodora",
+            "His brother Paciano",
+            "A private tutor"
+          ],
+          "correct": 1,
+          "explanation": "Teodora Alonzo, Rizal's mother, was his first teacher who taught him reading, writing, prayers, and moral values."
+        },
+        {
+          "id": 8,
+          "question": "At what age did Rizal make his first pilgrimage to Antipolo?",
+          "options": [
+            "6 years old",
+            "7 years old",
+            "8 years old",
+            "9 years old"
+          ],
+          "correct": 1,
+          "explanation": "Rizal was 7 years old when he made his first pilgrimage to Antipolo on June 6, 1868, as part of his mother's vow to the Virgin of Antipolo."
+        },
+        {
+          "id": 9,
+          "question": "What early interest did young Rizal develop that influenced his scientific pursuits?",
+          "options": [
+            "Reading books",
+            "Collecting insects, shells, and stones",
+            "Drawing and painting",
+            "Writing poems"
+          ],
+          "correct": 1,
+          "explanation": "Young Rizal loved collecting insects, shells, and stones, which developed his interest in natural history and scientific observation."
+        },
+        {
+          "id": 10,
+          "question": "Which family member most influenced Rizal's political awareness and nationalism?",
+          "options": [
+            "His father Francisco",
+            "His mother Teodora",
+            "His brother Paciano",
+            "His sister Saturnina"
+          ],
+          "correct": 2,
+          "explanation": "Paciano, his older brother, was instrumental in developing Rizal's political awareness, nationalism, and understanding of social injustices."
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "description": "Questions about Rizal's academic journey and achievements",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Who was Rizal's teacher at Biñan School?",
+          "options": [
+            "Maestro Justiniano Aquino Cruz",
+            "Maestro Lucas Padua",
+            "Maestro Francisco Engracio",
+            "Maestro Leon Monroy"
+          ],
+          "correct": 0,
+          "explanation": "Maestro Justiniano Aquino Cruz was Rizal's teacher at the private school in Biñan, Laguna."
+        },
+        {
+          "id": 2,
+          "question": "How long did Rizal study at Biñan School?",
+          "options": [
+            "6 months",
+            "1 year",
+            "About 1 year and 5 months",
+            "2 years"
+          ],
+          "correct": 2,
+          "explanation": "Rizal studied at Biñan School for about 1 year and 5 months, from June 1869 to December 1870."
+        },
+        {
+          "id": 3,
+          "question": "With whom did Rizal stay while studying in Biñan?",
+          "options": [
+            "His uncle",
+            "His aunt (Tía Isabel)",
+            "A boarding house",
+            "His teacher's family"
+          ],
+          "correct": 1,
+          "explanation": "While studying in Biñan, Rizal stayed with his aunt's family, specifically Tía Isabel."
+        },
+        {
+          "id": 4,
+          "question": "What was Rizal's academic performance at Ateneo Municipal?",
+          "options": [
+            "Average student",
+            "Good student",
+            "Consistently first in class",
+            "Sometimes first, sometimes second"
+          ],
+          "correct": 2,
+          "explanation": "Rizal was consistently first in class at Ateneo Municipal and received numerous awards and medals for his excellence."
+        },
+        {
+          "id": 5,
+          "question": "What religious organization was Rizal a member of at Ateneo?",
+          "options": [
+            "Knights of Columbus",
+            "Marian Congregation",
+            "Catholic Youth Organization",
+            "Jesuit Brotherhood"
+          ],
+          "correct": 1,
+          "explanation": "Rizal was a member of the Marian Congregation during his time at Ateneo Municipal de Manila."
+        },
+        {
+          "id": 6,
+          "question": "What grade did Rizal achieve when he graduated from Ateneo?",
+          "options": [
+            "Sobresaliente (Excellent)",
+            "Notable (Very Good)",
+            "Bueno (Good)",
+            "Aprobado (Passed)"
+          ],
+          "correct": 0,
+          "explanation": "Rizal graduated from Ateneo with 'Sobresaliente' (Excellent) in all subjects and received highest honors."
+        },
+        {
+          "id": 7,
+          "question": "Which courses did Rizal take at the University of Santo Tomas?",
+          "options": [
+            "Medicine only",
+            "Philosophy and Letters only",
+            "Philosophy and Letters, Medicine, and Surveying",
+            "Medicine and Law"
+          ],
+          "correct": 2,
+          "explanation": "At UST, Rizal took Philosophy and Letters (1877-1879), Medicine (1878-1882), and Surveying (1879-1882)."
+        },
+        {
+          "id": 8,
+          "question": "What was the title of Rizal's medical dissertation in Madrid?",
+          "options": [
+            "The Treatment of Madness",
+            "Tropical Diseases in the Philippines",
+            "Ophthalmology Studies",
+            "Human Anatomy Research"
+          ],
+          "correct": 0,
+          "explanation": "Rizal's medical dissertation was titled 'The Treatment of Madness' when he earned his Doctor of Medicine degree."
+        },
+        {
+          "id": 9,
+          "question": "What grade did Rizal receive for his medical degree in Madrid?",
+          "options": [
+            "Sobresaliente (Excellent)",
+            "Notable (Very Good)",
+            "Bueno (Good)",
+            "Aprobado (Passed)"
+          ],
+          "correct": 1,
+          "explanation": "Rizal graduated with the grade 'Notable' (Very Good) when he completed his medical degree at Universidad Central de Madrid."
+        },
+        {
+          "id": 10,
+          "question": "In which medical specialty did Rizal focus his studies?",
+          "options": [
+            "Surgery",
+            "Internal Medicine",
+            "Ophthalmology",
+            "Pediatrics"
+          ],
+          "correct": 2,
+          "explanation": "Rizal specialized in ophthalmology (eye diseases and surgery) during his medical studies in Europe."
+        },
+        {
+          "id": 11,
+          "question": "Why did Rizal leave the University of Santo Tomas before completing his degree?",
+          "options": [
+            "Financial problems",
+            "Poor grades",
+            "Discrimination and limited opportunities",
+            "Family pressure"
+          ],
+          "correct": 2,
+          "explanation": "Rizal left UST due to discrimination against Filipino students, outdated teaching methods, and limited access to modern facilities."
+        },
+        {
+          "id": 12,
+          "question": "What additional subjects did Rizal study in Europe besides medicine?",
+          "options": [
+            "Law only",
+            "Philosophy and History only",
+            "Modern languages and Arts only",
+            "Philosophy, History, Modern languages, Art, and Sculpture"
+          ],
+          "correct": 3,
+          "explanation": "Besides medicine, Rizal studied Philosophy and Letters, History and Geography, Modern languages (French, German), Art and painting, and Sculpture and clay modeling."
+        }
+      ]
+    },
+    "travels": {
+      "title": "Travels",
+      "description": "Questions about Rizal's journeys around the world",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What was the name of the ship Rizal took on his first voyage to Europe?",
+          "options": [
+            "Salvadora",
+            "Djemnah",
+            "Isla de Luzon",
+            "España"
+          ],
+          "correct": 0,
+          "explanation": "Rizal boarded the Spanish steamer Salvadora when he secretly left the Philippines on May 3, 1882."
+        },
+        {
+          "id": 2,
+          "question": "What name did Rizal use when he first traveled to Europe?",
+          "options": [
+            "José Rizal",
+            "José Mercado",
+            "José Protasio",
+            "José Alonso"
+          ],
+          "correct": 1,
+          "explanation": "To keep his departure secret from his parents, Rizal used the name 'José Mercado' during his first trip to Europe."
+        },
+        {
+          "id": 3,
+          "question": "Through which famous canal did Rizal's ship pass on his way to Europe?",
+          "options": [
+            "Panama Canal",
+            "Suez Canal",
+            "Corinth Canal",
+            "Kiel Canal"
+          ],
+          "correct": 1,
+          "explanation": "Rizal's ship passed through the Suez Canal in Egypt, which connected the Mediterranean and Red Seas."
+        },
+        {
+          "id": 4,
+          "question": "What did Rizal do as Manila's skyline disappeared during his departure?",
+          "options": [
+            "Waved goodbye",
+            "Cried",
+            "Sketched Manila's skyline",
+            "Wrote a poem"
+          ],
+          "correct": 2,
+          "explanation": "As Manila disappeared from view, Rizal sketched the city's skyline as a farewell memento of his homeland."
+        },
+        {
+          "id": 5,
+          "question": "In which country did Rizal visit the cities of Colombo and Point Galle?",
+          "options": [
+            "India",
+            "Ceylon (Sri Lanka)",
+            "Burma",
+            "Singapore"
+          ],
+          "correct": 1,
+          "explanation": "Rizal visited Colombo and Point Galle in Ceylon (now Sri Lanka) on May 17-18, 1882."
+        },
+        {
+          "id": 6,
+          "question": "What was special about Rizal's first pilgrimage to Antipolo?",
+          "options": [
+            "It was his birthday",
+            "It was part of his mother's vow",
+            "He was baptized there",
+            "He wrote his first poem there"
+          ],
+          "correct": 1,
+          "explanation": "The pilgrimage to Antipolo was part of his mother's vow to the Virgin of Antipolo for thanksgiving for safe childbirth."
+        },
+        {
+          "id": 7,
+          "question": "What festival did Rizal witness during his pilgrimage to Pakil?",
+          "options": [
+            "Sinulog",
+            "Ati-Atihan",
+            "Turumba",
+            "Flores de Mayo"
+          ],
+          "correct": 2,
+          "explanation": "During his pilgrimage to Pakil in 1881, Rizal witnessed the famous Turumba festival with people dancing in the streets."
+        },
+        {
+          "id": 8,
+          "question": "Which ship took Rizal from Biñan back to Calamba?",
+          "options": [
+            "Salvadora",
+            "Talim",
+            "Pasig",
+            "Laguna"
+          ],
+          "correct": 1,
+          "explanation": "On December 17, 1870, Rizal took the steamer Talim from Biñan back to Calamba after completing his studies."
+        },
+        {
+          "id": 9,
+          "question": "In which German cities did Rizal stay during his European travels?",
+          "options": [
+            "Berlin only",
+            "Leipzig only",
+            "Berlin, Leipzig, and Heidelberg",
+            "Hamburg and Munich"
+          ],
+          "correct": 2,
+          "explanation": "During his time in Germany (1885-1887), Rizal stayed in Berlin, Leipzig, and Heidelberg."
+        },
+        {
+          "id": 10,
+          "question": "What did Rizal collect as souvenirs during his return from Biñan?",
+          "options": [
+            "Flowers",
+            "Shells",
+            "Pebbles",
+            "Leaves"
+          ],
+          "correct": 2,
+          "explanation": "Young Rizal collected pebbles as souvenirs during his journey back from Biñan to Calamba."
+        },
+        {
+          "id": 11,
+          "question": "Through which Italian port did Rizal first enter Europe?",
+          "options": [
+            "Genoa",
+            "Venice",
+            "Naples",
+            "Rome"
+          ],
+          "correct": 2,
+          "explanation": "Rizal first arrived in Europe through the Italian port of Naples on June 11, 1882."
+        },
+        {
+          "id": 12,
+          "question": "What was the duration of Rizal's first European journey?",
+          "options": [
+            "3 years",
+            "4 years",
+            "5 years",
+            "6 years"
+          ],
+          "correct": 2,
+          "explanation": "Rizal's first European journey lasted about 5 years, from 1882 to 1887."
+        }
+      ]
+    },
+    "works": {
+      "title": "Literary Works",
+      "description": "Questions about Rizal's novels, essays, and poems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "When was 'Noli Me Tangere' first published?",
+          "options": [
+            "1886",
+            "1887",
+            "1888",
+            "1889"
+          ],
+          "correct": 1,
+          "explanation": "Noli Me Tangere was first published in 1887 in Berlin, Germany."
+        },
+        {
+          "id": 2,
+          "question": "Who is the love interest of Crisóstomo Ibarra in Noli Me Tangere?",
+          "options": [
+            "Sisa",
+            "Doña Victorina",
+            "María Clara",
+            "Paulita Gómez"
+          ],
+          "correct": 2,
+          "explanation": "María Clara is Crisóstomo Ibarra's love interest and childhood sweetheart in Noli Me Tangere."
+        },
+        {
+          "id": 3,
+          "question": "What is the subtitle of El Filibusterismo?",
+          "options": [
+            "The Social Cancer",
+            "The Reign of Greed",
+            "The Revolution",
+            "The Subversive"
+          ],
+          "correct": 1,
+          "explanation": "El Filibusterismo's subtitle is 'The Reign of Greed', highlighting the corruption and greed in colonial society."
+        },
+        {
+          "id": 4,
+          "question": "Which character represents the tragic Filipino mother in Noli Me Tangere?",
+          "options": [
+            "María Clara",
+            "Doña Consolación",
+            "Sisa",
+            "Doña Victorina"
+          ],
+          "correct": 2,
+          "explanation": "Sisa represents the tragic Filipino mother whose sons were falsely accused, leading to her mental breakdown."
+        },
+        {
+          "id": 5,
+          "question": "What is Simoun's true identity in El Filibusterismo?",
+          "options": [
+            "A Spanish official",
+            "Crisóstomo Ibarra in disguise",
+            "A Chinese merchant",
+            "A revolutionary leader"
+          ],
+          "correct": 1,
+          "explanation": "Simoun is actually Crisóstomo Ibarra in disguise, having survived the events of the first novel."
+        },
+        {
+          "id": 6,
+          "question": "At what age did Rizal write 'A La Juventud Filipina' (To the Filipino Youth)?",
+          "options": [
+            "16 years old",
+            "17 years old",
+            "18 years old",
+            "19 years old"
+          ],
+          "correct": 2,
+          "explanation": "Rizal wrote 'A La Juventud Filipina' when he was only 18 years old, and it won first prize in a literary contest."
+        },
+        {
+          "id": 7,
+          "question": "What does the essay 'The Indolence of the Filipino' defend against?",
+          "options": [
+            "Spanish rule",
+            "Accusations of Filipino laziness",
+            "Religious persecution",
+            "Educational policies"
+          ],
+          "correct": 1,
+          "explanation": "The essay defends Filipinos against Spanish accusations of laziness, arguing that oppression caused apparent indolence."
+        },
+        {
+          "id": 8,
+          "question": "How many possible futures for the Philippines did Rizal discuss in 'The Philippines a Century Hence'?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correct": 1,
+          "explanation": "Rizal discussed three possibilities: remaining a Spanish colony, being absorbed by another nation, or achieving independence."
+        },
+        {
+          "id": 9,
+          "question": "Who is the antagonist friar in Noli Me Tangere?",
+          "options": [
+            "Padre Salví",
+            "Padre Dámaso",
+            "Padre Florentino",
+            "Padre Fernández"
+          ],
+          "correct": 1,
+          "explanation": "Padre Dámaso is the main antagonist friar in Noli Me Tangere, representing corrupt clergy and colonial abuse."
+        },
+        {
+          "id": 10,
+          "question": "When was 'Mi Último Adiós' written?",
+          "options": [
+            "On the eve of his execution",
+            "During his exile in Dapitan",
+            "While in Europe",
+            "During his trial"
+          ],
+          "correct": 0,
+          "explanation": "Mi Último Adiós (My Last Farewell) was written on the eve of Rizal's execution on December 29, 1896."
+        },
+        {
+          "id": 11,
+          "question": "Which character in El Filibusterismo represents the idealistic student?",
+          "options": [
+            "Basilio",
+            "Isagani",
+            "Macaraig",
+            "Sandoval"
+          ],
+          "correct": 1,
+          "explanation": "Isagani represents the idealistic poet and student who believes in peaceful reform rather than violent revolution."
+        },
+        {
+          "id": 12,
+          "question": "What is the relationship between María Clara and Padre Dámaso in Noli Me Tangere?",
+          "options": [
+            "No relationship",
+            "He is her confessor",
+            "He is her biological father",
+            "He is her godfather"
+          ],
+          "correct": 2,
+          "explanation": "A shocking revelation in the novel is that Padre Dámaso is actually María Clara's biological father, not Don Rafael Ibarra."
+        }
+      ]
+    },
+    "exile": {
+      "title": "Exile in Dapitan",
+      "description": "Questions about Rizal's exile period from 1892-1896",
+      "questions": [
+        {
+          "id": 1,
+          "question": "On what exact date did Rizal arrive in Dapitan?",
+          "options": [
+            "July 15, 1892",
+            "July 17, 1892",
+            "July 19, 1892",
+            "July 21, 1892"
+          ],
+          "correct": 1,
+          "explanation": "Rizal arrived in Dapitan on July 17, 1892, beginning his four-year exile."
+        },
+        {
+          "id": 2,
+          "question": "Who was the Spanish commandant of Dapitan during Rizal's exile?",
+          "options": [
+            "Captain Ricardo Carnicero",
+            "Captain Juan Sitges",
+            "Captain Luis Taviel",
+            "Captain Manuel Blanco"
+          ],
+          "correct": 0,
+          "explanation": "Captain Ricardo Carnicero was the Spanish commandant who became Rizal's friend and protector during his exile."
+        },
+        {
+          "id": 3,
+          "question": "What school did Rizal establish in Dapitan?",
+          "options": [
+            "Dapitan Elementary School",
+            "Talisay School",
+            "Mindanao Academy",
+            "Casa Redonda School"
+          ],
+          "correct": 1,
+          "explanation": "Rizal established the Talisay School, which became known for its progressive teaching methods."
+        },
+        {
+          "id": 4,
+          "question": "What agricultural venture did Rizal pursue in Dapitan?",
+          "options": [
+            "Rice farming",
+            "Coconut plantation",
+            "Abaca cultivation",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explanation": "Rizal engaged in rice farming, coconut plantation, and abaca cultivation to improve the local economy."
+        },
+        {
+          "id": 5,
+          "question": "What lottery ticket did Rizal win while in Dapitan?",
+          "options": [
+            "The Philippine Lottery",
+            "Spanish National Lottery",
+            "Manila Lottery",
+            "He never won a lottery"
+          ],
+          "correct": 1,
+          "explanation": "Rizal won the Spanish National Lottery, which provided him with financial resources for his projects."
+        },
+        {
+          "id": 6,
+          "question": "What scientific work did Rizal do in Dapitan?",
+          "options": [
+            "Botanical research only",
+            "Zoological research only",
+            "Both botanical and zoological research",
+            "Archaeological research"
+          ],
+          "correct": 2,
+          "explanation": "Rizal conducted extensive botanical and zoological research, collecting and studying various species in Mindanao."
+        },
+        {
+          "id": 7,
+          "question": "Who was Rizal's Irish friend who visited him in Dapitan?",
+          "options": [
+            "Dr. Antonio Luna",
+            "Dr. Pio Valenzuela",
+            "A.B. Meyer",
+            "Robert Klutschak"
+          ],
+          "correct": 2,
+          "explanation": "A.B. Meyer, an Irish scientist and ethnologist, visited Rizal in Dapitan and became his friend and correspondent."
+        },
+        {
+          "id": 8,
+          "question": "What was the name of Rizal's house in Dapitan?",
+          "options": [
+            "Casa Cuadrada",
+            "Casa Redonda",
+            "Casa Blanca",
+            "Casa Grande"
+          ],
+          "correct": 1,
+          "explanation": "Rizal's house in Dapitan was called 'Casa Redonda' (Round House) due to its unique octagonal shape."
+        },
+        {
+          "id": 9,
+          "question": "What clinic did Rizal establish for his medical practice?",
+          "options": [
+            "Dapitan General Hospital",
+            "A clinic in his house",
+            "Municipal Health Center",
+            "Spanish Military Hospital"
+          ],
+          "correct": 1,
+          "explanation": "Rizal established a clinic in his own house where he treated patients, including both locals and Spanish officials."
+        },
+        {
+          "id": 10,
+          "question": "What was Rizal's contribution to Dapitan's infrastructure besides the water system?",
+          "options": [
+            "Street lighting",
+            "Public plaza",
+            "Road improvements",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explanation": "Rizal contributed to street lighting, public plaza beautification, and road improvements throughout Dapitan."
+        }
+      ]
+    },
+    "martyrdom": {
+      "title": "Martyrdom",
+      "description": "Questions about Rizal's trial, execution, and final moments",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Who was Rizal's defense lawyer during his trial?",
+          "options": [
+            "Lt. Luis Taviel de Andrade",
+            "Lt. Enrique de Alcocer",
+            "Lt. José Bernal",
+            "Lt. Domingo Moriones"
+          ],
+          "correct": 0,
+          "explanation": "Lt. Luis Taviel de Andrade, a Spanish military officer, served as Rizal's defense lawyer during his court-martial."
+        },
+        {
+          "id": 2,
+          "question": "At what time was Rizal executed?",
+          "options": [
+            "6:30 AM",
+            "7:00 AM",
+            "7:03 AM",
+            "7:30 AM"
+          ],
+          "correct": 2,
+          "explanation": "José Rizal was executed by firing squad at exactly 7:03 AM on December 30, 1896."
+        },
+        {
+          "id": 3,
+          "question": "How many Spanish soldiers were in the firing squad?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "correct": 1,
+          "explanation": "The firing squad consisted of 8 Spanish soldiers from the 70th Regiment of Native Infantry."
+        },
+        {
+          "id": 4,
+          "question": "What was the original name of the execution site (now Rizal Park)?",
+          "options": [
+            "Luneta",
+            "Bagumbayan",
+            "Campo de Marte",
+            "Plaza de Roma"
+          ],
+          "correct": 1,
+          "explanation": "The execution site was originally called Bagumbayan, which is now known as Rizal Park or Luneta."
+        },
+        {
+          "id": 5,
+          "question": "What did Rizal refuse to do before his execution?",
+          "options": [
+            "Kiss the crucifix",
+            "Face away from the firing squad",
+            "Kneel down",
+            "All of the above"
+          ],
+          "correct": 1,
+          "explanation": "Rizal refused to face away from the firing squad, preferring to face his executioners, but was forced to turn around."
+        },
+        {
+          "id": 6,
+          "question": "Who was allowed to visit Rizal on his last night?",
+          "options": [
+            "His family only",
+            "His lawyers only",
+            "His family, lawyers, and priests",
+            "No one was allowed"
+          ],
+          "correct": 2,
+          "explanation": "On his last night, Rizal was visited by his family members, his defense lawyers, and Jesuit priests."
+        },
+        {
+          "id": 7,
+          "question": "What did Rizal give to his sister Trinidad before his execution?",
+          "options": [
+            "A letter",
+            "An alcohol cooking stove with his poem hidden inside",
+            "His books",
+            "His medical instruments"
+          ],
+          "correct": 1,
+          "explanation": "Rizal gave his sister Trinidad an alcohol cooking stove with his final poem 'Mi Último Adiós' hidden inside."
+        },
+        {
+          "id": 8,
+          "question": "What was Rizal wearing during his execution?",
+          "options": [
+            "Prison clothes",
+            "A black suit",
+            "Military uniform",
+            "White shirt and black pants"
+          ],
+          "correct": 1,
+          "explanation": "Rizal was dressed in a black suit, white shirt, black shoes, and a bowler hat during his execution."
+        },
+        {
+          "id": 9,
+          "question": "Who presided over Rizal's court-martial?",
+          "options": [
+            "General Camilo Polavieja",
+            "Colonel José Togores Fábrega",
+            "Captain Rafael Domínguez",
+            "Lieutenant Enrique de Alcocer"
+          ],
+          "correct": 1,
+          "explanation": "Colonel José Togores Fábrega presided over Rizal's court-martial trial."
+        },
+        {
+          "id": 10,
+          "question": "What was the duration of Rizal's trial?",
+          "options": [
+            "One day",
+            "Three days",
+            "One week",
+            "Two weeks"
+          ],
+          "correct": 1,
+          "explanation": "Rizal's trial lasted only three days, from December 26-28, 1896, before he was sentenced to death."
+        },
+        {
+          "id": 11,
+          "question": "What happened to Rizal's body immediately after execution?",
+          "options": [
+            "Buried immediately",
+            "Given to his family",
+            "Taken to Paco Cemetery",
+            "Displayed publicly"
+          ],
+          "correct": 2,
+          "explanation": "After execution, Rizal's body was taken to Paco Cemetery where it was buried in an unmarked grave."
+        },
+        {
+          "id": 12,
+          "question": "Who among Rizal's family witnessed his execution?",
+          "options": [
+            "No family members were allowed",
+            "Only his brother Paciano",
+            "His sisters Trinidad and Josefa",
+            "His entire family"
+          ],
+          "correct": 0,
+          "explanation": "None of Rizal's family members were allowed to witness his execution by the Spanish authorities."
+        }
+      ]
+    },
+    "legacy": {
+      "title": "Legacy",
+      "description": "Questions about Rizal's impact and commemoration",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which prominent American said Rizal was 'the greatest man the Malayan race has produced'?",
+          "options": [
+            "Theodore Roosevelt",
+            "William Howard Taft",
+            "Austin Craig",
+            "Frank Carpenter"
+          ],
+          "correct": 2,
+          "explanation": "Austin Craig, an American educator and author, praised Rizal as 'the greatest man the Malayan race has produced'."
+        },
+        {
+          "id": 2,
+          "question": "What scientific genus was named after Rizal?",
+          "options": [
+            "Rizalia",
+            "Rizalina",
+            "Draco rizali",
+            "Both A and C"
+          ],
+          "correct": 3,
+          "explanation": "Both the genus 'Rizalia' (a type of beetle) and 'Draco rizali' (a flying lizard) were named in honor of José Rizal."
+        },
+        {
+          "id": 3,
+          "question": "How many countries have Rizal monuments or streets named after him?",
+          "options": [
+            "5-10 countries",
+            "15-20 countries",
+            "Over 25 countries",
+            "Only the Philippines"
+          ],
+          "correct": 2,
+          "explanation": "Over 25 countries worldwide have monuments, streets, or landmarks named after José Rizal, showing his global impact."
+        },
+        {
+          "id": 4,
+          "question": "What prestigious international award recognized Rizal posthumously?",
+          "options": [
+            "Nobel Peace Prize",
+            "Order of the Rising Sun (Japan)",
+            "Knight of the Order of Isabella the Catholic",
+            "UNESCO Medal"
+          ],
+          "correct": 1,
+          "explanation": "Japan awarded Rizal the Order of the Rising Sun posthumously, recognizing his influence on Asian nationalism."
+        },
+        {
+          "id": 5,
+          "question": "Which university established the first Rizal chair in the world?",
+          "options": [
+            "University of the Philippines",
+            "Heidelberg University",
+            "Ateneo de Manila",
+            "Universidad Central de Madrid"
+          ],
+          "correct": 1,
+          "explanation": "Heidelberg University in Germany established the first chair dedicated to José Rizal studies, reflecting his international academic importance."
+        },
+        {
+          "id": 6,
+          "question": "What is the name of the tallest monument to Rizal?",
+          "options": [
+            "Rizal Monument at Luneta",
+            "Rizal Shrine in Calamba",
+            "Rizal Monument in Wilhelmsfeld",
+            "Rizal Monument in Dapitan"
+          ],
+          "correct": 2,
+          "explanation": "The tallest Rizal monument is located in Wilhelmsfeld, Germany, standing as a testament to his time studying there."
+        },
+        {
+          "id": 7,
+          "question": "Which of Rizal's quotes is most widely known worldwide?",
+          "options": [
+            "'He who does not love his own language is worse than an animal and smelly fish'",
+            "'The youth is the hope of our future'",
+            "'My fellow citizens of a country that has never been free'",
+            "'To die for the sake of one's country is glorious'"
+          ],
+          "correct": 1,
+          "explanation": "'The youth is the hope of our future' (Ang kabataan ang siyang pag-asa ng bayan) is Rizal's most internationally recognized quote."
+        },
+        {
+          "id": 8,
+          "question": "What type of currency features Rizal in the Philippines?",
+          "options": [
+            "1-peso coin only",
+            "1-peso bill only",
+            "Both 1-peso coin and bill",
+            "He's not on any currency"
+          ],
+          "correct": 2,
+          "explanation": "José Rizal appears on both the 1-peso coin and 1-peso bill in the Philippines, making him a daily presence in Filipino life."
+        },
+        {
+          "id": 9,
+          "question": "Which international organization recognized Rizal Day as a cultural celebration?",
+          "options": [
+            "United Nations",
+            "UNESCO",
+            "ASEAN",
+            "International Association of Universities"
+          ],
+          "correct": 1,
+          "explanation": "UNESCO recognized Rizal Day as a significant cultural celebration, acknowledging its importance in promoting cultural heritage."
+        },
+        {
+          "id": 10,
+          "question": "What is the name of the international award given for Rizal studies?",
+          "options": [
+            "Rizal Medal",
+            "José Rizal International Prize",
+            "Order of Rizal",
+            "Rizal Research Award"
+          ],
+          "correct": 2,
+          "explanation": "The Order of Rizal is an international award given to individuals who have made significant contributions to Rizal studies and promotion of his ideals."
+        }
+      ]
+    }
+  }
+}
+ 

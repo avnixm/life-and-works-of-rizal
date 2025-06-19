@@ -1,0 +1,250 @@
+{
+  "title": "Resources",
+  "subtitle": "Educational Materials and References for Rizal Studies",
+  "sections": [
+    {
+      "id": "external-links",
+      "icon": "🔗",
+      "title": "External Links and References",
+      "type": "external_links",
+      "content": [
+        {
+          "id": "government-agencies",
+          "icon": "🏛️",
+          "title": "Government Agencies",
+          "color": "blue",
+          "links": [
+            {
+              "title": "National Historical Commission of the Philippines (NHCP)",
+              "description": "Official historical research and preservation",
+              "url": "https://nhcp.gov.ph",
+              "display_url": "nhcp.gov.ph"
+            },
+            {
+              "title": "Department of Education (DepEd)",
+              "description": "Curriculum guidelines and teaching materials",
+              "url": "https://deped.gov.ph",
+              "display_url": "deped.gov.ph"
+            },
+            {
+              "title": "Commission on Higher Education (CHED)",
+              "description": "Higher education policies and standards",
+              "url": "https://ched.gov.ph",
+              "display_url": "ched.gov.ph"
+            },
+            {
+              "title": "National Commission for Culture and the Arts (NCCA)",
+              "description": "Cultural heritage and arts promotion",
+              "url": "https://ncca.gov.ph",
+              "display_url": "ncca.gov.ph"
+            }
+          ]
+        },
+        {
+          "id": "academic-research",
+          "icon": "🎓",
+          "title": "Academic and Research Institutions",
+          "color": "green",
+          "links": [
+            {
+              "title": "Jose Rizal University",
+              "description": "Academic research and Rizal studies",
+              "url": "#",
+              "display_url": "jru.edu"
+            },
+            {
+              "title": "Ateneo de Manila University Archives",
+              "description": "Historical documents and manuscripts",
+              "url": "#",
+              "display_url": "ateneo.edu"
+            },
+            {
+              "title": "University of the Philippines Diliman",
+              "description": "Philippine Studies and research",
+              "url": "#",
+              "display_url": "upd.edu.ph"
+            },
+            {
+              "title": "National Library of the Philippines",
+              "description": "Digital collections and rare books",
+              "url": "#",
+              "display_url": "nlp.gov.ph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "museums-sites",
+      "icon": "🏛️",
+      "title": "Museums and Historical Sites",
+      "type": "museums_sites",
+      "content": [
+        {
+          "id": "rizal-shrine-calamba",
+          "icon": "🏠",
+          "title": "Rizal Shrine, Calamba",
+          "color": "orange",
+          "features": [
+            {
+              "title": "Birthplace Museum",
+              "description": "Original family home replica"
+            },
+            {
+              "title": "Family Artifacts",
+              "description": "Personal belongings and memorabilia"
+            },
+            {
+              "title": "Virtual Tour",
+              "description": "Visit Online",
+              "button": true,
+              "button_color": "orange"
+            }
+          ]
+        },
+        {
+          "id": "rizal-shrine-dapitan",
+          "icon": "🏝️",
+          "title": "Rizal Shrine, Dapitan",
+          "color": "teal",
+          "features": [
+            {
+              "title": "Exile House Replica",
+              "description": "Where Rizal lived during exile"
+            },
+            {
+              "title": "Scientific Collections",
+              "description": "Specimens and research materials"
+            },
+            {
+              "title": "Community Projects",
+              "description": "Water system and infrastructure"
+            }
+          ]
+        },
+        {
+          "id": "fort-santiago",
+          "icon": "🏰",
+          "title": "Fort Santiago",
+          "color": "red",
+          "features": [
+            {
+              "title": "Prison Cell",
+              "description": "Where Rizal spent his final days"
+            },
+            {
+              "title": "Museum Exhibits",
+              "description": "Artifacts and historical displays"
+            },
+            {
+              "title": "Guided Tours",
+              "description": "Educational visits and programs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "online-resources",
+      "icon": "💻",
+      "title": "Online Resources and Digital Collections",
+      "type": "online_resources",
+      "content": {
+        "color": "gray",
+        "sections": [
+          {
+            "title": "Digital Platforms",
+            "icon": "📱",
+            "items": [
+              {
+                "title": "Rizal Virtual Museum",
+                "description": "3D tours and interactive exhibits",
+                "button": "Explore",
+                "button_color": "blue"
+              },
+              {
+                "title": "Educational Videos",
+                "description": "Documentaries and lecture series",
+                "button": "Watch",
+                "button_color": "red"
+              },
+              {
+                "title": "Audio Books",
+                "description": "Noli and El Fili narrations",
+                "button": "Listen",
+                "button_color": "green"
+              }
+            ]
+          },
+          {
+            "title": "Research Tools",
+            "icon": "🔍",
+            "items": [
+              {
+                "title": "Digital Archives",
+                "description": "Searchable document collections",
+                "button": "Search",
+                "button_color": "purple"
+              },
+              {
+                "title": "Timeline Generator",
+                "description": "Interactive chronology tool",
+                "button": "Create",
+                "button_color": "orange"
+              },
+              {
+                "title": "Citation Generator",
+                "description": "Automatic academic citations",
+                "button": "Generate",
+                "button_color": "teal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "contact-info",
+      "icon": "📞",
+      "title": "Contact Information for Teachers and Researchers",
+      "type": "contact_info",
+      "content": {
+        "color": "amber",
+        "sections": [
+          {
+            "title": "For Educators",
+            "icon": "👩‍🏫",
+            "contacts": [
+              {
+                "title": "Teacher Support Hotline",
+                "description": "Curriculum guidance and resources",
+                "contact": "📞 (02) 123-RIZAL"
+              },
+              {
+                "title": "Educational Partnerships",
+                "description": "School visit programs and workshops",
+                "contact": "✉️ education@rizal-site.ph"
+              }
+            ]
+          },
+          {
+            "title": "For Researchers",
+            "icon": "🔬",
+            "contacts": [
+              {
+                "title": "Research Assistance",
+                "description": "Archive access and expert consultation",
+                "contact": "✉️ research@rizal-site.ph"
+              },
+              {
+                "title": "Collaboration Opportunities",
+                "description": "Joint research projects and publications",
+                "contact": "✉️ collaborate@rizal-site.ph"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+} 

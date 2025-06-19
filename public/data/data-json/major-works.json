@@ -1,0 +1,231 @@
+{
+  "title": "Major Works",
+  "subtitle": "The Literary Legacy of José Rizal",
+  "sections": [
+    {
+      "id": "novels",
+      "icon": "📖",
+      "title": "Novels",
+      "type": "novels",
+      "content": [
+        {
+          "id": "noli-me-tangere",
+          "title": "Noli Me Tangere (1887)",
+          "subtitle": "\"Touch Me Not\" - A Social Cancer",
+          "color": "blue",
+          "summary": "Exposes the abuses of Spanish colonial rule and the corruption of the Catholic Church in the Philippines through the story of Crisóstomo Ibarra and his quest for justice.",
+          "themes": [
+            "Colonial oppression and abuse",
+            "Religious hypocrisy",
+            "Social inequality",
+            "Education and reform",
+            "Love and sacrifice"
+          ],
+          "characters": [
+            "Crisóstomo Ibarra - Protagonist",
+            "María Clara - Love interest",
+            "Padre Dámaso - Antagonist friar",
+            "Elías - Revolutionary friend",
+            "Sisa - Tragic mother"
+          ]
+        },
+        {
+          "id": "el-filibusterismo",
+          "title": "El Filibusterismo (1891)",
+          "subtitle": "\"The Reign of Greed\" - The Revolution",
+          "color": "red",
+          "summary": "The sequel to Noli Me Tangere, showing the return of Ibarra as Simoun, a wealthy jeweler plotting revolution against the Spanish government.",
+          "themes": [
+            "Revolution and violence",
+            "Revenge and justice",
+            "Corruption in society",
+            "Moral decay",
+            "Hope and redemption"
+          ],
+          "characters": [
+            "Simoun - Ibarra's alter ego",
+            "Basilio - Student revolutionary",
+            "Isagani - Idealistic poet",
+            "Paulita Gómez - Love interest",
+            "Kabesang Tales - Oppressed farmer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historical-annotations",
+      "icon": "📚",
+      "title": "Historical Annotations",
+      "type": "historical_work",
+      "content": {
+        "title": "Annotations to Morga's \"Sucesos de las Islas Filipinas\" (1890)",
+        "color": "orange",
+        "description": "Rizal republished Dr. Antonio de Morga's 1609 historical account with extensive annotations to demonstrate that the Philippines had an advanced civilization before Spanish colonization. Published in Paris in 1890, this work was crucial to the propaganda movement.",
+        "quote": {
+          "text": "In my 'NOLI ME TANGERE' I commenced to sketch the present conditions obtaining in our country... it is necessary to first lay bare the past, in order the better to judge the present and to survey the road trodden during three centuries.",
+          "author": "José Rizal"
+        },
+        "chapters": [
+          {
+            "number": 1,
+            "title": "Pre-Colonial Civilization",
+            "content": "Rizal corrects Morga's account by emphasizing that Filipinos had well-developed trade relations with China, Borneo, and other Asian countries. He notes their advanced metallurgy, including cannon foundries that produced artillery \"as great as those of Malaga.\""
+          },
+          {
+            "number": 2,
+            "title": "Government and Social Structure",
+            "content": "Highlights the sophisticated political system with rajas and datus, noting that Manila's aristocracy lived in what is now Malate after being displaced by Spanish colonizers. Emphasizes the courteous and well-mannered nature of pre-colonial Filipinos."
+          },
+          {
+            "number": 3,
+            "title": "Arts, Culture, and Literature",
+            "content": "Rizal regrets the loss of ancient Filipino minstrels who memorized genealogies and heroic deeds in songs. He notes the women of Malate were \"very expert in lace-making, so much so that they were not at all behind the women of Flanders.\""
+          },
+          {
+            "number": 4,
+            "title": "Religious Beliefs and Practices",
+            "content": "Challenges Morga's claim that all provinces welcomed conversion, noting that mountain tribes often resisted and required military escorts for missionaries. Emphasizes that forced conversion contradicted the peaceful nature of true Christian evangelization."
+          },
+          {
+            "number": 5,
+            "title": "Economic Life and Trade",
+            "content": "Describes the advanced economic system including sophisticated trade networks, skilled craftsmanship, and agricultural techniques. Rizal emphasizes that Spanish colonization disrupted rather than improved these existing economic structures."
+          },
+          {
+            "number": 6,
+            "title": "Military Organization and Warfare",
+            "content": "Points out that Filipinos had organized military forces and defensive strategies. Notes that Spanish accounts often exaggerated their own heroism while minimizing Filipino military capabilities and the organized resistance they encountered."
+          },
+          {
+            "number": 7,
+            "title": "Cultural Prejudices and Stereotypes",
+            "content": "Challenges Spanish prejudices about Filipino food, customs, and behavior. Uses the example of fish preferences to show how cultural misunderstanding led to unfair characterizations, arguing that \"each is nauseated with what he is unaccustomed to.\""
+          },
+          {
+            "number": 8,
+            "title": "Women and Social Morality",
+            "content": "Defends Filipino women against Spanish slanders, arguing that the Philippines \"has no reason to blush in comparing its womankind with the women of the most chaste nation in the world.\" Attributes any social problems to Spanish colonial influence."
+          }
+        ],
+        "major_themes": {
+          "left_column": [
+            "Pre-colonial Filipino civilization was advanced",
+            "Spanish colonization destroyed existing institutions",
+            "Cultural prejudices distorted historical records",
+            "Filipinos were capable of self-governance"
+          ],
+          "right_column": [
+            "International trade networks existed before Spain",
+            "Forced conversion was often violent and coercive",
+            "Filipino women and culture were highly developed",
+            "Historical truth must be recovered and preserved"
+          ]
+        },
+        "historical_significance": "This work provided intellectual ammunition for the propaganda movement by proving that the Philippines had a rich pre-colonial history. It countered Spanish claims that they brought civilization to a primitive land and became a foundation for Filipino nationalism and identity formation."
+      }
+    },
+    {
+      "id": "essays-articles",
+      "icon": "📰",
+      "title": "Essays & Articles",
+      "type": "essays",
+      "content": [
+        {
+          "id": "indolence-filipino",
+          "title": "\"The Indolence of the Filipino\" (1890)",
+          "color": "green",
+          "description": "A comprehensive defense of the Filipino character against Spanish accusations of laziness. Rizal argues that centuries of oppression, not inherent laziness, caused the apparent indolence of Filipinos.",
+          "main_arguments": [
+            "Pre-colonial Filipinos were industrious",
+            "Spanish oppression destroyed initiative",
+            "Climate and geography factors",
+            "Lack of incentives for hard work"
+          ],
+          "solutions_proposed": [
+            "Education and enlightenment",
+            "Economic opportunities",
+            "Political reforms",
+            "Cultural revival"
+          ]
+        },
+        {
+          "id": "philippines-century-hence",
+          "title": "\"The Philippines a Century Hence\" (1889-1890)",
+          "color": "yellow",
+          "description": "A prophetic essay examining the future of the Philippines under continued Spanish rule, predicting either independence or absorption by another power.",
+          "three_possibilities": [
+            "Remain a Spanish colony",
+            "Be absorbed by another nation",
+            "Achieve independence"
+          ],
+          "factors_for_change": [
+            "Growing nationalism",
+            "International pressure",
+            "Economic development",
+            "Educational progress"
+          ],
+          "his_preference": [
+            "Peaceful reform",
+            "Gradual autonomy",
+            "Cultural preservation",
+            "Democratic governance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poems",
+      "icon": "📝",
+      "title": "Poems",
+      "type": "poems",
+      "content": [
+        {
+          "id": "mi-ultimo-adios",
+          "title": "\"Mi Último Adiós\" (My Last Farewell)",
+          "color": "purple",
+          "description": "Written on the eve of his execution, this poem expresses his love for the Philippines and his willingness to die for his country's freedom.",
+          "excerpt": "Farewell, my adored Land, region of the sun caressed,\\nPearl of the Orient seas, our Eden lost,\\nWith gladness I give you my Life, sad and repressed;\\nAnd were it more brilliant, more fresh and at its best,\\nI would still give it to you for your welfare at most."
+        },
+        {
+          "id": "to-filipino-youth",
+          "title": "\"To the Filipino Youth\" (A la Juventud Filipina)",
+          "color": "cyan",
+          "description": "Written when Rizal was only 18, this poem won first prize in a literary contest and encouraged Filipino youth to be the hope of the nation.",
+          "excerpt": "Hold high the brow serene,\\nO youth, where now you stand;\\nLet the bright sheen\\nOf your grace be seen,\\nHope of my fatherland!"
+        }
+      ]
+    },
+    {
+      "id": "letters",
+      "icon": "✉️",
+      "title": "Letters",
+      "type": "letters",
+      "content": [
+        {
+          "id": "family-letters",
+          "title": "Letters to Family and Friends",
+          "color": "orange",
+          "items": [
+            "Regular correspondence with family members",
+            "Letters to his mother from Europe",
+            "Updates on his studies and travels",
+            "Personal reflections and emotions",
+            "Advice and encouragement to siblings"
+          ]
+        },
+        {
+          "id": "reformist-letters",
+          "title": "Letters to Reformists and Fellow Propagandists",
+          "color": "teal",
+          "items": [
+            "Correspondence with La Liga Filipina members",
+            "Letters to Marcelo del Pilar",
+            "Communications with other ilustrados",
+            "Political discussions and strategies",
+            "Plans for reform and propaganda work"
+          ]
+        }
+      ]
+    }
+  ]
+} 

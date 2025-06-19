@@ -1,0 +1,224 @@
+{
+  "title": "Early Life",
+  "subtitle": "The Formative Years of José Rizal (1861-1872)",
+  "sections": [
+    {
+      "id": "birth-hometown",
+      "icon": "🏡",
+      "title": "Birth and Hometown",
+      "type": "grid",
+      "content": {
+        "birth_details": {
+          "title": "Birth Details",
+          "type": "list",
+          "items": [
+            {
+              "label": "Full Name",
+              "value": "José Protasio Rizal Mercado y Alonso Realonda"
+            },
+            {
+              "label": "Date of Birth",
+              "value": "June 19, 1861"
+            },
+            {
+              "label": "Place of Birth",
+              "value": "Calamba, Laguna"
+            },
+            {
+              "label": "Day of the Week",
+              "value": "Wednesday"
+            }
+          ]
+        },
+        "hometown": {
+          "title": "Hometown - Calamba, Laguna",
+          "type": "text",
+          "content": "Calamba was a prosperous town in Laguna province, known for its fertile lands and agricultural abundance. The town was situated near Laguna de Bay, providing a serene environment that would shape Rizal's love for nature and learning."
+        }
+      }
+    },
+    {
+      "id": "family-background",
+      "icon": "👨‍👩‍👧‍👦",
+      "title": "Family Background",
+      "type": "complex",
+      "content": {
+        "parents": [
+          {
+            "icon": "👨",
+            "title": "Father - Francisco Mercado Rizal",
+            "color": "blue",
+            "items": [
+              "Born in Biñan, Laguna",
+              "Studied in Colegio de San José in Manila",
+              "Successful farmer and businessman",
+              "Known for his integrity and industry",
+              "Encouraged education and hard work",
+              "Instilled values of honesty and perseverance"
+            ]
+          },
+          {
+            "icon": "👩",
+            "title": "Mother - Teodora Alonso Realonda",
+            "color": "pink",
+            "items": [
+              "From a well-educated Chinese-Filipino family",
+              "Highly intelligent and cultured woman",
+              "José's first teacher",
+              "Taught him prayers, reading, and writing",
+              "Encouraged his love for literature and arts",
+              "Strong influence on his character development"
+            ]
+          }
+        ],
+        "siblings": {
+          "title": "Siblings (11 children total)",
+          "icon": "👫",
+          "children": [
+            {
+              "name": "Saturnina (Neneng)",
+              "description": "Eldest sister, married Manuel Hidalgo"
+            },
+            {
+              "name": "Paciano",
+              "description": "Only brother, José's mentor and supporter"
+            },
+            {
+              "name": "Narcisa (Sisa)",
+              "description": "Close to José, married Antonio López"
+            },
+            {
+              "name": "Olimpia",
+              "description": "Married Silvestre Ubaldo"
+            },
+            {
+              "name": "Lucia",
+              "description": "Married Mariano Herbosa"
+            },
+            {
+              "name": "Maria (Biang)",
+              "description": "Married Daniel Faustino Cruz"
+            },
+            {
+              "name": "José Rizal",
+              "description": "7th child, the national hero"
+            },
+            {
+              "name": "Concepcion (Concha)",
+              "description": "Died young, deeply mourned by José"
+            },
+            {
+              "name": "Josefa (Panggoy)",
+              "description": "Remained unmarried, died as spinster"
+            },
+            {
+              "name": "Trinidad (Trining)",
+              "description": "José's confidante, remained unmarried"
+            },
+            {
+              "name": "Soledad (Choleng)",
+              "description": "Youngest sister, married Pantaleon Quintero"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "provincial-life",
+      "icon": "🌾",
+      "title": "Life in the Province",
+      "type": "cards",
+      "content": [
+        {
+          "icon": "🏞️",
+          "title": "Rural Environment",
+          "color": "green",
+          "type": "text",
+          "content": "Growing up in the countryside of Calamba exposed young José to the beauty of nature. He developed a deep appreciation for the environment, which later influenced his scientific interests and love for natural history. The family owned rice fields and other agricultural lands, providing economic stability."
+        },
+        {
+          "icon": "🎨",
+          "title": "Early Interests and Talents",
+          "color": "yellow",
+          "type": "list",
+          "items": [
+            "Showed exceptional intelligence from an early age",
+            "Love for reading and learning",
+            "Artistic abilities in drawing and sculpting",
+            "Interest in collecting insects, shells, and stones",
+            "Early writing of poems and stories",
+            "Religious devotion instilled by his mother"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-influences",
+      "icon": "💡",
+      "title": "Influences from Family Members",
+      "type": "influences",
+      "content": [
+        {
+          "title": "From His Mother, Teodora",
+          "color": "blue",
+          "items": [
+            "First formal education and reading lessons",
+            "Love for literature and poetry",
+            "Strong moral and religious values",
+            "Appreciation for the arts",
+            "Critical thinking and questioning spirit"
+          ]
+        },
+        {
+          "title": "From His Father, Francisco",
+          "color": "green",
+          "items": [
+            "Work ethics and dedication",
+            "Business acumen and practical skills",
+            "Importance of education",
+            "Integrity and honesty in dealings",
+            "Love for the country and its people"
+          ]
+        },
+        {
+          "title": "From His Brother, Paciano",
+          "color": "purple",
+          "items": [
+            "Political awareness and nationalism",
+            "Knowledge of current events and issues",
+            "Courage to stand for principles",
+            "Support for educational pursuits",
+            "Understanding of social injustices"
+          ]
+        },
+        {
+          "title": "From His Sisters",
+          "color": "red",
+          "items": [
+            "Compassion and empathy for others",
+            "Domestic skills and family values",
+            "Cultural traditions and customs",
+            "Emotional support and understanding",
+            "Appreciation for family bonds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "childhood-memories",
+      "icon": "📖",
+      "title": "Notable Childhood Memories",
+      "type": "grid",
+      "content": [
+        {
+          "title": "The Death of Concha",
+          "content": "The death of his younger sister Concepción (Concha) when José was four years old deeply affected him. This early encounter with death and loss shaped his understanding of mortality and the fragility of life."
+        },
+        {
+          "title": "The Moth and the Flame",
+          "content": "His mother told him the story of a moth that was attracted to a flame and was eventually burned. This story became a metaphor for his own life - his attraction to knowledge and truth, despite the dangers it might bring."
+        }
+      ]
+    }
+  ]
+} 

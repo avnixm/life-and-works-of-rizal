@@ -1,0 +1,426 @@
+{
+  "title": "Travels",
+  "subtitle": "The Journey of José Rizal Across the World (1868-1896)",
+  "sections": [
+    {
+      "id": "childhood-travels",
+      "icon": "🏠",
+      "title": "Childhood Travels",
+      "type": "childhood_travels",
+      "content": {
+        "travels": [
+          {
+            "id": "antipolo-pilgrimage",
+            "icon": "⛪",
+            "title": "Pilgrimage to Antipolo (June 6, 1868)",
+            "color": "blue",
+            "details": [
+              {
+                "category": "Purpose & Background:",
+                "items": [
+                  "Mother's vow to Virgin of Antipolo",
+                  "Thanksgiving for safe childbirth",
+                  "José was 7 years old",
+                  "Accompanied by father Don Francisco"
+                ]
+              },
+              {
+                "category": "First Travel Experience:",
+                "items": [
+                  "First time crossing Laguna de Bay",
+                  "Rode a casco (barge) for the first time",
+                  "Stayed awake all night, amazed by the water",
+                  "Visited sister Saturnina in Manila after"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "local-exploration",
+            "icon": "🚶‍♂️",
+            "title": "Short Walks and Local Exploration",
+            "color": "green",
+            "description": "Young Rizal would often take walks around Calamba, especially to the shores of Laguna de Bay with his pet dog. These early explorations developed his love for nature and meditation, traits that would define his character throughout his travels."
+          }
+        ]
+      }
+    },
+    {
+      "id": "educational-travels",
+      "icon": "🎓",
+      "title": "Educational Travels",
+      "type": "educational_travels",
+      "content": {
+        "travels": [
+          {
+            "id": "binan",
+            "icon": "📚",
+            "title": "Biñan (June 1869 - December 1870)",
+            "color": "yellow",
+            "details": [
+              {
+                "category": "Journey Details:",
+                "items": [
+                  "Traveled with brother Paciano",
+                  "Rode in a carromata (horse-drawn cart)",
+                  "Half-hour drive from Calamba",
+                  "Stayed with aunt's family",
+                  "First time away from family"
+                ]
+              },
+              {
+                "category": "Return Journey:",
+                "items": [
+                  "December 17, 1870 departure",
+                  "Took steamer Talim back to Calamba",
+                  "Met a French friend of his father",
+                  "Collected pebbles as souvenirs",
+                  "Prayed at town church before leaving"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pakil-pilgrimage",
+            "icon": "🏛️",
+            "title": "Pakil Pilgrimage (May 1881)",
+            "color": "purple",
+            "description": "During his UST years, Rizal went on a pilgrimage to Pakil, Laguna, famous for the shrine of Birhen Maria de los Dolores. He was accompanied by his sisters and female friends.",
+            "highlights": {
+              "title": "Experience Highlights:",
+              "items": [
+                "Traveled by casco from Calamba to Pakil",
+                "Witnessed the famous Turumba festival",
+                "Observed people dancing in streets during procession",
+                "Deepened his understanding of Filipino religious culture"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-travels",
+      "icon": "🌍",
+      "title": "European Travels & Study Abroad",
+      "type": "european_travels",
+      "content": {
+        "departure": {
+          "title": "Departure for Spain (May 3, 1882)",
+          "color": "red",
+          "details": [
+            {
+              "category": "Secret Mission:",
+              "items": [
+                "Observe European life and culture",
+                "Study languages and customs",
+                "Learn about industries and commerce",
+                "Understand government and laws",
+                "Prepare for liberating the Philippines"
+              ]
+            },
+            {
+              "category": "Departure Details:",
+              "items": [
+                "Kept secret from parents",
+                "Used name \"Jose Mercado\"",
+                "Boarded Spanish steamer Salvadora",
+                "Sketched Manila's skyline as it disappeared",
+                "Wrote farewell letters to family and Leonor Rivera"
+              ]
+            }
+          ]
+        },
+        "route_map": {
+          "title": "Travel Route & Destinations",
+          "color": "cyan",
+          "destinations": [
+            {
+              "country": "Singapore",
+              "flag": "🇸🇬",
+              "date": "May 9, 1882",
+              "note": "First stopover"
+            },
+            {
+              "country": "Ceylon",
+              "flag": "🇱🇰",
+              "date": "May 17-18, 1882",
+              "note": "Colombo & Point Galle"
+            },
+            {
+              "country": "Egypt",
+              "flag": "🇪🇬",
+              "date": "Through Suez Canal",
+              "note": "Aden, Suez, Port Said"
+            },
+            {
+              "country": "Italy",
+              "flag": "🇮🇹",
+              "date": "June 11, 1882",
+              "note": "Naples"
+            },
+            {
+              "country": "France",
+              "flag": "🇫🇷",
+              "date": "June 12, 1882",
+              "note": "Marseilles, Paris"
+            },
+            {
+              "country": "Spain",
+              "flag": "🇪🇸",
+              "date": "1882-1885",
+              "note": "Barcelona, Madrid"
+            },
+            {
+              "country": "Germany",
+              "flag": "🇩🇪",
+              "date": "1885-1887",
+              "note": "Berlin, Leipzig, Heidelberg"
+            },
+            {
+              "country": "Austria",
+              "flag": "🇦🇹",
+              "date": "1887",
+              "note": "Vienna"
+            },
+            {
+              "country": "Belgium",
+              "flag": "🇧🇪",
+              "date": "1890",
+              "note": "Brussels"
+            },
+            {
+              "country": "Hong Kong",
+              "flag": "🇭🇰",
+              "date": "1891-1892",
+              "note": "Medical practice"
+            },
+            {
+              "country": "Japan",
+              "flag": "🇯🇵",
+              "date": "1888",
+              "note": "Tokyo, Yokohama"
+            },
+            {
+              "country": "United States",
+              "flag": "🇺🇸",
+              "date": "1888",
+              "note": "San Francisco, New York"
+            }
+          ]
+        },
+        "country_details": [
+          {
+            "country": "Spain",
+            "flag": "🇪🇸",
+            "period": "1882-1885, 1890-1891",
+            "color": "orange",
+            "sections": [
+              {
+                "category": "Academic Achievements:",
+                "items": [
+                  "Licentiate in Medicine (1884)",
+                  "Doctor of Medicine (1885)",
+                  "Philosophy and Letters degree",
+                  "Studied modern languages",
+                  "Wrote \"Noli Me Tangere\""
+                ]
+              },
+              {
+                "category": "Cultural Observations:",
+                "items": [
+                  "Studied Spanish society and politics",
+                  "Observed liberal movements",
+                  "Connected with Filipino expatriates",
+                  "Learned about European education systems",
+                  "Experienced freedom of thought and expression"
+                ]
+              }
+            ]
+          },
+          {
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "period": "1885-1887",
+            "color": "gray",
+            "sections": [
+              {
+                "category": "Academic Pursuits:",
+                "items": [
+                  "Specialized in ophthalmology in Heidelberg",
+                  "Studied German language and literature",
+                  "Research on eye diseases",
+                  "Scientific methodology training",
+                  "Completed \"Noli Me Tangere\""
+                ]
+              },
+              {
+                "category": "Cultural Impact:",
+                "items": [
+                  "Admired German efficiency and discipline",
+                  "Studied German educational system",
+                  "Observed industrial development",
+                  "Learned scientific research methods",
+                  "Developed appreciation for German culture"
+                ]
+              }
+            ]
+          },
+          {
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "period": "1888",
+            "color": "pink",
+            "sections": [
+              {
+                "category": "Cultural Fascination:",
+                "items": [
+                  "Admired Japanese discipline and industry",
+                  "Studied Japanese art and culture",
+                  "Observed rapid modernization",
+                  "Learned Japanese language basics",
+                  "Appreciated Japanese aesthetics"
+                ]
+              },
+              {
+                "category": "Personal Relationships:",
+                "items": [
+                  "Met O-Sei-San (Seiko Usui)",
+                  "Brief romantic relationship",
+                  "Learned about Japanese family life",
+                  "Experienced Japanese hospitality",
+                  "Studied Japanese women's status"
+                ]
+              }
+            ]
+          },
+          {
+            "country": "United States",
+            "flag": "🇺🇸",
+            "period": "1888",
+            "color": "blue",
+            "sections": [
+              {
+                "category": "Observations:",
+                "items": [
+                  "Marveled at American democracy",
+                  "Studied American educational system",
+                  "Observed racial relations",
+                  "Learned about American history",
+                  "Experienced American hospitality"
+                ]
+              },
+              {
+                "category": "Cities Visited:",
+                "items": [
+                  "San Francisco - West Coast entry",
+                  "Oakland - Crossed bay area",
+                  "Salt Lake City - Mormon territory",
+                  "Denver - Mountain region",
+                  "New York - East Coast departure"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "travel-purposes",
+      "icon": "🎯",
+      "title": "Purpose of Each Travel",
+      "type": "travel_purposes",
+      "content": {
+        "purposes": [
+          {
+            "title": "Study",
+            "icon": "📚",
+            "color": "green",
+            "items": [
+              "Medical education in Madrid and Paris",
+              "Ophthalmology specialization in Heidelberg",
+              "Language learning in various countries",
+              "Cultural and scientific research"
+            ]
+          },
+          {
+            "title": "Reform Movement",
+            "icon": "✊",
+            "color": "blue",
+            "items": [
+              "Propaganda movement activities",
+              "Writing and publishing reform literature",
+              "Networking with fellow reformists",
+              "Fundraising for Filipino causes"
+            ]
+          },
+          {
+            "title": "Medical Practice",
+            "icon": "🏥",
+            "color": "yellow",
+            "items": [
+              "Ophthalmology practice in Hong Kong",
+              "Treating patients in various countries",
+              "Learning modern medical techniques",
+              "Building professional network"
+            ]
+          },
+          {
+            "title": "Exile",
+            "icon": "🚢",
+            "color": "red",
+            "items": [
+              "Forced departure from Philippines",
+              "Safety from Spanish persecution",
+              "Continued writing and advocacy",
+              "Planning return to homeland"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "travel-impact",
+      "icon": "🌟",
+      "title": "Impact of Travels on Rizal",
+      "type": "travel_impact",
+      "content": {
+        "impacts": [
+          {
+            "title": "Intellectual Growth",
+            "icon": "🧠",
+            "color": "blue",
+            "items": [
+              "Expanded worldview",
+              "Scientific knowledge",
+              "Multiple languages",
+              "Cultural awareness"
+            ]
+          },
+          {
+            "title": "Emotional Development",
+            "icon": "❤️",
+            "color": "green",
+            "items": [
+              "Homesickness and patriotism",
+              "International friendships",
+              "Romantic relationships",
+              "Personal maturity"
+            ]
+          },
+          {
+            "title": "Revolutionary Spirit",
+            "icon": "🔥",
+            "color": "red",
+            "items": [
+              "Comparative governance",
+              "Democratic ideals",
+              "Reform strategies",
+              "National consciousness"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+} 
