@@ -152,6 +152,9 @@ export default async function Resources() {
     }
   };
 
+  // Find about-makers section if present
+  const aboutMakersSection = data.sections.find((section: any) => section.id === 'about-makers');
+
   return (
     <PageLayout title={data.title} subtitle={data.subtitle}>
       <div className="mb-12">
@@ -223,59 +226,35 @@ export default async function Resources() {
               </div>
             )}
 
-            {/* Online Resources */}
-            {section.type === 'online_resources' && (
-              <div className={`bg-white/40 md:${getColorClasses(section.content.color)} rounded-lg p-4 md:p-6 border border-gray-200`}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                  {section.content.sections.map((subsection: any, index: number) => (
-                    <div key={index}>
-                      <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
-                        {getSubsectionIconComponent(subsection.id)}
-                        {subsection.title}
-                      </h4>
-                      <div className="space-y-2">
-                        {subsection.items.map((item: any, itemIndex: number) => (
-                          <div key={itemIndex} className="bg-white/70 md:bg-white/50 rounded p-3 border border-amber-200/50 md:border-none">
-                            <h5 className="font-semibold text-amber-700 text-sm">{item.title}</h5>
-                            <p className="text-xs leading-relaxed">{item.description}</p>
-                            <button className={`${getButtonColorClass(item.button_color)} text-white px-2 py-1 rounded text-xs mt-1 transition-colors`}>
-                              {item.button}
-                            </button>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Contact Information */}
+            {/* Contact the Makers (new structure) */}
             {section.type === 'contact_info' && (
-              <div className={`bg-white/40 md:${getColorClasses(section.content.color)} rounded-lg p-4 md:p-6 border border-amber-300`}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                  {section.content.sections.map((subsection: any, index: number) => (
-                    <div key={index}>
-                      <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
-                        {getSubsectionIconComponent(subsection.id)}
-                        {subsection.title}
-                      </h4>
-                      <div className="space-y-2">
-                        {subsection.contacts.map((contact: any, contactIndex: number) => (
-                          <div key={contactIndex} className="bg-white/70 md:bg-white/50 rounded p-3 border border-amber-200/50 md:border-none">
-                            <h5 className="font-semibold text-amber-700 text-sm">{contact.title}</h5>
-                            <p className="text-xs leading-relaxed">{contact.description}</p>
-                            <p className="text-xs font-mono">{contact.contact}</p>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+              <div className="bg-white/40 rounded-lg p-4 md:p-6 border border-amber-300">
+                <p className="text-amber-900 text-sm md:text-base mb-2">{section.content.message}</p>
+                <p className="text-amber-800 text-xs md:text-sm font-mono">
+                  <span className="font-semibold">Contact: </span>
+                  <a href={`mailto:${section.content.contact}`} className="underline hover:text-blue-700">{section.content.contact}</a>
+                </p>
               </div>
             )}
           </section>
         ))}
+
+        {/* About the Makers / Contact Us Section */}
+        {aboutMakersSection && (
+          <section key={aboutMakersSection.id}>
+            <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 font-serif text-amber-800 flex items-center">
+              <span className="mr-2">{aboutMakersSection.icon}</span>
+              {aboutMakersSection.title}
+            </h3>
+            <div className="bg-white/40 rounded-lg p-4 md:p-6 border border-amber-300">
+              <p className="text-amber-900 text-sm md:text-base mb-2">{aboutMakersSection.content.message}</p>
+              <p className="text-amber-800 text-xs md:text-sm font-mono">
+                <span className="font-semibold">Contact: </span>
+                <a href={`mailto:${aboutMakersSection.content.contact}`} className="underline hover:text-blue-700">{aboutMakersSection.content.contact}</a>
+              </p>
+            </div>
+          </section>
+        )}
 
       </div>
     </PageLayout>

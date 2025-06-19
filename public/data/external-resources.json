@@ -4,15 +4,29 @@
     "description": "Links to official sources hosting Rizal's original works",
     "items": [
       {
-        "id": "noli-me-tangere-tagalog",
+        "id": "noli-me-tangere-spanish",
         "title": "Noli Me Tangere",
-        "subtitle": "Original Filipino Edition",
+        "subtitle": "Original Spanish Edition",
         "language": "Spanish",
         "pages": 385,
         "description": "The original Spanish text of Rizal's first novel",
-        "tags": ["novel", "filipino", "original", "social-cancer"],
+        "tags": ["novel", "spanish", "original", "social-cancer"],
         "yearPublished": 1887,
-        "externalUrl": "https://www.gutenberg.org/ebooks/47629",
+        "externalUrl": "https://www.gutenberg.org/files/47584/47584-h/47584-h.htm",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Free digital library with public domain texts",
+        "accessType": "Free"
+      },
+      {
+        "id": "noli-me-tangere-tagalog",
+        "title": "Noli Me Tangere",
+        "subtitle": "Filipino Edition",
+        "language": "Filipino",
+        "pages": 385,
+        "description": "The Filipino text of Rizal's first novel",
+        "tags": ["novel", "Filipino", "original", "social-cancer"],
+        "yearPublished": 1887,
+        "externalUrl": "https://www.gutenberg.org/ebooks/20228",
         "source": "Project Gutenberg",
         "sourceDescription": "Free digital library with public domain texts",
         "accessType": "Free"
