@@ -1,0 +1,734 @@
+{
+  "title": "19th Century Philippines",
+  "subtitle": "Explore the historical context of the Philippines during the 19th century: Spanish Colonial System, Social Classes, Church Power, Education System, and Economic Conditions.",
+  "sections": [
+    {
+      "id": "spanish-colonial-system",
+      "icon": "government",
+      "title": "Spanish Colonial System",
+      "type": "colonial_system",
+      "content": [
+        {
+          "id": "government-structure",
+          "icon": "👑",
+          "title": "Government Structure",
+          "color": "blue",
+          "type": "grid",
+          "details": [
+            {
+              "subtitle": "Central Authority:",
+              "items": [
+                "Governor-General appointed by Spanish monarch",
+                "Highest authority with executive, legislative, judicial powers",
+                "Represented the Spanish Crown in the Philippines",
+                "Resided in Malacañang Palace in Manila",
+                "Term of office typically 3-6 years"
+              ]
+            },
+            {
+              "subtitle": "Provincial Administration:",
+              "items": [
+                "Alcaldes mayores governed provinces",
+                "Appointed by Governor-General",
+                "Combined civil and military authority",
+                "Responsible for tax collection and law enforcement",
+                "Often engaged in corrupt practices"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "local-governance",
+          "icon": "🏘️",
+          "title": "Local Governance",
+          "color": "green",
+          "type": "complex",
+          "details": [
+            {
+              "subtitle": "Town Officials:",
+              "items": [
+                "Gobernadorcillo (little governor) - town mayor",
+                "Selected from the principalia class",
+                "Served without salary for two years",
+                "Responsible for peace and order",
+                "Collected tribute and supervised public works"
+              ]
+            },
+            {
+              "subtitle": "Village Level:",
+              "items": [
+                "Cabeza de barangay (village head)",
+                "Assisted the gobernadorcillo",
+                "Directly dealt with common people",
+                "Implemented colonial policies at grassroots",
+                "Often caught between Spanish demands and Filipino needs"
+              ]
+            }
+          ],
+          "special_features": {
+            "title": "Colonial Policies:",
+            "items": [
+              "Polo y servicio (forced labor for 40 days)",
+              "Tribute system requiring payment in rice or money",
+              "Bandala system (forced sale of products to government)",
+              "Encomienda system (land grants with native labor)",
+              "Galleon trade monopoly connecting Manila to Acapulco"
+            ]
+          }
+        },
+        {
+          "id": "corruption-problems",
+          "icon": "💰",
+          "title": "Corruption and Abuse",
+          "color": "red",
+          "type": "problems",
+          "issues": [
+            {
+              "title": "Systematic Corruption:",
+              "description": "Government positions were often sold or given as rewards for loyalty. Officials were expected to recoup their investments through various means, leading to widespread exploitation of the native population."
+            },
+            {
+              "title": "Indulto de Comercio:",
+              "description": "Provincial governors engaged in illegal trade monopolies, forcing natives to sell products at below-market prices and buy goods at inflated costs."
+            },
+            {
+              "title": "Arbitrary Justice:",
+              "description": "Spanish officials often acted as judge, jury, and executioner. Justice was frequently bought and sold, with little recourse for ordinary Filipinos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-classes",
+      "icon": "users",
+      "title": "Social Classes",
+      "type": "social_stratification",
+      "content": [
+        {
+          "id": "spanish-classes",
+          "icon": "🇪🇸",
+          "title": "Spanish-Born Classes",
+          "color": "blue",
+          "type": "dual_class",
+          "classes": [
+            {
+              "name": "Peninsulares",
+              "icon": "👑",
+              "description": "Spaniards born in Spain",
+              "characteristics": [
+                "Occupied highest positions in government and church",
+                "Enjoyed greatest privileges and social status",
+                "Controlled major colonial policies and decisions",
+                "Often looked down on those born in colonies",
+                "Held monopoly on most prestigious offices"
+              ]
+            },
+            {
+              "name": "Insulares (Creoles)",
+              "icon": "🏝️",
+              "description": "Spaniards born in the Philippines",
+              "characteristics": [
+                "Often held important but secondary positions",
+                "Felt marginalized by peninsulares",
+                "Some became sympathetic to Filipino causes",
+                "Excluded from highest government positions",
+                "Developed sense of local identity over time"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mixed-heritage-classes",
+          "icon": "🤝",
+          "title": "Mixed Heritage Classes",
+          "color": "yellow",
+          "type": "heritage_groups",
+          "groups": [
+            {
+              "name": "Mestizo de Español",
+              "icon": "🇪🇸",
+              "background": "Filipino-Spanish descent",
+              "details": [
+                "Often wealthy through trade and land ownership",
+                "Enjoyed privileges similar to creoles",
+                "Many became successful businessmen",
+                "Bridge between Spanish and Filipino communities",
+                "Some rose to local prominence and influence"
+              ]
+            },
+            {
+              "name": "Mestizo de Sangley",
+              "icon": "🇨🇳",
+              "background": "Filipino-Chinese descent",
+              "details": [
+                "Dominated retail trade and commerce",
+                "Faced periodic persecution and restrictions",
+                "Often forced to live in designated areas",
+                "Some accumulated significant wealth",
+                "Served as intermediaries in trade"
+              ]
+            },
+            {
+              "name": "Tornatras",
+              "icon": "🌍",
+              "background": "Mixed Spanish, Chinese, and Filipino descent",
+              "details": [
+                "Complex heritage creating unique social challenges",
+                "Some enjoyed privileges similar to mestizos",
+                "Others faced discrimination due to mixed ancestry",
+                "Navigated multiple cultural identities",
+                "Varied greatly in social and economic status"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "filipino-classes",
+          "icon": "🇵🇭",
+          "title": "Filipino Classes",
+          "color": "green",
+          "type": "native_hierarchy",
+          "hierarchy": [
+            {
+              "class": "Principalia",
+              "icon": "👨‍💼",
+              "description": "Native Filipino aristocracy",
+              "composition": [
+                "Former datus and local chieftains",
+                "Wealthy landowners and entrepreneurs",
+                "Gobernadorcillos and cabezas de barangay",
+                "Educated families with Spanish connections",
+                "Hereditary leaders who collaborated with Spanish rule"
+              ],
+              "privileges": [
+                "Exemption from tribute and forced labor",
+                "Right to carry arms and use family names",
+                "Access to better education for their children",
+                "Could hold local government positions",
+                "Enjoyed higher social status and respect"
+              ]
+            },
+            {
+              "class": "Ilustrados",
+              "icon": "🎓",
+              "description": "The educated class",
+              "composition": [
+                "Often from principalia or mestizo families",
+                "Studied in prestigious schools in Manila",
+                "Many pursued higher education in Europe",
+                "Exposed to liberal and nationalist ideas",
+                "Included future leaders like José Rizal"
+              ],
+              "significance": [
+                "Became leaders of reform and independence movements",
+                "Bridged traditional Filipino culture with modern ideas",
+                "Advocated for political and social reforms",
+                "Challenged Spanish colonial policies through writings",
+                "Inspired nationalist consciousness among Filipinos"
+              ]
+            },
+            {
+              "class": "Indios",
+              "icon": "👨‍🌾",
+              "description": "The vast majority of native Filipinos",
+              "composition": [
+                "Farmers, laborers, and artisans",
+                "Small-scale traders and fishermen",
+                "Domestic servants and workers",
+                "Indigenous communities in remote areas",
+                "The backbone of colonial economy"
+              ],
+              "conditions": [
+                "Subject to tribute, forced labor, and various taxes",
+                "Limited access to education and opportunities",
+                "Worked Spanish-owned lands as tenants",
+                "Faced discrimination and abuse from authorities",
+                "Maintained traditional Filipino customs and beliefs"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chinese-community",
+          "icon": "🏮",
+          "title": "Chinese Community (Sangleys)",
+          "color": "red",
+          "type": "special_community",
+          "details": {
+            "background": "Chinese traders and immigrants who played crucial roles in Philippine commerce despite facing periodic persecution and restrictions.",
+            "contributions": [
+              "Dominated retail trade and small-scale commerce",
+              "Introduced new agricultural techniques and crops",
+              "Served as intermediaries between Spanish and Filipino communities",
+              "Contributed to cultural exchange and intermarriage",
+              "Provided skilled craftsmanship and specialized services"
+            ],
+            "challenges": [
+              "Periodic expulsions and persecution by Spanish authorities",
+              "Forced to live in designated areas (Parian in Manila)",
+              "Required to pay special taxes and fees",
+              "Faced restrictions on travel and business activities",
+              "Discriminated against despite economic contributions"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "church-power",
+      "icon": "church",
+      "title": "Church Power",
+      "type": "religious_authority",
+      "content": [
+        {
+          "id": "institutional-structure",
+          "icon": "🏛️",
+          "title": "Institutional Structure",
+          "color": "purple",
+          "type": "church_hierarchy",
+          "hierarchy": [
+            {
+              "level": "Archbishop and Bishops",
+              "description": "Highest church authorities in the Philippines",
+              "powers": [
+                "Oversaw all religious activities in their jurisdictions",
+                "Appointed parish priests and controlled church policies",
+                "Wielded significant political influence",
+                "Owned vast tracts of land and properties",
+                "Advised colonial government on policy matters"
+              ]
+            },
+            {
+              "level": "Religious Orders",
+              "description": "Augustinians, Dominicans, Franciscans, Jesuits, Recollects",
+              "powers": [
+                "Controlled most parishes and educational institutions",
+                "Owned extensive agricultural estates (haciendas)",
+                "Collected tithes and various church fees",
+                "Administered sacraments and religious ceremonies",
+                "Influenced local politics through parish control"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "economic-power",
+          "icon": "💰",
+          "title": "Economic Power",
+          "color": "green",
+          "type": "economic_control",
+          "aspects": [
+            {
+              "title": "Land Ownership:",
+              "items": [
+                "Owned vast haciendas and agricultural estates",
+                "Controlled some of the most fertile lands",
+                "Collected rent from Filipino tenant farmers",
+                "Dominated agricultural production in many areas",
+                "Accumulated wealth through land speculation"
+              ]
+            },
+            {
+              "title": "Financial Control:",
+              "items": [
+                "Collected tithes and religious fees",
+                "Charged for baptisms, weddings, and funerals",
+                "Operated as informal banks and moneylenders",
+                "Invested in commercial enterprises",
+                "Controlled significant liquid capital"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "political-influence",
+          "icon": "⚖️",
+          "title": "Political and Judicial Power",
+          "color": "blue",
+          "type": "political_control",
+          "powers": [
+            {
+              "area": "Local Governance:",
+              "description": "Friars often wielded more practical power than civil officials in rural areas. They influenced appointments of local officials and could effectively veto government policies they opposed."
+            },
+            {
+              "area": "Judicial Authority:",
+              "description": "Handled marriages, inheritance disputes, and moral issues. Their decisions were often final and could not be appealed to civil courts."
+            },
+            {
+              "area": "Censorship Control:",
+              "description": "Controlled what books could be read, what ideas could be taught, and what newspapers could be published. Maintained intellectual control over the population."
+            }
+          ]
+        },
+        {
+          "id": "education-control",
+          "icon": "📚",
+          "title": "Educational Control",
+          "color": "orange",
+          "type": "educational_monopoly",
+          "control_areas": [
+            {
+              "institution": "Primary Schools:",
+              "details": [
+                "Friars controlled most elementary education",
+                "Curriculum focused heavily on religious instruction",
+                "Limited secular subjects and critical thinking",
+                "Taught basic literacy primarily for religious purposes",
+                "Used education to maintain social control"
+              ]
+            },
+            {
+              "institution": "Higher Education:",
+              "details": [
+                "University of Santo Tomas run by Dominicans",
+                "Colegio de San Juan de Letran by Dominicans",
+                "Ateneo Municipal by Jesuits",
+                "Limited access for native Filipinos",
+                "Conservative curriculum resistant to modern ideas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conflicts-resistance",
+          "icon": "⚔️",
+          "title": "Conflicts and Resistance",
+          "color": "red",
+          "type": "church_conflicts",
+          "conflicts": [
+            {
+              "title": "Secularization Movement:",
+              "description": "Growing demand to replace Spanish friars with Filipino secular priests. Led to tensions between Spanish religious orders and Filipino clergy who felt discriminated against."
+            },
+            {
+              "title": "Gomburza Martyrdom:",
+              "description": "Execution of Filipino priests Gomez, Burgos, and Zamora in 1872 on charges of sedition. This event galvanized Filipino nationalism and anti-friar sentiment."
+            },
+            {
+              "title": "Nationalist Criticism:",
+              "description": "Writers like Rizal in his novels exposed friar abuses, corruption, and hypocrisy. This literary campaign significantly damaged church prestige and authority."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-system",
+      "icon": "education",
+      "title": "Education System",
+      "type": "educational_structure",
+      "content": [
+        {
+          "id": "primary-education",
+          "icon": "📝",
+          "title": "Primary Education",
+          "color": "blue",
+          "type": "basic_education",
+          "characteristics": [
+            {
+              "aspect": "Availability and Access:",
+              "details": [
+                "Limited to towns with Spanish presence",
+                "Most rural areas lacked formal schools",
+                "Higher enrollment in Manila and major cities",
+                "Girls had even fewer educational opportunities",
+                "Many children received no formal education"
+              ]
+            },
+            {
+              "aspect": "Curriculum Content:",
+              "details": [
+                "Heavy emphasis on Catholic catechism",
+                "Basic reading, writing, and arithmetic",
+                "Spanish language instruction",
+                "Memorization and recitation methods",
+                "Limited critical thinking or analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "secondary-higher-education",
+          "icon": "🏫",
+          "title": "Secondary and Higher Education",
+          "color": "green",
+          "type": "advanced_education",
+          "institutions": [
+            {
+              "name": "University of Santo Tomas",
+              "founded": "1611",
+              "operator": "Dominican Order",
+              "details": [
+                "Oldest university in Asia",
+                "Offered degrees in theology, philosophy, law, medicine",
+                "Conservative curriculum resistant to modern ideas",
+                "Limited enrollment of native Filipinos",
+                "Focused on training Spanish colonial administrators"
+              ]
+            },
+            {
+              "name": "Colegio de San Juan de Letran",
+              "founded": "1620",
+              "operator": "Dominican Order",
+              "details": [
+                "Secondary education institution",
+                "Prepared students for university entrance",
+                "Emphasis on classical education",
+                "Limited scholarships for poor but bright students",
+                "Strict religious and moral instruction"
+              ]
+            },
+            {
+              "name": "Ateneo Municipal de Manila",
+              "founded": "1859",
+              "operator": "Jesuit Order",
+              "details": [
+                "More progressive than other institutions",
+                "Better academic standards and discipline",
+                "Encouraged student participation and leadership",
+                "Where José Rizal received excellent education",
+                "Produced many future Filipino leaders and reformists"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "educational-problems",
+          "icon": "❌",
+          "title": "Problems and Limitations",
+          "color": "red",
+          "type": "educational_issues",
+          "problems": [
+            {
+              "category": "Accessibility Issues:",
+              "issues": [
+                "Education limited to Spanish settlements",
+                "High costs excluded most Filipino families",
+                "Geographic barriers in archipelagic country",
+                "Discrimination against native Filipinos",
+                "Gender inequality - fewer opportunities for women"
+              ]
+            },
+            {
+              "category": "Curriculum Problems:",
+              "issues": [
+                "Outdated teaching methods emphasizing memorization",
+                "Resistance to scientific and modern subjects",
+                "Overemphasis on religious instruction",
+                "Limited practical and vocational training",
+                "Censorship of progressive books and ideas"
+              ]
+            },
+            {
+              "category": "Social Impact:",
+              "issues": [
+                "Created wide gap between educated elite and masses",
+                "Reinforced social hierarchies and class divisions",
+                "Limited social mobility for ordinary Filipinos",
+                "Maintained intellectual dependence on Spain",
+                "Hindered development of national consciousness"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "educational-awakening",
+          "icon": "💡",
+          "title": "Educational Awakening",
+          "color": "yellow",
+          "type": "intellectual_development",
+          "developments": [
+            {
+              "period": "Mid-19th Century:",
+              "changes": [
+                "Growing number of Filipino students in European universities",
+                "Exposure to liberal and nationalist ideas abroad",
+                "Development of critical thinking among ilustrados",
+                "Emergence of reform-minded Filipino intellectuals",
+                "Questioning of traditional Spanish colonial education"
+              ]
+            },
+            {
+              "period": "Propaganda Movement Era:",
+              "changes": [
+                "Filipino students organized in European cities",
+                "Publication of newspapers and reform literature",
+                "Advocacy for educational reforms in the Philippines",
+                "Demand for modern, secular education",
+                "Call for equal opportunities for Filipino students"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-conditions",
+      "icon": "economy",
+      "title": "Economic Conditions",
+      "type": "economic_structure",
+      "content": [
+        {
+          "id": "agricultural-economy",
+          "icon": "🌾",
+          "title": "Agricultural Economy",
+          "color": "green",
+          "type": "agriculture_system",
+          "aspects": [
+            {
+              "category": "Land Ownership:",
+              "details": [
+                "Large haciendas owned by Spanish colonists and church",
+                "Encomienda system granted land and labor to Spanish settlers",
+                "Filipino farmers mostly worked as tenants or laborers",
+                "Concentrated land ownership created rural inequality",
+                "Traditional communal lands gradually privatized"
+              ]
+            },
+            {
+              "category": "Major Crops:",
+              "details": [
+                "Rice - primary food crop and tribute payment",
+                "Sugar - major export crop, especially in Negros",
+                "Tobacco - government monopoly from 1782-1881",
+                "Abaca (Manila hemp) - important fiber export",
+                "Coconut - growing export crop for oil and copra"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trade-commerce",
+          "icon": "🚢",
+          "title": "Trade and Commerce",
+          "color": "blue",
+          "type": "trade_system",
+          "systems": [
+            {
+              "name": "Galleon Trade (1565-1815)",
+              "description": "Annual trade between Manila and Acapulco",
+              "characteristics": [
+                "Manila served as entrepôt for Asian goods to America",
+                "Chinese silk, porcelain, spices traded for Mexican silver",
+                "Benefits concentrated among Spanish merchants",
+                "Limited participation by Filipino traders",
+                "Declined due to competition and changing global trade"
+              ]
+            },
+            {
+              "name": "Opening of Manila to World Trade (1834)",
+              "description": "End of trade monopoly and opening to international commerce",
+              "impacts": [
+                "Direct trade with Europe, America, and other Asian countries",
+                "Growth of export agriculture (sugar, tobacco, hemp)",
+                "Rise of Filipino and Chinese merchant classes",
+                "Economic growth but increased inequality",
+                "Integration into global capitalist economy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "labor-taxation",
+          "icon": "👷",
+          "title": "Labor Systems and Taxation",
+          "color": "orange",
+          "type": "labor_tax_system",
+          "systems": [
+            {
+              "system": "Polo y Servicio",
+              "description": "Forced labor system",
+              "details": [
+                "40 days of unpaid labor annually for males 16-60",
+                "Could be commuted by payment of 1.5 pesos",
+                "Used for public works, military service, cutting timber",
+                "Severely disrupted family life and agriculture",
+                "Source of widespread resentment among Filipinos"
+              ]
+            },
+            {
+              "system": "Tribute System",
+              "description": "Head tax on Filipino families",
+              "details": [
+                "Annual payment of rice, money, or products",
+                "Collected by local officials (often corruptly)",
+                "Rates varied by region and period",
+                "Heavy burden on subsistence farmers",
+                "Symbol of subjugation and colonial exploitation"
+              ]
+            },
+            {
+              "system": "Bandala System",
+              "description": "Forced sale of products to government",
+              "details": [
+                "Farmers required to sell rice and other products",
+                "Government paid below market prices",
+                "Created artificial scarcity and high food prices",
+                "Profits went to Spanish officials and merchants",
+                "Caused periodic famines and economic hardship"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emerging-classes",
+          "icon": "📈",
+          "title": "Emerging Economic Classes",
+          "color": "purple",
+          "type": "economic_classes",
+          "classes": [
+            {
+              "class": "Filipino Merchant Class",
+              "development": "19th century growth",
+              "characteristics": [
+                "Emerged from opening of Manila to world trade",
+                "Often from principalia or mestizo backgrounds",
+                "Engaged in export-import business",
+                "Accumulated capital through trade and land",
+                "Became economically powerful but politically marginalized"
+              ]
+            },
+            {
+              "class": "Chinese Business Community",
+              "development": "Continuous throughout colonial period",
+              "characteristics": [
+                "Dominated retail trade and small-scale commerce",
+                "Served as intermediaries between producers and exporters",
+                "Often faced persecution but economically indispensable",
+                "Some accumulated significant wealth despite restrictions",
+                "Intermarried with Filipino families creating mestizo class"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "economic-problems",
+          "icon": "📉",
+          "title": "Economic Problems and Inequality",
+          "color": "red",
+          "type": "economic_issues",
+          "problems": [
+            {
+              "issue": "Rural Poverty:",
+              "description": "Despite agricultural abundance, most Filipino farmers lived in poverty due to exploitative land tenure systems, heavy taxation, and forced labor requirements."
+            },
+            {
+              "issue": "Limited Industrialization:",
+              "description": "Spanish colonial policy discouraged manufacturing in the Philippines to maintain dependence on Spanish goods, limiting economic diversification and growth."
+            },
+            {
+              "issue": "Unequal Distribution:",
+              "description": "Economic benefits of trade growth concentrated among Spanish colonists, church, and small Filipino elite, while majority remained impoverished."
+            },
+            {
+              "issue": "Periodic Famines:",
+              "description": "Bandala system and focus on export crops over food production led to periodic food shortages and famines, especially during bad harvests."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 
