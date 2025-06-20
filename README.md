@@ -23,33 +23,44 @@ This comprehensive web application serves as an educational resource dedicated t
 
 ## ✨ Features
 
-> **Latest Updates**: Now includes comprehensive 19th Century Philippines historical context section with detailed coverage of Spanish colonial system, social stratification, church power, education system, and economic conditions. Navigation has been reordered for better pedagogical flow.
+> **Latest Updates (2025)**: 
+> - **Typography Enhancement**: José Rizal's name now features elegant Allura script font on the landing page
+> - **Cost Analysis Integration**: Major works section includes comprehensive historical cost analysis with modern PHP equivalents for Noli Me Tangere and El Filibusterismo
+> - **Design Consistency**: Complete UI/UX overhaul with unified amber/vintage theme across all components
+> - **Spanish Colonial Taxation**: Added detailed taxation system coverage in 19th Century Philippines section
+> - **Enhanced Resources**: Redesigned External Resources Library with improved academic sources and modern styling
+> - **Mobile Optimization**: Improved responsive design with better mobile readability and navigation
+> - **Accessibility Improvements**: Increased font sizes following web accessibility guidelines (16-18px desktop, 18-20px mobile)
 
 ### 📖 **Comprehensive Biography Sections**
-- **Early Life**: Discover Rizal's childhood, family background, and formative years
-- **Education**: Follow his academic journey from Ateneo to European universities
-- **19th Century Philippines**: Explore the historical context of Spanish colonial rule, social classes, church power, education system, and economic conditions
-- **Travels**: Explore his adventures across Europe, Asia, and America
-- **Major Works**: Deep dive into Noli Me Tangere, El Filibusterismo, and other writings
-- **Martyrdom**: Understand his final days and execution at Bagumbayan
+- **Early Life**: Discover Rizal's childhood, family background, and formative years with detailed genealogy
+- **Education**: Follow his academic journey from Ateneo to European universities with curriculum details
+- **19th Century Philippines**: Explore Spanish colonial rule, social stratification, church power, education system, economic conditions, and comprehensive taxation system
+- **Travels**: Journey through his European, Asian, and American experiences with cultural insights
+- **Major Works**: Deep dive into Noli Me Tangere, El Filibusterismo with publication costs, modern value analysis, and detailed character studies
+- **Martyrdom**: Understand his trial, final days, execution, and lasting legacy with legal analysis
 
 ### 🎯 **Interactive Learning**
-- **Quiz System**: Test your knowledge with interactive quizzes
-- **External Resources Library**: Curated collection of scholarly articles and references
-- **Mobile-Responsive Design**: Seamless experience across all devices
-- **Rich Content Structure**: Detailed JSON-based content system for easy maintenance and updates
+- **Quiz System**: Test your knowledge with interactive quizzes featuring floating action button navigation
+- **External Resources Library**: Searchable collection of official sources, government databases, and academic materials
+- **Cost Analysis Tools**: Historical cost comparisons with modern PHP equivalents and inflation calculations
+- **Mobile-Responsive Design**: Seamless experience across all devices with optimized mobile layouts
+- **Rich Content Structure**: Detailed JSON-based content system with academic source verification
 
 ### 🎨 **Modern UI/UX**
-- Beautiful vintage-inspired design with authentic aesthetics
-- Smooth animations and transitions
-- Accessible and user-friendly navigation
-- Mobile-first responsive layout
-- SVG icons throughout the application for crisp, scalable graphics
-- Scroll progress indicators for better user orientation
+- **Vintage Academic Aesthetic**: Consistent amber/brown color scheme with translucent overlays
+- **Typography Excellence**: Allura script font for José Rizal's name, optimized readability fonts throughout
+- **Responsive Navigation**: Adaptive navbar that switches to mobile hamburger menu when needed
+- **Accessibility Compliant**: WCAG-standard font sizes (16-18px desktop, 18-20px mobile)
+- **Floating UI Elements**: Contextual quiz button that appears on content pages only
+- **Smooth Interactions**: Hover effects, transitions, and visual feedback throughout
+- **Mobile-First Design**: Optimized layouts for mobile devices with enhanced touch interfaces
 
 ### ⚖️ **Rizal Law Integration**
-- Educational content aligned with Republic Act 1425 (Rizal Law)
-- Comprehensive coverage suitable for academic requirements
+- **Legal Compliance**: Educational content aligned with Republic Act 1425 (Rizal Law)
+- **Academic Standards**: Comprehensive coverage suitable for university requirements
+- **Source Verification**: All content verified against authoritative academic sources
+- **Research Methodology**: Transparent source hierarchy and verification processes
 
 ## 🚀 Quick Start
 
@@ -98,10 +109,12 @@ yarn dev
 
 The application uses a structured JSON-based content system for easy maintenance:
 
-- **Historical Data**: Detailed information stored in `/public/data/data-json/` with separate files for each section
-- **Modular Components**: Each page section has dedicated TypeScript components for rendering different content types
-- **Icon System**: Consistent SVG icon implementation throughout the application
-- **Responsive Design**: Content adapts seamlessly across desktop, tablet, and mobile devices
+- **Historical Data**: Comprehensive information in `/public/data/data-json/` including cost analysis and modern value calculations
+- **Academic Sources**: Verified bibliography with primary and secondary sources in structured format
+- **External Resources**: Curated database of official links, government sources, and educational materials
+- **Modular Components**: TypeScript components with specialized rendering for different content types
+- **Icon System**: Consistent SVG icon implementation with semantic meaning throughout
+- **Design System**: Unified amber/vintage color scheme with accessibility-compliant contrast ratios
 
 ## 🏗️ Tech Stack
 
@@ -109,8 +122,9 @@ The application uses a structured JSON-based content system for easy maintenance
 - **Language**: [TypeScript](https://www.typescriptlang.org/) - Type-safe development
 - **Styling**: [Tailwind CSS 4.0](https://tailwindcss.com/) - Utility-first CSS framework
 - **UI Components**: Custom React components with modern design patterns
-- **Fonts**: Geist Sans & Geist Mono for optimal readability
-- **Interactive Elements**: React Confetti for enhanced user experience
+- **Fonts**: Geist Sans & Mono for body text, Allura script for decorative elements
+- **Interactive Elements**: React Confetti, floating quiz navigation, and smooth page transitions
+- **Google Fonts**: Dynamic font loading for enhanced typography (Allura script integration)
 
 ## 📱 Project Structure
 
@@ -127,10 +141,12 @@ life-and-works-of-rizal/
 │   ├── resources/          # External resources
 │   └── rizal-law/          # Legal framework information
 ├── components/             # Reusable React components
-│   ├── NavBar.tsx          # Navigation component
-│   ├── QuizCard.tsx        # Quiz interface
-│   ├── PageLayout.tsx      # Page layout wrapper
-│   └── ...
+│   ├── NavBar.tsx          # Responsive navigation with mobile hamburger menu
+│   ├── FloatingQuizButton.tsx  # Contextual quiz access button
+│   ├── QuizCard.tsx        # Interactive quiz interface with results
+│   ├── PageLayout.tsx      # Unified page layout with vintage aesthetic
+│   ├── ExternalResourcesLibrary.tsx  # Academic resource management
+│   └── MobileReadableText.tsx  # Accessibility-optimized text rendering
 ├── public/                 # Static assets
 │   ├── jose-pic.svg        # Hero image
 │   ├── vintage-paper.png   # Background texture
@@ -143,12 +159,14 @@ life-and-works-of-rizal/
 
 ## 🎨 Design Philosophy
 
-This application embraces a **vintage academic aesthetic** that reflects the historical period of Dr. Rizal's era while maintaining modern usability standards:
+This application embraces a **vintage academic aesthetic** that reflects the historical period of Dr. Rizal's era while maintaining modern usability and accessibility standards:
 
-- **Color Palette**: Warm amber and brown tones evoke historical authenticity
-- **Typography**: Serif fonts for headings maintain academic elegance
-- **Imagery**: Carefully curated vintage elements and authentic portraits
-- **Layout**: Clean, readable design prioritizing content accessibility
+- **Color Palette**: Unified amber/brown theme (`bg-amber-50/30`, `border-amber-200`) for historical authenticity
+- **Typography**: Allura script for José Rizal's name, readable sans-serif for content with WCAG-compliant sizing
+- **Visual Hierarchy**: Consistent translucent overlays and subtle depth through shadow effects
+- **Accessibility First**: High contrast ratios, proper font sizing, and mobile-optimized touch targets
+- **Cultural Sensitivity**: Design elements that honor Filipino heritage and historical context
+- **Modern Performance**: Optimized loading, responsive images, and smooth animations
 
 ## 🤝 Contributing
 
@@ -163,20 +181,23 @@ We welcome contributions to improve this educational resource! Here's how you ca
 7. **Open a Pull Request**
 
 ### Areas for Contribution
-- Additional historical content and sources
-- Enhanced quiz questions and interactivity
-- Improved accessibility features
-- Mobile experience optimizations
-- Translation support for other languages
+- **Historical Research**: Additional verified sources and cost analysis data
+- **Educational Content**: Enhanced quiz questions and interactive learning modules
+- **Accessibility**: Further WCAG compliance improvements and screen reader optimization
+- **Internationalization**: Translation support for Filipino/Tagalog and other languages
+- **Performance**: Image optimization and loading speed enhancements
+- **Mobile UX**: Touch gesture improvements and mobile-specific features
 
 ## 📚 Educational Value
 
-This platform serves multiple educational purposes:
+This platform serves multiple educational purposes with comprehensive academic rigor:
 
-- **Academic Research**: Comprehensive source for Rizal studies
-- **Student Learning**: Interactive content for engaging education
-- **Cultural Preservation**: Digital preservation of Philippine heritage
-- **Legal Compliance**: Meets Rizal Law educational requirements
+- **Academic Research**: Comprehensive source with verified citations and cost analysis methodology
+- **Student Learning**: Interactive quizzes, floating navigation, and accessibility-optimized content
+- **Historical Context**: Deep dive into 19th century Philippines including taxation and economic systems
+- **Cultural Preservation**: Digital preservation of Philippine heritage with respectful design approach
+- **Legal Compliance**: Meets and exceeds Rizal Law (RA 1425) educational requirements
+- **Modern Relevance**: Cost analysis connecting historical events to contemporary economic understanding
 
 ## 📄 License
 
