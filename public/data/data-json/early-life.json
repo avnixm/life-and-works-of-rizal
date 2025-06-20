@@ -14,38 +14,84 @@
           "items": [
             {
               "label": "Full Name",
-              "value": "José Protasio Rizal Mercado y Alonso Realonda"
+              "value": "José Protasio Rizal Mercado y Alonso Realonda",
+              "explanation": "Named after St. Joseph (José), St. Protasius (Protasio), a Roman martyr"
             },
             {
               "label": "Date of Birth",
-              "value": "June 19, 1861"
+              "value": "June 19, 1861",
+              "explanation": "Born at 1:30 AM during a full moon, considered auspicious in Filipino culture"
             },
             {
               "label": "Place of Birth",
-              "value": "Calamba, Laguna"
+              "value": "Calamba, Laguna",
+              "explanation": "A two-story stone house on Calle Real (now Rizal Street)"
             },
             {
               "label": "Day of the Week",
-              "value": "Wednesday"
+              "value": "Wednesday",
+              "explanation": "The feast day of St. Protasius, after whom he was named"
+            },
+            {
+              "label": "Birth Circumstances",
+              "value": "Difficult delivery, nearly died at birth",
+              "explanation": "Mother's life was in danger; both survived through careful medical attention"
+            },
+            {
+              "label": "Baptism",
+              "value": "June 22, 1861 at Calamba Catholic Church",
+              "explanation": "Baptized by Father Rufino Collantes, with Father Pedro Casañas as sponsor"
             }
           ]
         },
         "hometown": {
-          "title": "Hometown - Calamba, Laguna",
-          "type": "text",
-          "content": "Calamba was a prosperous town in Laguna province, known for its fertile lands and agricultural abundance. The town was situated near Laguna de Bay, providing a serene environment that would shape Rizal's love for nature and learning."
+          "title": "Hometown - Calamba, Laguna (Detailed Profile)",
+          "type": "complex",
+          "geographic_details": {
+            "title": "Geographic and Economic Context:",
+            "items": [
+              "Located 54 kilometers south of Manila",
+              "Situated on the northern shore of Laguna de Bay",
+              "Fertile volcanic soil ideal for rice cultivation",
+              "Strategic location along major trade routes",
+              "Population of approximately 3,000-4,000 during Rizal's childhood",
+              "One of the richest towns in Laguna province"
+            ]
+          },
+          "social_structure": {
+            "title": "Social and Political Structure:",
+            "items": [
+              "Dominated by wealthy principalia families",
+              "Strong Chinese mestizo merchant community",
+              "Spanish colonial administration with Filipino local officials",
+              "Catholic parish under Dominican friars",
+              "Agricultural tenant system with hacienda owners",
+              "Active participation in regional trade networks"
+            ]
+          },
+          "cultural_environment": {
+            "title": "Cultural and Educational Environment:",
+            "items": [
+              "Predominantly Catholic with indigenous traditions",
+              "Strong emphasis on education among wealthy families",
+              "Regular religious festivals and processions",
+              "Traditional Filipino hospitality and family values",
+              "Exposure to Spanish, Chinese, and Filipino cultural influences",
+              "Local library and reading materials available to educated families"
+            ]
+          }
         }
       }
     },
     {
       "id": "family-background",
-      "icon": "👨‍👩‍👧‍👦",
+      "icon": "family",
       "title": "Family Background",
       "type": "complex",
       "content": {
         "parents": [
           {
-            "icon": "👨",
+            "icon": "father",
             "title": "Father - Francisco Mercado Rizal (1818-1898)",
             "color": "blue",
             "items": [
@@ -59,7 +105,7 @@
             ]
           },
           {
-            "icon": "👩",
+            "icon": "mother",
             "title": "Mother - Teodora Alonso Realonda (1827-1911)",
             "color": "pink",
             "items": [
@@ -156,7 +202,7 @@
     },
     {
       "id": "family-influences",
-      "icon": "💡",
+      "icon": "influences",
       "title": "Influences from Family Members",
       "type": "influences",
       "content": [
@@ -209,16 +255,50 @@
     {
       "id": "childhood-memories",
       "icon": "📖",
-      "title": "Notable Childhood Memories",
-      "type": "grid",
+      "title": "Notable Childhood Memories and Formative Experiences",
+      "type": "detailed_memories",
       "content": [
         {
-          "title": "The Death of Concha",
-          "content": "The death of his younger sister Concepción (Concha) when José was four years old deeply affected him. This early encounter with death and loss shaped his understanding of mortality and the fragility of life."
+          "title": "The Death of Concha (1865)",
+          "age": "Age 4",
+          "content": "The death of his younger sister Concepción (Concha) when José was four years old deeply affected him. This early encounter with death and loss shaped his understanding of mortality and the fragility of life.",
+          "significance": "This traumatic experience developed his empathy and philosophical understanding of life's fragility",
+          "literary_connection": "Later influenced his compassionate portrayal of suffering in his novels"
         },
         {
-          "title": "The Moth and the Flame",
-          "content": "His mother told him the story of a moth that was attracted to a flame and was eventually burned. This story became a metaphor for his own life - his attraction to knowledge and truth, despite the dangers it might bring."
+          "title": "The Moth and the Flame Story",
+          "age": "Age 5-6",
+          "content": "His mother told him the fable of a moth that was attracted to a flame and was eventually burned. This story became a prophetic metaphor for his own life - his attraction to knowledge and truth, despite the dangers it might bring.",
+          "significance": "Became a central metaphor for his life's mission and eventual martyrdom",
+          "literary_connection": "Referenced in his later writings as symbolism for Filipino struggle for enlightenment"
+        },
+        {
+          "title": "First Poem: 'Sa Aking mga Kabata' (Disputed)",
+          "age": "Age 8 (Traditional account)",
+          "content": "Allegedly wrote his first poem 'To My Fellow Youth' expressing love for one's native language. Modern scholars debate its authenticity.",
+          "significance": "Whether authentic or not, represents early nationalist sentiment attributed to him",
+          "scholarly_note": "Authenticity questioned by historians Ambeth Ocampo and others due to advanced language and concepts"
+        },
+        {
+          "title": "The Binan School Incident",
+          "age": "Age 9",
+          "content": "Challenged a larger classmate who had been bullying him, demonstrating early courage and sense of justice.",
+          "significance": "Early indication of his willingness to stand up against injustice despite personal risk",
+          "character_development": "Showed leadership qualities and moral courage from young age"
+        },
+        {
+          "title": "Artistic Awakening",
+          "age": "Age 7-10",
+          "content": "Began sketching and sculpting, creating images of saints and family members using clay and wood.",
+          "significance": "Developed artistic skills that would complement his literary talents",
+          "later_influence": "His artistic abilities enhanced his observational skills as a writer and scientist"
+        },
+        {
+          "title": "Religious Devotion and Questioning",
+          "age": "Age 6-11",
+          "content": "Deeply religious childhood, serving as altar boy while beginning to question certain church practices.",
+          "significance": "Foundation for his later critique of religious abuses while maintaining personal faith",
+          "philosophical_development": "Early development of critical thinking applied to religious authority"
         }
       ]
     }

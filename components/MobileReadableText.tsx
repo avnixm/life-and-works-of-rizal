@@ -7,8 +7,8 @@ export default function MobileReadableText({ children, className = "" }: MobileR
   return (
     <div className={`
       text-amber-900
-      text-sm md:text-base 
-      leading-relaxed md:leading-normal
+      text-lg
+      leading-relaxed
       bg-white/30 md:bg-transparent
       backdrop-blur-sm md:backdrop-blur-none
       p-3 md:p-0

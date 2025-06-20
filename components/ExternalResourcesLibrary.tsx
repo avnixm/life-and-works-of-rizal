@@ -133,8 +133,8 @@ export default function ExternalResourcesLibrary() {
           Access official sources and trusted repositories for educational materials, original works, 
           legal documents, and study guides related to the life and works of Dr. José Rizal.
         </p>
-        <div className="mt-4 bg-green-50 border border-green-200 rounded-lg p-4 inline-block">
-          <p className="text-green-800 text-sm flex items-center flex-wrap justify-center gap-4">
+        <div className="mt-4 bg-amber-50/30 border border-amber-200 rounded-lg p-4 inline-block">
+          <p className="text-amber-800 text-base flex items-center flex-wrap justify-center gap-4">
             <span className="flex items-center">
               <LinkIcon />
               All resources link to official sources
@@ -152,11 +152,11 @@ export default function ExternalResourcesLibrary() {
       </div>
 
       {/* Search and Filters */}
-      <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 border border-amber-200">
+      <div className="bg-amber-50/30 rounded-lg p-6 border border-amber-200">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           {/* Search */}
           <div>
-            <label className="block text-sm font-medium text-amber-800 mb-2">
+            <label className="block text-base font-medium text-amber-800 mb-2">
               Search Resources
             </label>
             <input
@@ -170,7 +170,7 @@ export default function ExternalResourcesLibrary() {
 
           {/* Category Filter */}
           <div>
-            <label className="block text-sm font-medium text-amber-800 mb-2">
+            <label className="block text-base font-medium text-amber-800 mb-2">
               Category
             </label>
             <select
@@ -189,7 +189,7 @@ export default function ExternalResourcesLibrary() {
 
           {/* Source Filter */}
           <div>
-            <label className="block text-sm font-medium text-amber-800 mb-2">
+            <label className="block text-base font-medium text-amber-800 mb-2">
               Source
             </label>
             <select
@@ -208,7 +208,7 @@ export default function ExternalResourcesLibrary() {
         </div>
 
         {/* Results Count */}
-        <div className="text-sm text-amber-600">
+        <div className="text-base text-amber-600">
           Showing {filteredResources.length} of {getAllResources.length} resources
           {searchQuery && ` for "${searchQuery}"`}
         </div>
@@ -228,7 +228,7 @@ export default function ExternalResourcesLibrary() {
           {filteredResources.map((resource: any) => (
             <div
               key={resource.id}
-              className="bg-white/90 backdrop-blur-sm rounded-lg p-6 border border-amber-200 hover:shadow-lg transition-shadow"
+              className="bg-amber-50/30 rounded-lg p-6 border border-amber-200 hover:bg-amber-50/40 transition-all"
             >
               <div className="mb-4">
                 <div className="flex items-start justify-between mb-2">
@@ -237,27 +237,27 @@ export default function ExternalResourcesLibrary() {
                       {resource.title}
                     </h4>
                     {resource.subtitle && (
-                      <p className="text-amber-700 text-sm mt-1">{resource.subtitle}</p>
+                      <p className="text-amber-700 text-base mt-1">{resource.subtitle}</p>
                     )}
                   </div>
-                  <div className="text-xs text-amber-600 ml-2 text-right">
+                  <div className="text-sm text-amber-600 ml-2 text-right">
                     <div className="text-green-600 font-semibold">{resource.accessType}</div>
                     <div>{resource.pages > 0 ? `${resource.pages} pages` : 'Interactive'}</div>
                   </div>
                 </div>
                 
-                <p className="text-amber-600 text-sm mb-3">{resource.description}</p>
+                <p className="text-amber-600 text-base mb-3">{resource.description}</p>
                 
                 <div className="flex flex-wrap gap-1 mb-3">
-                  <span className="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded">
+                  <span className="text-sm bg-amber-100 text-amber-800 px-2 py-1 rounded">
                     {resource.language}
                   </span>
                   {resource.targetLevel && (
-                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">
+                    <span className="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">
                       {resource.targetLevel}
                     </span>
                   )}
-                  <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
+                  <span className="text-sm bg-green-100 text-green-800 px-2 py-1 rounded">
                     {resource.source}
                   </span>
                 </div>
@@ -266,13 +266,13 @@ export default function ExternalResourcesLibrary() {
                   {resource.tags.slice(0, 3).map((tag: string) => (
                     <span
                       key={tag}
-                      className="text-xs bg-amber-50 text-amber-700 px-2 py-0.5 rounded border border-amber-200"
+                      className="text-sm bg-amber-50 text-amber-700 px-2 py-0.5 rounded border border-amber-200"
                     >
                       #{tag}
                     </span>
                   ))}
                   {resource.tags.length > 3 && (
-                    <span className="text-xs text-amber-600">
+                    <span className="text-sm text-amber-600">
                       +{resource.tags.length - 3} more
                     </span>
                   )}
@@ -285,7 +285,7 @@ export default function ExternalResourcesLibrary() {
                 className="w-full"
               />
               
-              <p className="text-xs text-gray-500 mt-2">
+              <p className="text-sm text-gray-500 mt-2">
                 Source: {resource.sourceDescription}
               </p>
             </div>
@@ -294,18 +294,18 @@ export default function ExternalResourcesLibrary() {
       )}
 
       {/* Trusted Sources Info */}
-      <div className="bg-blue-50/80 backdrop-blur-sm rounded-lg p-6 border border-blue-200">
-        <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+      <div className="bg-amber-50/30 rounded-lg p-6 border border-amber-200">
+        <h3 className="text-xl font-bold text-amber-800 mb-4 flex items-center">
           <ShieldIcon />
           Trusted Official Sources
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="bg-white/50 rounded-lg p-4">
-            <h4 className="font-semibold text-blue-800 mb-2 flex items-center">
+          <div className="bg-white/60 rounded-lg p-4 border border-amber-200">
+            <h4 className="font-semibold text-amber-800 mb-2 flex items-center">
               <GovernmentIcon />
               Government Sources
             </h4>
-            <ul className="text-sm text-blue-700 space-y-1">
+            <ul className="text-base text-amber-700 space-y-1">
               <li>• Official Gazette of the Philippines</li>
               <li>• National Historical Commission</li>
               <li>• Department of Education</li>
@@ -313,12 +313,12 @@ export default function ExternalResourcesLibrary() {
             </ul>
           </div>
           
-          <div className="bg-white/50 rounded-lg p-4">
-            <h4 className="font-semibold text-blue-800 mb-2 flex items-center">
+          <div className="bg-white/60 rounded-lg p-4 border border-amber-200">
+            <h4 className="font-semibold text-amber-800 mb-2 flex items-center">
               <DigitalLibraryIcon />
               Digital Libraries
             </h4>
-            <ul className="text-sm text-blue-700 space-y-1">
+            <ul className="text-base text-amber-700 space-y-1">
               <li>• Project Gutenberg</li>
               <li>• Internet Archive</li>
               <li>• Google Scholar</li>
@@ -326,12 +326,12 @@ export default function ExternalResourcesLibrary() {
             </ul>
           </div>
           
-          <div className="bg-white/50 rounded-lg p-4">
-            <h4 className="font-semibold text-blue-800 mb-2 flex items-center">
+          <div className="bg-white/60 rounded-lg p-4 border border-amber-200">
+            <h4 className="font-semibold text-amber-800 mb-2 flex items-center">
               <CulturalIcon />
               Cultural Institutions
             </h4>
-            <ul className="text-sm text-blue-700 space-y-1">
+            <ul className="text-base text-amber-700 space-y-1">
               <li>• Museums and Shrines</li>
               <li>• Heritage Sites</li>
               <li>• Cultural Centers</li>
@@ -342,8 +342,8 @@ export default function ExternalResourcesLibrary() {
       </div>
 
       {/* Legal Notice */}
-      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-        <p className="text-yellow-800 text-sm flex items-start">
+      <div className="bg-amber-50/30 border border-amber-200 rounded-lg p-4">
+        <p className="text-amber-800 text-base flex items-start">
           <DocumentIcon />
           <span>
             <strong>Legal Notice:</strong> All resources link to official, authorized sources. 

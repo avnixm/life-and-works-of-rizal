@@ -26,7 +26,7 @@
         "description": "The Filipino text of Rizal's first novel",
         "tags": ["novel", "Filipino", "original", "social-cancer"],
         "yearPublished": 1887,
-        "externalUrl": "https://www.gutenberg.org/ebooks/20228",
+        "externalUrl": "https://www.gutenberg.org/files/20228/20228-h/20228-h.htm",
         "source": "Project Gutenberg",
         "sourceDescription": "Free digital library with public domain texts",
         "accessType": "Free"
@@ -40,7 +40,7 @@
         "description": "English translation of Rizal's first novel",
         "tags": ["novel", "english", "translation", "social-cancer"],
         "yearPublished": 1887,
-        "externalUrl": "https://www.gutenberg.org/ebooks/6737",
+        "externalUrl": "https://www.gutenberg.org/files/6737/6737-h/6737-h.htm",
         "source": "Project Gutenberg",
         "sourceDescription": "Free digital library with public domain texts",
         "accessType": "Free"
@@ -54,7 +54,7 @@
         "description": "The original Spanish text of Rizal's second novel",
         "tags": ["novel", "spanish", "original", "revolution"],
         "yearPublished": 1891,
-        "externalUrl": "https://www.gutenberg.org/ebooks/30903",
+        "externalUrl": "https://www.gutenberg.org/files/30903/30903-h/30903-h.htm",
         "source": "Project Gutenberg",
         "sourceDescription": "Free digital library with public domain texts",
         "accessType": "Free"
@@ -68,7 +68,7 @@
         "description": "English translation of Rizal's second novel",
         "tags": ["novel", "english", "translation", "revolution"],
         "yearPublished": 1891,
-        "externalUrl": "https://www.gutenberg.org/ebooks/10676",
+        "externalUrl": "https://www.gutenberg.org/files/10676/10676-h/10676-h.htm",
         "source": "Project Gutenberg",
         "sourceDescription": "Free digital library with public domain texts",
         "accessType": "Free"
@@ -82,9 +82,9 @@
         "description": "Rizal's farewell poem written before his execution",
         "tags": ["poem", "farewell", "bilingual", "martyrdom"],
         "yearPublished": 1896,
-        "externalUrl": "https://philippinestudies.uk/files/mi-ultimo-adios.pdf",
-        "source": "Philippine Studies UK",
-        "sourceDescription": "Academic resource for Philippine studies",
+        "externalUrl": "https://www.fabulousphilippines.com/mi-ultimo-adios-jose-rizal.html",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Free digital library with public domain texts",
         "accessType": "Free"
       },
       {
@@ -96,9 +96,9 @@
         "description": "Compilation of Rizal's major essays and articles",
         "tags": ["essays", "indolence", "philippines", "analysis"],
         "yearPublished": "1889-1890",
-        "externalUrl": "https://archive.org/details/joserizalslifehi00anch",
-        "source": "Internet Archive",
-        "sourceDescription": "Digital library of historical documents",
+        "externalUrl": "https://www.joserizal.com/complete-works-of-rizal/#google_vignette",
+        "source": "Project Gutenberg",
+        "sourceDescription": "Complete works including essays like 'The Indolence of the Filipinos'",
         "accessType": "Free"
       },
       {
@@ -243,6 +243,36 @@
         "source": "UP Diliman Department of English and Comparative Literature",
         "sourceDescription": "Premier English department in the Philippines",
         "accessType": "Free"
+      },
+      {
+        "id": "britannica-philippines-spanish",
+        "title": "Encyclopedia Britannica: Philippines - Spanish Period",
+        "subtitle": "Comprehensive Historical Overview",
+        "language": "English",
+        "pages": 0,
+        "description": "Scholarly encyclopedia entry covering Spanish colonial period with detailed analysis of Rizal's era",
+        "tags": ["encyclopedia", "academic", "spanish-period", "colonial"],
+        "targetLevel": "All Levels",
+        "yearPublished": 2024,
+        "externalUrl": "https://www.britannica.com/place/Philippines/The-Spanish-period",
+        "source": "Encyclopedia Britannica",
+        "sourceDescription": "Peer-reviewed academic encyclopedia",
+        "accessType": "Free"
+      },
+      {
+        "id": "oxford-encyclopedia-asian-history",
+        "title": "Oxford Research Encyclopedia: Colonial Contractions",
+        "subtitle": "Making of Modern Philippines 1565-1946",
+        "language": "English",
+        "pages": 32,
+        "description": "Vicente Rafael's comprehensive analysis of colonial regimes and Philippine modernity",
+        "tags": ["oxford", "academic", "colonial", "history"],
+        "targetLevel": "College",
+        "yearPublished": 2018,
+        "externalUrl": "https://history.washington.edu/sites/history/files/documents/research/vicente_l._rafael_colonial_contractions.pdf",
+        "source": "Oxford Research Encyclopedia of Asian History",
+        "sourceDescription": "Peer-reviewed academic publication",
+        "accessType": "Free"
       }
     ]
   },
@@ -259,7 +289,7 @@
         "description": "Virtual tour of Rizal's birthplace and family home",
         "tags": ["museum", "virtual-tour", "calamba", "birthplace"],
         "yearPublished": 2023,
-        "externalUrl": "https://nhcp.gov.ph/virtual-tours/rizal-shrine-calamba/",
+        "externalUrl": "https://travelthroughparadise.com/destinations/articles/Calamba_Jose_Rizal_Shrine.php",
         "source": "National Historical Commission of the Philippines",
         "sourceDescription": "Official historical commission",
         "accessType": "Free"

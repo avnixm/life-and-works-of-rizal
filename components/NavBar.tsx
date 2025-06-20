@@ -68,6 +68,7 @@ export default function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isHomePage, setIsHomePage] = useState(false);
+  const [useHamburgerMenu, setUseHamburgerMenu] = useState(false);
 
   // Check if we're on the home page
   useEffect(() => {
@@ -121,6 +122,49 @@ export default function NavBar() {
     }
   }, []);
 
+  // Check for navbar overflow and switch to hamburger menu when needed
+  useEffect(() => {
+    const checkNavbarOverflow = () => {
+      // Desktop threshold (e.g., 1024px)
+      const desktopMinWidth = 1024;
+      if (window.innerWidth < desktopMinWidth) {
+        setUseHamburgerMenu(true);
+        return;
+      }
+
+      const navContainer = document.querySelector('[data-navbar-container]');
+      if (!navContainer) {
+        setUseHamburgerMenu(false);
+        return;
+      }
+
+      // Get the actual width needed vs available width
+      const parentContainer = navContainer.parentElement;
+      if (!parentContainer) {
+        setUseHamburgerMenu(false);
+        return;
+      }
+
+      const availableWidth = parentContainer.clientWidth - 48; // Account for padding
+      const neededWidth = navContainer.scrollWidth;
+      
+      // Only switch to hamburger if overflow is significant (e.g., >32px)
+      setUseHamburgerMenu(neededWidth > availableWidth + 32);
+    };
+
+    // Check on mount and resize
+    checkNavbarOverflow();
+    window.addEventListener('resize', checkNavbarOverflow);
+    
+    // Also check after a short delay to ensure DOM is ready
+    const timeoutId = setTimeout(checkNavbarOverflow, 100);
+
+    return () => {
+      window.removeEventListener('resize', checkNavbarOverflow);
+      clearTimeout(timeoutId);
+    };
+  }, []);
+
   const navigationItems = [
     { href: "/", label: "Home", icon: HomeIcon },
     { href: "/rizal-law", label: "Rizal Law", icon: LawIcon },
@@ -130,7 +174,6 @@ export default function NavBar() {
     { href: "/travels", label: "Travels", icon: TravelIcon },
     { href: "/major-works", label: "Major Works", icon: WorksIcon },
     { href: "/martyrdom", label: "Martyrdom", icon: MartyrdomIcon },
-    { href: "/quiz", label: "Quiz", icon: QuizIcon },
     { href: "/resources", label: "Resources", icon: ResourcesIcon },
   ];
 
@@ -163,8 +206,8 @@ export default function NavBar() {
         {/* Navigation Content */}
         <div className="py-4 px-6 md:bg-transparent bg-amber-50/20 md:backdrop-blur-none backdrop-blur-md md:border-b-0 border-b border-amber-200/30">
           {/* Desktop Navigation - Centered */}
-          <div className="hidden md:flex justify-center">
-            <ul className="flex flex-wrap gap-4 bg-white/20 backdrop-blur-sm rounded-xl shadow-lg border border-amber-200/50 px-6 py-3">
+          <div className={`${useHamburgerMenu ? 'hidden' : 'hidden md:flex'} justify-center`}>
+            <ul data-navbar-container className="flex flex-wrap gap-4 bg-white/20 backdrop-blur-sm rounded-xl shadow-lg border border-amber-200/50 px-6 py-3">
               {navigationItems.map((item) => {
                 const IconComponent = item.icon;
                 return (
@@ -183,7 +226,7 @@ export default function NavBar() {
           </div>
 
           {/* Mobile Navigation - Upper Left */}
-          <div className="md:hidden flex justify-start">
+          <div className={`${useHamburgerMenu ? 'flex' : 'md:hidden flex'} justify-start`}>
             <button
               onClick={toggleMobileMenu}
               className="bg-white/20 backdrop-blur-sm rounded-xl shadow-lg border border-amber-200/50 p-3 text-amber-900 hover:bg-white/40 transition-colors"
@@ -219,14 +262,14 @@ export default function NavBar() {
       {/* Mobile Sidebar Overlay */}
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 bg-black/50 z-40 md:hidden"
+          className={`fixed inset-0 bg-black/50 z-40 ${useHamburgerMenu ? '' : 'md:hidden'}`}
           onClick={closeMobileMenu}
         />
       )}
 
       {/* Mobile Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-80 bg-amber-50 shadow-xl z-50 transform transition-transform duration-300 md:hidden ${
+        className={`fixed top-0 left-0 h-full w-80 bg-amber-50 shadow-xl z-50 transform transition-transform duration-300 ${useHamburgerMenu ? '' : 'md:hidden'} ${
           isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >

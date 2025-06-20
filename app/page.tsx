@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import FloatingQuizButton from "../components/FloatingQuizButton";
 
 export default function Home() {
   return (
@@ -40,37 +41,37 @@ export default function Home() {
             {/* Content Overlay (Mobile) - Higher Z-Index */}
             <div className="relative z-10 w-full flex flex-col justify-end items-center px-6 pb-16 pt-8 text-center">
               {/* Main Title */}
-              <h1 className="text-4xl font-black text-amber-900 font-serif leading-tight mb-3 drop-shadow-lg">
+              <h1 className="text-6xl font-black text-amber-900 leading-tight mb-3 drop-shadow-lg" style={{ fontFamily: 'Allura, cursive', fontWeight: '900' }}>
                 Dr. José Rizal
               </h1>
               {/* Subtitle */}
-              <h2 className="text-xl font-bold text-amber-800 font-serif italic leading-relaxed mb-4 drop-shadow-md">
+              <h2 className="text-sm md:text-lg font-bold text-amber-800 font-serif italic leading-relaxed mb-4 drop-shadow-md">
                 National Hero of the Philippines
               </h2>
               {/* Quote */}
-              <blockquote className="text-lg font-semibold text-amber-700 font-serif italic leading-relaxed mb-4 max-w-xs drop-shadow-md">
+              <blockquote className="text-xs md:text-base font-semibold text-amber-700 font-serif italic leading-relaxed mb-4 max-w-xs drop-shadow-md">
                 "The youth is the hope of our future."
               </blockquote>
               {/* Years */}
-              <p className="text-xl font-black text-amber-800 font-serif mb-6 drop-shadow-lg">
+              <p className="text-2xl font-black text-amber-800 font-serif mb-6 drop-shadow-lg">
                 1861 - 1896
               </p>
               {/* Navigation Buttons - Stacked vertically */}
               <div className="flex flex-col space-y-3 w-full max-w-xs">
-                <Link href="/early-life" className="px-6 py-3 bg-amber-900 text-amber-50 rounded-lg hover:bg-amber-800 transition-colors font-medium text-sm text-center shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 transition-all duration-200">
+                <Link href="/early-life" className="px-6 py-3 bg-amber-900 text-amber-50 rounded-lg hover:bg-amber-800 transition-colors font-medium text-base text-center shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 transition-all duration-200">
                   Explore His Life
                 </Link>
-                <Link href="/major-works" className="px-6 py-3 border-2 border-amber-900 text-amber-900 rounded-lg hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-sm text-center shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 transition-all duration-200">
+                <Link href="/major-works" className="px-6 py-3 border-2 border-amber-900 text-amber-900 rounded-lg hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-base text-center shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 transition-all duration-200">
                   Read His Works
                 </Link>
-                <Link href="/martyrdom" className="px-6 py-3 border-2 border-amber-900 text-amber-900 rounded-lg hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-sm text-center shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 transition-all duration-200">
+                <Link href="/martyrdom" className="px-6 py-3 border-2 border-amber-900 text-amber-900 rounded-lg hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-base text-center shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 transition-all duration-200">
                   Learn His Legacy
                 </Link>
               </div>
             </div>
           </div>
           {/* Desktop Layout: Original Design */}
-          <div className="hidden md:flex w-full h-full items-start justify-end text-center relative pr-16 lg:pr-30 xl:pr-38 pt-16 lg:pt-20">
+          <div className="hidden md:flex w-full h-full items-start justify-center text-center relative pt-20 lg:pt-30">
             {/* Background Hero Image - Desktop */}
             <div className="absolute left-0 bottom-0 flex items-end justify-start pl-8 lg:pl-16 -mb-12 opacity-30 z-0">
               <div className="w-[32rem] h-[32rem] lg:w-[42rem] lg:h-[42rem] relative">
@@ -83,33 +84,33 @@ export default function Home() {
                 />
               </div>
             </div>
-            {/* Hero Content - Desktop */}
-            <div className="relative z-10 max-w-lg lg:max-w-xl">
+            {/* Hero Content - Desktop - Positioned in the red spot area */}
+            <div className="relative z-10 max-w-lg lg:max-w-xl ml-auto mr-8 lg:mr-35 xl:mr-40">
                 {/* Main Title */}
-                <h1 className="text-4xl lg:text-5xl font-bold text-amber-900 mb-3 font-serif leading-tight">
+                <h1 className="text-6xl lg:text-8xl font-black text-amber-900 mb-3 leading-tight" style={{ fontFamily: 'Allura, cursive', fontWeight: '900' }}>
                   Dr. José Rizal
                 </h1>
                 {/* Subtitle */}
-                <h2 className="text-lg lg:text-xl text-amber-800 mb-4 font-serif italic leading-relaxed">
+                <h2 className="text-sm md:text-lg text-amber-800 mb-4 font-serif italic leading-relaxed">
                   National Hero of the Philippines
                 </h2>
                 {/* Quote */}
-                <blockquote className="text-base lg:text-lg text-amber-700 mb-6 font-serif italic leading-relaxed bg-white/20 backdrop-blur-sm p-3 lg:p-4 rounded-lg">
+                <blockquote className="text-xs md:text-base text-amber-700 mb-6 font-serif italic leading-relaxed bg-white/20 backdrop-blur-sm p-3 lg:p-4 rounded-lg">
                   "The youth is the hope of our future."
                 </blockquote>
                 {/* Years */}
-                <p className="text-sm lg:text-base text-amber-800 mb-6 font-serif font-semibold">
+                <p className="text-base lg:text-lg text-amber-800 mb-6 font-serif font-semibold">
                   1861 - 1896
                 </p>
                 {/* Navigation Buttons - Desktop */}
                 <div className="flex flex-row gap-3 justify-center">
-                  <Link href="/early-life" className="px-4 lg:px-5 py-2 bg-amber-900 text-amber-50 rounded-md hover:bg-amber-800 transition-colors font-medium text-sm text-center">
+                  <Link href="/early-life" className="px-4 lg:px-5 py-2 bg-amber-900 text-amber-50 rounded-md hover:bg-amber-800 transition-colors font-medium text-base text-center">
                     Explore His Life
                   </Link>
-                  <Link href="/major-works" className="px-4 lg:px-5 py-2 border-2 border-amber-900 text-amber-900 bg-white/20 backdrop-blur-sm rounded-md hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-sm text-center">
+                  <Link href="/major-works" className="px-4 lg:px-5 py-2 border-2 border-amber-900 text-amber-900 bg-white/20 backdrop-blur-sm rounded-md hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-base text-center">
                     Read His Works
                   </Link>
-                  <Link href="/martyrdom" className="px-4 lg:px-5 py-2 border-2 border-amber-900 text-amber-900 bg-white/20 backdrop-blur-sm rounded-md hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-sm text-center">
+                  <Link href="/martyrdom" className="px-4 lg:px-5 py-2 border-2 border-amber-900 text-amber-900 bg-white/20 backdrop-blur-sm rounded-md hover:bg-amber-900 hover:text-amber-50 transition-colors font-medium text-base text-center">
                     Learn His Legacy
                   </Link>
                 </div>
@@ -118,6 +119,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+      <FloatingQuizButton />
       <Footer />
     </>
   );

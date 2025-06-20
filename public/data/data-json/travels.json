@@ -217,30 +217,56 @@
             "color": "orange",
             "sections": [
               {
-                "category": "Academic Achievements:",
+                "category": "Academic Achievements and Medical Training:",
                 "items": [
-                  "Licentiate in Medicine (1884)",
-                  "Doctor of Medicine (1885)",
-                  "Philosophy and Letters degree",
-                  "Studied modern languages",
-                  "Wrote \"Noli Me Tangere\""
+                  "Completed Licentiate in Medicine (June 21, 1884) - Universidad Central de Madrid",
+                  "Earned Doctor of Medicine degree (June 21, 1885) with grade \"Notable\"",
+                  "Dissertation: 'El Tratamiento de las Afecciones Mentales' (76 pages)",
+                  "Studied Philosophy and Letters simultaneously with medical degree",
+                  "Clinical training at Hospital de la Princesa under Dr. Carlos Luis de Mathe",
+                  "Specialized courses in pathology, surgery, and therapeutics",
+                  "Wrote and published \"Noli Me Tangere\" (March 29, 1887) in Berlin"
                 ]
               },
               {
-                "category": "Cultural Observations:",
+                "category": "Cultural and Political Observations:",
                 "items": [
-                  "Studied Spanish society and politics",
-                  "Observed liberal movements",
-                  "Connected with Filipino expatriates",
-                  "Learned about European education systems",
-                  "Experienced freedom of thought and expression"
+                  "Witnessed Spanish political instability and frequent government changes",
+                  "Observed liberal movements and constitutional monarchy debates",
+                  "Connected with Filipino expatriate community at Café de Fornos",
+                  "Studied European democratic institutions and parliamentary systems",
+                  "Experienced greater intellectual freedom compared to Philippines",
+                  "Attended theater, opera, and literary gatherings regularly",
+                  "Visited museums including Prado, studying European art and culture"
+                ]
+              },
+              {
+                "category": "Literary and Intellectual Development:",
+                "items": [
+                  "Participated in tertulias (intellectual discussions) with Spanish writers",
+                  "Read extensively in the Biblioteca Nacional de Madrid",
+                  "Studied works of Spanish liberals like Moret, Castelar, and Salmerón",
+                  "Developed his critique of Spanish colonial policy",
+                  "Wrote articles for La Solidaridad newspaper",
+                  "Corresponded with other Filipino reformists across Europe"
+                ]
+              },
+              {
+                "category": "Economic Struggles and Social Life:",
+                "items": [
+                  "Lived frugally on 50-peso monthly allowance from brother Paciano",
+                  "Resided in modest boarding houses in central Madrid",
+                  "Occasionally pawned belongings when funds were delayed",
+                  "Formed close friendships with Spanish liberals and fellow students",
+                  "Experienced discrimination but also encountered supportive Spaniards",
+                  "Maintained correspondence with family and Filipino friends"
                 ]
               }
             ]
           },
           {
             "country": "Germany",
-            "flag": "🇩🇪",
+            "flag": "germany",
             "period": "1885-1887",
             "color": "gray",
             "sections": [
@@ -268,7 +294,7 @@
           },
           {
             "country": "Japan",
-            "flag": "🇯🇵",
+            "flag": "japan",
             "period": "1888",
             "color": "pink",
             "sections": [
@@ -296,7 +322,7 @@
           },
           {
             "country": "United States",
-            "flag": "🇺🇸",
+            "flag": "usa",
             "period": "1888",
             "color": "blue",
             "sections": [
@@ -327,14 +353,14 @@
     },
     {
       "id": "travel-purposes",
-      "icon": "🎯",
+      "icon": "target",
       "title": "Purpose of Each Travel",
       "type": "travel_purposes",
       "content": {
         "purposes": [
           {
             "title": "Study",
-            "icon": "📚",
+            "icon": "study",
             "color": "green",
             "items": [
               "Medical education in Madrid and Paris",
@@ -345,7 +371,7 @@
           },
           {
             "title": "Reform Movement",
-            "icon": "✊",
+            "icon": "reform",
             "color": "blue",
             "items": [
               "Propaganda movement activities",
@@ -356,7 +382,7 @@
           },
           {
             "title": "Medical Practice",
-            "icon": "🏥",
+            "icon": "medical",
             "color": "yellow",
             "items": [
               "Ophthalmology practice in Hong Kong",
@@ -367,7 +393,7 @@
           },
           {
             "title": "Exile",
-            "icon": "🚢",
+            "icon": "ship",
             "color": "red",
             "items": [
               "Forced departure from Philippines",
@@ -381,14 +407,14 @@
     },
     {
       "id": "travel-impact",
-      "icon": "🌟",
+      "icon": "star",
       "title": "Impact of Travels on Rizal",
       "type": "travel_impact",
       "content": {
         "impacts": [
           {
             "title": "Intellectual Growth",
-            "icon": "🧠",
+            "icon": "brain",
             "color": "blue",
             "items": [
               "Expanded worldview",
@@ -399,7 +425,7 @@
           },
           {
             "title": "Emotional Development",
-            "icon": "❤️",
+            "icon": "heart",
             "color": "green",
             "items": [
               "Homesickness and patriotism",
@@ -410,7 +436,7 @@
           },
           {
             "title": "Revolutionary Spirit",
-            "icon": "🔥",
+            "icon": "fire",
             "color": "red",
             "items": [
               "Comparative governance",

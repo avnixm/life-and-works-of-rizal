@@ -48,6 +48,7 @@ export default async function RizalLaw() {
       case 'objectives_list':
         return <ObjectivesIcon />;
       case 'importance_grid':
+      case 'detailed_importance':
         return <ImportanceIcon />;
       case 'legal_document':
         return <LegalIcon />;
@@ -72,7 +73,7 @@ export default async function RizalLaw() {
             <div className="prose prose-amber max-w-none">
               <div className="bg-white/30 md:bg-transparent backdrop-blur-sm md:backdrop-blur-none p-4 md:p-0 rounded-lg md:rounded-none border border-amber-200/50 md:border-none mb-4 md:mb-0">
                 {section.content.paragraphs.map((paragraph: string, index: number) => (
-                  <p key={index} className="text-base md:text-lg leading-relaxed mb-3 md:mb-4 last:mb-0">
+                  <p key={index} className="text-lg md:text-xl leading-relaxed mb-3 md:mb-4 last:mb-0">
                     <span dangerouslySetInnerHTML={{ __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\*(.*?)\*/g, '<em>$1</em>') }} />
                   </p>
                 ))}
@@ -89,7 +90,7 @@ export default async function RizalLaw() {
               {section.title}
             </h3>
             <div className="bg-white/30 md:bg-transparent backdrop-blur-sm md:backdrop-blur-none p-4 md:p-0 rounded-lg md:rounded-none border border-amber-200/50 md:border-none">
-              <ul className="space-y-3 text-base md:text-lg">
+              <ul className="space-y-3 text-lg md:text-xl">
                 {section.content.objectives.map((objective: string, index: number) => (
                   <li key={index} className="flex items-start">
                     <span className="text-amber-600 mr-3 mt-1">•</span>
@@ -111,10 +112,67 @@ export default async function RizalLaw() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               {section.content.items.map((item: any, index: number) => (
                 <div key={index} className="bg-white/40 md:bg-amber-50/50 rounded-lg p-4 md:p-6 border border-amber-200">
-                  <h4 className="font-bold text-amber-800 mb-2 md:mb-3 text-base md:text-lg">{item.title}</h4>
-                  <p className="text-sm md:text-base leading-relaxed">{item.description}</p>
+                  <h4 className="font-bold text-amber-800 mb-2 md:mb-3 text-lg md:text-xl">{item.title}</h4>
+                  <p className="text-base md:text-lg leading-relaxed">{item.description}</p>
                 </div>
               ))}
+            </div>
+          </section>
+        );
+
+      case 'detailed_importance':
+        return (
+          <section key={section.id}>
+            <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 font-serif text-amber-800 flex items-center">
+              {IconComponent}
+              {section.title}
+            </h3>
+            
+            {/* Educational Goals */}
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-bold text-amber-800 mb-4 text-xl">Educational Goals:</h4>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  {section.content.educational_goals.map((goal: any, index: number) => (
+                    <div key={index} className="bg-white/40 md:bg-amber-50/30 rounded-lg p-4 border border-amber-200">
+                      <h5 className="font-semibold text-amber-800 mb-2 text-base">{goal.title}</h5>
+                      <p className="text-sm text-amber-700 mb-3">{goal.description}</p>
+                      <div className="bg-amber-50/50 rounded p-2 border border-amber-300">
+                        <h6 className="font-semibold text-amber-800 text-sm mb-1">Specific Outcomes:</h6>
+                        <ul className="text-sm text-amber-600 space-y-1">
+                          {goal.specific_outcomes.map((outcome: string, outcomeIndex: number) => (
+                            <li key={outcomeIndex}>• {outcome}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Contemporary Relevance */}
+              <div className="bg-white/40 md:bg-amber-50/30 rounded-lg p-4 border border-amber-200">
+                <h4 className="font-bold text-amber-800 mb-3 text-xl">{section.content.contemporary_relevance.title}</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {section.content.contemporary_relevance.applications.map((application: string, index: number) => (
+                    <div key={index} className="bg-amber-50/50 rounded p-2 border border-amber-300">
+                      <p className="text-sm text-amber-700">• {application}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Pedagogical Benefits */}
+              <div className="bg-white/40 md:bg-amber-50/30 rounded-lg p-4 border border-amber-200">
+                <h4 className="font-bold text-amber-800 mb-3 text-xl">{section.content.pedagogical_benefits.title}</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {section.content.pedagogical_benefits.benefits.map((benefit: string, index: number) => (
+                    <div key={index} className="bg-amber-50/50 rounded p-2 border border-amber-300">
+                      <p className="text-sm text-amber-700">• {benefit}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </section>
         );
@@ -127,10 +185,10 @@ export default async function RizalLaw() {
               {section.title}
             </h3>
             <div className="bg-amber-50/30 rounded-lg p-6 border border-amber-300">
-              <h4 className="font-bold mb-4 text-center">{section.content.official_title}</h4>
-              <p className="text-center mb-4 italic">{section.content.subtitle}</p>
+              <h4 className="font-bold mb-4 text-center text-lg">{section.content.official_title}</h4>
+              <p className="text-center mb-4 italic text-base">{section.content.subtitle}</p>
               
-              <div className="space-y-4 text-sm">
+              <div className="space-y-4 text-base">
                 {section.content.sections.map((legalSection: any, index: number) => (
                   <p key={index}>
                     <strong>Section {legalSection.number}.</strong> {legalSection.text}
@@ -155,8 +213,8 @@ export default async function RizalLaw() {
             <div className="space-y-4">
               {section.content.levels.map((level: any, index: number) => (
                 <div key={index} className="border-l-4 border-amber-600 pl-6">
-                  <h4 className="font-bold text-amber-800">{level.level}</h4>
-                  <p>{level.description}</p>
+                  <h4 className="font-bold text-amber-800 text-lg">{level.level}</h4>
+                  <p className="text-base">{level.description}</p>
                 </div>
               ))}
             </div>

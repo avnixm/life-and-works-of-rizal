@@ -120,7 +120,7 @@ export default async function Travels() {
             <div className="space-y-4">
               {section.content.travels.map((travel: any, index: number) => (
                 <div key={travel.id} className={`bg-white/40 md:bg-${travel.color}-50/30 rounded-lg p-4 md:p-6 border border-${travel.color}-200`}>
-                  <h4 className="font-bold text-amber-800 mb-3 flex items-center text-base md:text-lg">
+                  <h4 className="font-bold text-amber-800 mb-3 flex items-center text-lg md:text-xl">
                     {getTravelIconComponent(travel.id)}
                     {travel.title}
                   </h4>
@@ -128,8 +128,8 @@ export default async function Travels() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                       {travel.details.map((detail: any, detailIndex: number) => (
                         <div key={detailIndex} className="bg-white/30 md:bg-transparent p-3 md:p-0 rounded md:rounded-none border border-amber-200/50 md:border-none">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{detail.category}</h5>
-                          <ul className="space-y-1 text-xs md:text-sm">
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base md:text-lg">{detail.category}</h5>
+                          <ul className="space-y-1 text-sm md:text-base">
                             {detail.items.map((item: string, itemIndex: number) => (
                               <li key={itemIndex}>• {item}</li>
                             ))}
@@ -139,7 +139,7 @@ export default async function Travels() {
                     </div>
                   ) : (
                     <div className="bg-white/30 md:bg-transparent p-3 md:p-0 rounded md:rounded-none border border-amber-200/50 md:border-none">
-                      <p className="text-xs md:text-sm leading-relaxed">{travel.description}</p>
+                      <p className="text-sm md:text-base leading-relaxed">{travel.description}</p>
                     </div>
                   )}
                 </div>
@@ -158,7 +158,7 @@ export default async function Travels() {
             <div className="space-y-4 md:space-y-6">
               {section.content.travels.map((travel: any, index: number) => (
                 <div key={travel.id} className={`bg-white/40 md:bg-${travel.color}-50/30 rounded-lg p-4 md:p-6 border border-${travel.color}-200`}>
-                  <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
+                  <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
                     {getTravelIconComponent(travel.id)}
                     {travel.title}
                   </h4>
@@ -166,8 +166,8 @@ export default async function Travels() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                       {travel.details.map((detail: any, detailIndex: number) => (
                         <div key={detailIndex} className="bg-white/30 md:bg-transparent p-3 md:p-0 rounded md:rounded-none border border-amber-200/50 md:border-none">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{detail.category}</h5>
-                          <ul className="space-y-1 text-xs md:text-sm">
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base md:text-lg">{detail.category}</h5>
+                          <ul className="space-y-1 text-sm md:text-base">
                             {detail.items.map((item: string, itemIndex: number) => (
                               <li key={itemIndex}>• {item}</li>
                             ))}
@@ -177,11 +177,11 @@ export default async function Travels() {
                     </div>
                   ) : (
                     <>
-                      <p className="text-sm leading-relaxed mb-3">{travel.description}</p>
+                      <p className="text-base leading-relaxed mb-3">{travel.description}</p>
                       {travel.highlights && (
                         <div className="bg-amber-50/50 rounded p-4">
                           <h5 className="font-semibold text-amber-700 mb-2">{travel.highlights.title}</h5>
-                          <ul className="space-y-1 text-sm">
+                          <ul className="space-y-1 text-base">
                             {travel.highlights.items.map((item: string, itemIndex: number) => (
                               <li key={itemIndex}>• {item}</li>
                             ))}
@@ -206,7 +206,7 @@ export default async function Travels() {
             
             {/* Departure */}
             <div className={`bg-${section.content.departure.color}-50/30 rounded-lg p-6 border border-${section.content.departure.color}-200 mb-6`}>
-              <h4 className="font-bold text-amber-800 mb-3 flex items-center">
+              <h4 className="font-bold text-amber-800 mb-3 flex items-center text-lg md:text-xl">
                 <ShipIcon />
                 {section.content.departure.title}
               </h4>
@@ -214,7 +214,7 @@ export default async function Travels() {
                 {section.content.departure.details.map((detail: any, index: number) => (
                   <div key={index}>
                     <h5 className="font-semibold text-amber-700 mb-2">{detail.category}</h5>
-                    <ul className="space-y-1 text-sm">
+                    <ul className="space-y-1 text-base">
                       {detail.items.map((item: string, itemIndex: number) => (
                         <li key={itemIndex}>• {item}</li>
                       ))}
@@ -226,7 +226,7 @@ export default async function Travels() {
 
             {/* Travel Route Map */}
             <div className={`bg-white/40 md:bg-${section.content.route_map.color}-50/30 rounded-lg p-4 md:p-6 border border-${section.content.route_map.color}-200 mb-4 md:mb-6`}>
-              <h4 className="font-bold text-amber-800 mb-3 md:mb-4 text-base md:text-lg flex items-center">
+              <h4 className="font-bold text-amber-800 mb-3 md:mb-4 text-lg md:text-xl flex items-center">
                 <MapIcon />
                 {section.content.route_map.title}
               </h4>
@@ -239,9 +239,9 @@ export default async function Travels() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                       </svg>
                     </div>
-                    <h5 className="font-semibold text-amber-800 text-xs md:text-sm">{destination.country}</h5>
-                    <p className="text-xs">{destination.date}</p>
-                    <p className="text-xs">{destination.note}</p>
+                    <h5 className="font-semibold text-amber-800 text-sm md:text-base">{destination.country}</h5>
+                    <p className="text-sm">{destination.date}</p>
+                    <p className="text-sm">{destination.note}</p>
                   </div>
                 ))}
               </div>
@@ -285,11 +285,11 @@ export default async function Travels() {
             <div className="grid md:grid-cols-2 gap-6">
               {section.content.purposes.map((purpose: any, index: number) => (
                 <div key={index} className={`bg-${purpose.color}-100/50 rounded-lg p-4 border border-${purpose.color}-300`}>
-                  <h4 className="font-bold text-amber-800 mb-2 flex items-center">
+                  <h4 className="font-bold text-amber-800 mb-2 flex items-center text-base md:text-lg">
                     <PurposeIcon />
                     {purpose.title}
                   </h4>
-                  <ul className="text-sm space-y-1">
+                  <ul className="space-y-2 text-sm md:text-base">
                     {purpose.items.map((item: string, itemIndex: number) => (
                       <li key={itemIndex}>• {item}</li>
                     ))}

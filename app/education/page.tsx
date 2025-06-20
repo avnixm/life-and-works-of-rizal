@@ -101,7 +101,7 @@ export default async function Education() {
               <>
                 {section.content.map((stage: any) => (
                   <div key={stage.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(stage.color)} mb-4 md:mb-6`}>
-                    <h4 className="font-bold text-amber-800 mb-3 flex items-center text-sm md:text-base">
+                    <h4 className="font-bold text-amber-800 mb-3 flex items-center text-base md:text-lg">
                       {getStageIconComponent(stage.id)}
                       {stage.title}
                     </h4>
@@ -111,8 +111,8 @@ export default async function Education() {
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                         {stage.details.map((detail: any, index: number) => (
                           <div key={index} className="bg-white/40 md:bg-transparent rounded p-3 md:p-0">
-                            <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">{detail.subtitle}</h5>
-                            <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{detail.subtitle}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                               {detail.items.map((item: string, itemIndex: number) => (
                                 <li key={itemIndex}>• {item}</li>
                               ))}
@@ -128,8 +128,8 @@ export default async function Education() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                           {stage.details.map((detail: any, index: number) => (
                             <div key={index} className="bg-white/40 md:bg-transparent rounded p-3 md:p-0">
-                              <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">{detail.subtitle}</h5>
-                              <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                              <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{detail.subtitle}</h5>
+                              <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                                 {detail.items.map((item: string, itemIndex: number) => (
                                   <li key={itemIndex}>• {item}</li>
                                 ))}
@@ -141,8 +141,8 @@ export default async function Education() {
                         {/* Notable Experiences for Biñan */}
                         {stage.notable_experiences && (
                           <div className="bg-yellow-50/60 md:bg-yellow-50/50 rounded p-3 md:p-4">
-                            <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">{stage.notable_experiences.title}</h5>
-                            <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{stage.notable_experiences.title}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                               {stage.notable_experiences.items.map((item: string, index: number) => (
                                 <li key={index}>• {item}</li>
                               ))}
@@ -153,11 +153,11 @@ export default async function Education() {
                         {/* Extracurricular Activities for Ateneo */}
                         {stage.extracurricular && (
                           <div className="bg-amber-50/60 md:bg-amber-50/50 rounded p-3 md:p-4">
-                            <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">{stage.extracurricular.title}</h5>
+                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{stage.extracurricular.title}</h5>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                               {stage.extracurricular.activities.map((activity: any, index: number) => (
                                 <div key={index} className="bg-white/30 md:bg-transparent rounded p-2 md:p-0">
-                                  <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                                  <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                                     {activity.items.map((item: string, itemIndex: number) => (
                                       <li key={itemIndex}>• {item}</li>
                                     ))}
@@ -171,8 +171,8 @@ export default async function Education() {
                         {/* Leaving Reasons for UST */}
                         {stage.leaving_reasons && (
                           <div className="bg-red-50/60 md:bg-red-50/50 rounded p-3 md:p-4">
-                            <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">{stage.leaving_reasons.title}</h5>
-                            <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{stage.leaving_reasons.title}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                               {stage.leaving_reasons.items.map((item: string, index: number) => (
                                 <li key={index}>• {item}</li>
                               ))}
@@ -191,7 +191,7 @@ export default async function Education() {
               <>
                 {section.content.map((study: any) => (
                   <div key={study.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(study.color)} mb-4 md:mb-6`}>
-                    <h4 className="font-bold text-amber-800 mb-3 flex items-center text-sm md:text-base">
+                    <h4 className="font-bold text-amber-800 mb-3 flex items-center text-base md:text-lg">
                       {getStageIconComponent(study.id)}
                       {study.title}
                     </h4>
@@ -202,8 +202,8 @@ export default async function Education() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                           {study.details.map((detail: any, index: number) => (
                             <div key={index} className="bg-white/40 md:bg-transparent rounded p-3 md:p-0">
-                              <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">{detail.subtitle}</h5>
-                              <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                              <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{detail.subtitle}</h5>
+                              <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                                 {detail.items.map((item: string, itemIndex: number) => (
                                   <li key={itemIndex}>• {item}</li>
                                 ))}
@@ -214,15 +214,91 @@ export default async function Education() {
                       </div>
                     )}
 
+                    {/* Comprehensive University Study type */}
+                    {study.type === 'comprehensive_university_study' && (
+                      <div className="space-y-4">
+                        {/* Academic Details */}
+                        {study.academic_details && (
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-sm md:text-base">{study.academic_details.subtitle}</h5>
+                            <ul className="space-y-1 text-sm leading-relaxed">
+                              {study.academic_details.items.map((item: string, index: number) => (
+                                <li key={index}>• {item}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {/* Academic Curriculum */}
+                        {study.academic_curriculum && (
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-sm md:text-base">{study.academic_curriculum.subtitle}</h5>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                              <div className="bg-white/50 rounded p-2">
+                                <h6 className="font-semibold text-amber-700 mb-1 text-sm">Medical Subjects:</h6>
+                                <ul className="space-y-1 text-sm">
+                                  {study.academic_curriculum.medical_subjects.map((subject: string, index: number) => (
+                                    <li key={index}>• {subject}</li>
+                                  ))}
+                                </ul>
+                              </div>
+                              <div className="bg-white/50 rounded p-2">
+                                <h6 className="font-semibold text-amber-700 mb-1 text-sm">Liberal Arts:</h6>
+                                <ul className="space-y-1 text-sm">
+                                  {study.academic_curriculum.liberal_arts.map((subject: string, index: number) => (
+                                    <li key={index}>• {subject}</li>
+                                  ))}
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Extracurricular Activities */}
+                        {study.extracurricular_activities && (
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-sm md:text-base">{study.extracurricular_activities.subtitle}</h5>
+                            <ul className="space-y-1 text-sm leading-relaxed">
+                              {study.extracurricular_activities.items.map((item: string, index: number) => (
+                                <li key={index}>• {item}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {/* Financial Struggles */}
+                        {study.financial_struggles && (
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-sm md:text-base">{study.financial_struggles.subtitle}</h5>
+                            <ul className="space-y-1 text-sm leading-relaxed">
+                              {study.financial_struggles.items.map((item: string, index: number) => (
+                                <li key={index}>• {item}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {/* Dissertation Details */}
+                        {study.dissertation_details && (
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-sm md:text-base">{study.dissertation_details.subtitle}</h5>
+                            <ul className="space-y-1 text-sm leading-relaxed">
+                              {study.dissertation_details.items.map((item: string, index: number) => (
+                                <li key={index}>• {item}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
                     {/* Dual city type for Paris & Heidelberg */}
                     {study.type === 'dual_city' && (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                         {study.cities.map((city: any, index: number) => (
-                          <div key={index} className={`rounded p-3 md:p-4 ${index === 0 ? 'bg-blue-50/60 md:bg-blue-50/50' : 'bg-amber-50/60 md:bg-amber-50/50'}`}>
-                            <h5 className="font-semibold text-amber-700 mb-2 text-xs md:text-sm">
-                              {city.name}
-                            </h5>
-                            <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                          <div key={index} className="bg-white/40 md:bg-transparent rounded p-3 md:p-0">
+                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{city.name}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                               {city.items.map((item: string, itemIndex: number) => (
                                 <li key={itemIndex}>• {item}</li>
                               ))}
@@ -234,16 +310,13 @@ export default async function Education() {
 
                     {/* Fields grid for summary */}
                     {study.type === 'fields_grid' && (
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
                         {study.fields.map((field: any, index: number) => (
-                          <div key={index} className="text-center bg-white/40 md:bg-transparent rounded p-3 md:p-0">
-                            <div className={`bg-${field.color}-100 rounded-full w-12 h-12 md:w-16 md:h-16 flex items-center justify-center mx-auto mb-3`}>
-                              <svg className="w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                              </svg>
-                            </div>
-                            <h5 className="font-semibold text-amber-800 mb-2 text-xs md:text-sm">{field.name}</h5>
-                            <ul className="text-xs md:text-sm space-y-1 leading-relaxed">
+                          <div key={index} className={`rounded-lg p-3 md:p-4 border ${getColorClasses(field.color)}`}>
+                            <h5 className="font-semibold text-amber-800 mb-2 text-sm md:text-base">
+                              {field.name}
+                            </h5>
+                            <ul className="space-y-1 text-sm md:text-base">
                               {field.subjects.map((subject: string, subIndex: number) => (
                                 <li key={subIndex}>• {subject}</li>
                               ))}

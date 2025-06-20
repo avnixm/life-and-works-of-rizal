@@ -31,27 +31,76 @@
     {
       "id": "importance",
       "icon": "⭐",
-      "title": "Importance of Studying Rizal",
-      "type": "importance_grid",
+      "title": "Comprehensive Importance of Studying Rizal",
+      "type": "detailed_importance",
       "content": {
-        "items": [
+        "educational_goals": [
           {
-            "title": "Historical Understanding",
-            "description": "Provides insight into Philippine colonial history and the reform movement that shaped our nation."
+            "title": "Historical Consciousness and National Identity",
+            "description": "Develops deep understanding of Philippine colonial history and the roots of Filipino nationalism",
+            "specific_outcomes": [
+              "Understanding of Spanish colonial system and its impact on Filipino society",
+              "Knowledge of 19th century reform movements and their significance",
+              "Appreciation of the peaceful approach to social change advocated by Rizal",
+              "Recognition of continuity between past struggles and contemporary issues"
+            ]
           },
           {
-            "title": "Moral Development",
-            "description": "Instills moral values, ethical principles, and civic consciousness in students."
+            "title": "Moral and Ethical Development",
+            "description": "Instills fundamental Filipino values and universal ethical principles through Rizal's example",
+            "specific_outcomes": [
+              "Love of country (patriotism) without hatred of other nations",
+              "Commitment to truth, justice, and human dignity",
+              "Importance of education and continuous learning",
+              "Courage to stand for principles despite personal cost",
+              "Respect for human rights and social justice"
+            ]
           },
           {
-            "title": "Cultural Identity",
-            "description": "Strengthens Filipino identity and appreciation for our cultural heritage and values."
+            "title": "Critical Thinking and Analytical Skills",
+            "description": "Develops intellectual abilities through examination of complex historical and literary texts",
+            "specific_outcomes": [
+              "Analysis of primary source documents and historical evidence",
+              "Literary criticism and interpretation of novels and essays",
+              "Evaluation of different historical perspectives and narratives",
+              "Understanding of cause-and-effect relationships in history",
+              "Ability to connect past events with contemporary issues"
+            ]
           },
           {
-            "title": "Critical Thinking",
-            "description": "Develops analytical skills through examination of Rizal's writings and their social impact."
+            "title": "Cultural Appreciation and Global Perspective",
+            "description": "Strengthens Filipino cultural identity while promoting international understanding",
+            "specific_outcomes": [
+              "Pride in Filipino heritage and cultural achievements",
+              "Understanding of cultural diversity and tolerance",
+              "Appreciation of Philippines' place in world history",
+              "Recognition of universal human values across cultures",
+              "Preparation for global citizenship and international cooperation"
+            ]
           }
-        ]
+        ],
+        "contemporary_relevance": {
+          "title": "Relevance to Modern Filipino Society:",
+          "applications": [
+            "Democratic citizenship and civic participation",
+            "Social reform through peaceful and legal means",
+            "Educational excellence and lifelong learning",
+            "Cultural preservation in a globalized world",
+            "Ethical leadership in public and private sectors",
+            "International relations based on mutual respect"
+          ]
+        },
+        "pedagogical_benefits": {
+          "title": "Educational and Pedagogical Value:",
+          "benefits": [
+            "Integrates multiple disciplines: history, literature, philosophy, politics",
+            "Provides role models for Filipino youth",
+            "Encourages reading and appreciation of classic literature",
+            "Develops research and writing skills",
+            "Promotes discussion and debate on important issues",
+            "Connects academic learning with practical life applications"
+          ]
+        }
       }
     },
     {

@@ -39,7 +39,7 @@
         },
         {
           "id": "binan-school",
-          "icon": "🏫",
+          "icon": "school",
           "title": "Biñan School (1870-1871)",
           "color": "blue",
           "type": "complex",
@@ -78,7 +78,7 @@
         },
         {
           "id": "ateneo-municipal",
-          "icon": "🎓",
+          "icon": "graduation",
           "title": "Ateneo Municipal de Manila (1872-1877)",
           "color": "green",
           "type": "complex",
@@ -128,7 +128,7 @@
         },
         {
           "id": "ust",
-          "icon": "🏛️",
+          "icon": "university",
           "title": "University of Santo Tomas (1877-1882)",
           "color": "orange",
           "type": "complex",
@@ -169,48 +169,93 @@
     },
     {
       "id": "higher-education-abroad",
-      "icon": "🌍",
+      "icon": "world",
       "title": "B. Higher Education Abroad",
       "type": "international_studies",
       "content": [
         {
           "id": "madrid-university",
-          "icon": "🇪🇸",
+          "icon": "spain",
           "title": "Universidad Central de Madrid, Spain (1882-1885)",
           "color": "purple",
-          "type": "grid",
-          "details": [
-            {
-              "subtitle": "Academic Achievements:",
-              "items": [
-                "Completed Licentiate in Medicine (1884)",
-                "Earned Doctor of Medicine degree (1885)",
-                "Graduated with the grade \"Notable\" (Very Good)",
-                "Dissertation: \"The Treatment of Madness\"",
-                "Specialized in ophthalmology"
-              ]
-            },
-            {
-              "subtitle": "Other Studies:",
-              "items": [
-                "Philosophy and Letters",
-                "History and Geography",
-                "Modern languages (French, German)",
-                "Art and painting",
-                "Sculpture and clay modeling"
-              ]
-            }
-          ]
+          "type": "comprehensive_university_study",
+          "academic_details": {
+            "subtitle": "Medical Education:",
+            "items": [
+              "Completed Licentiate in Medicine (June 21, 1884)",
+              "Earned Doctor of Medicine degree (June 21, 1885)",
+              "Graduated with the grade \"Notable\" (Very Good/Sobresaliente)",
+              "Dissertation: \"El Tratamiento de las Afecciones Mentales\" (The Treatment of Mental Disorders)",
+              "Specialized focus on ophthalmology and eye diseases",
+              "Clinical training at Hospital de la Princesa",
+              "Studied under prominent Spanish physicians including Dr. Carlos Luis de Mathe"
+            ]
+          },
+          "academic_curriculum": {
+            "subtitle": "Complete Academic Program:",
+            "medical_subjects": [
+              "Anatomy and Physiology",
+              "Pathology and Clinical Medicine",
+              "Surgery and Surgical Procedures",
+              "Pharmacology and Therapeutics",
+              "Obstetrics and Gynecology",
+              "Medical Jurisprudence",
+              "Hygiene and Public Health"
+            ],
+            "liberal_arts": [
+              "Philosophy and Letters",
+              "Classical Literature (Greek and Latin)",
+              "Spanish History and Geography",
+              "Modern European Languages (French, German, Italian)",
+              "Natural Sciences and Botany",
+              "Mathematics and Physics"
+            ]
+          },
+          "extracurricular_activities": {
+            "subtitle": "Intellectual and Cultural Development:",
+            "items": [
+              "Member of the Ateneo de Madrid (literary society)",
+              "Regular attendee at Café de Fornos intellectual gatherings",
+              "Studied art and painting at Academia de Bellas Artes de San Fernando",
+              "Attended concerts and opera performances",
+              "Visited museums including Prado Museum regularly",
+              "Participated in student discussions on political reform",
+              "Corresponded with Filipino students in other European cities"
+            ]
+          },
+          "financial_struggles": {
+            "subtitle": "Economic Challenges and Solutions:",
+            "items": [
+              "Monthly allowance of 50 pesos from Paciano often delayed",
+              "Lived frugally in boarding houses and shared accommodations",
+              "Occasionally pawned personal belongings for money",
+              "Earned small amounts through translation work",
+              "Received occasional help from Filipino friends in Madrid",
+              "Budgeted carefully for books, food, and academic materials"
+            ]
+          },
+          "dissertation_details": {
+            "subtitle": "Doctoral Dissertation Analysis:",
+            "items": [
+              "Title: 'El Tratamiento de las Afecciones Mentales' (76 pages)",
+              "Examined contemporary approaches to mental health treatment",
+              "Criticized harsh treatments common in Spanish asylums",
+              "Advocated for humane treatment of mental patients",
+              "Influenced by progressive European psychiatric theories",
+              "Demonstrated his humanitarian approach to medicine",
+              "Reflected his broader social reform philosophy"
+            ]
+          }
         },
         {
           "id": "paris-heidelberg",
-          "icon": "🏥",
+          "icon": "medical",
           "title": "Studies in Paris, France & Heidelberg, Germany",
           "color": "cyan",
           "type": "dual_city",
           "cities": [
             {
-              "flag": "🇫🇷",
+              "flag": "france",
               "name": "Paris (1885-1886)",
               "items": [
                 "Specialized in ophthalmology",
@@ -221,7 +266,7 @@
               ]
             },
             {
-              "flag": "🇩🇪",
+              "flag": "germany",
               "name": "Heidelberg (1886)",
               "items": [
                 "Further studies in ophthalmology",
@@ -235,13 +280,13 @@
         },
         {
           "id": "fields-summary",
-          "icon": "🎯",
+          "icon": "target",
           "title": "Fields of Study: Medicine, Philosophy, Ophthalmology",
           "color": "gray",
           "type": "fields_grid",
           "fields": [
             {
-              "icon": "⚕️",
+              "icon": "medicine",
               "name": "Medicine",
               "color": "red",
               "subjects": [
@@ -252,7 +297,7 @@
               ]
             },
             {
-              "icon": "🤔",
+              "icon": "philosophy",
               "name": "Philosophy",
               "color": "blue",
               "subjects": [
@@ -263,7 +308,7 @@
               ]
             },
             {
-              "icon": "👁️",
+              "icon": "eye",
               "name": "Ophthalmology",
               "color": "green",
               "subjects": [

@@ -95,26 +95,51 @@ export default async function EarlyLife() {
             {/* Render different section types */}
             {section.type === 'grid' && section.id === 'birth-hometown' && (
               <div className="bg-amber-50/50 md:bg-amber-50/30 rounded-lg p-4 md:p-6 border border-amber-300 mb-4 md:mb-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
                   <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0">
-                    <h4 className="font-bold text-amber-800 mb-3 text-sm md:text-base">
+                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg">
                       {section.content.birth_details.title}
                     </h4>
-                    <ul className="space-y-2 text-xs md:text-sm leading-relaxed">
+                    <div className="space-y-3 text-sm md:text-base leading-relaxed">
                       {section.content.birth_details.items.map((item: any, index: number) => (
-                        <li key={index}>
-                          <strong>{item.label}:</strong> {item.value}
-                        </li>
+                        <div key={index} className="border-b border-amber-200 pb-2 last:border-b-0">
+                          <div className="flex flex-col">
+                            <div>
+                              <strong className="text-amber-700">{item.label}:</strong> <span className="font-medium">{item.value}</span>
+                            </div>
+                            {item.explanation && (
+                              <p className="text-sm text-amber-600 mt-1 italic">{item.explanation}</p>
+                            )}
+                          </div>
+                        </div>
                       ))}
-                    </ul>
+                    </div>
                   </div>
                   <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0">
-                    <h4 className="font-bold text-amber-800 mb-3 text-sm md:text-base">
+                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg">
                       {section.content.hometown.title}
                     </h4>
-                    <p className="leading-relaxed text-xs md:text-sm">
-                      {section.content.hometown.content}
-                    </p>
+                    {section.content.hometown.type === 'complex' ? (
+                      <div className="space-y-3">
+                        {Object.entries(section.content.hometown).map(([key, value]: [string, any]) => {
+                          if (key === 'title' || key === 'type') return null;
+                          return (
+                            <div key={key} className="bg-white/50 rounded p-3 border border-amber-100">
+                              <h5 className="font-semibold text-amber-700 mb-2 text-sm">{value.title}</h5>
+                              <ul className="space-y-1 text-sm">
+                                {value.items.map((item: string, index: number) => (
+                                  <li key={index}>• {item}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    ) : (
+                      <p className="leading-relaxed text-sm md:text-base">
+                        {section.content.hometown.content}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
@@ -126,11 +151,11 @@ export default async function EarlyLife() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8">
                   {section.content.parents.map((parent: any, index: number) => (
                     <div key={index} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(parent.color)}`}>
-                      <h4 className="font-bold text-amber-800 mb-3 text-sm md:text-base flex items-center">
+                      <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
                         {getSubIconComponent('parent')}
                         {parent.title}
                       </h4>
-                      <ul className="space-y-2 text-xs md:text-sm leading-relaxed">
+                      <ul className="space-y-2 text-sm md:text-base leading-relaxed">
                         {parent.items.map((item: string, itemIndex: number) => (
                           <li key={itemIndex}>• {item}</li>
                         ))}
@@ -141,15 +166,15 @@ export default async function EarlyLife() {
 
                 {/* Siblings */}
                 <div>
-                  <h4 className="font-bold text-amber-800 mb-4 text-sm md:text-base flex items-center">
+                  <h4 className="font-bold text-amber-800 mb-4 text-base md:text-lg flex items-center">
                     {getSubIconComponent('sibling')}
                     {section.content.siblings.title}
                   </h4>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
                     {section.content.siblings.children.map((child: any, index: number) => (
                       <div key={index} className="bg-amber-50/60 md:bg-amber-50/50 rounded-lg p-3 md:p-4 border border-amber-200">
-                        <h5 className="font-semibold text-xs md:text-sm">{child.name}</h5>
-                        <p className="text-xs leading-relaxed">{child.description}</p>
+                        <h5 className="font-semibold text-sm md:text-base">{child.name}</h5>
+                        <p className="text-sm leading-relaxed">{child.description}</p>
                       </div>
                     ))}
                   </div>
@@ -161,13 +186,13 @@ export default async function EarlyLife() {
               <div className="space-y-4 md:space-y-6">
                 {section.content.map((card: any, index: number) => (
                   <div key={index} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(card.color)}`}>
-                    <h4 className="font-bold text-amber-800 mb-3 text-sm md:text-base">
+                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg">
                       {card.title}
                     </h4>
                     {card.type === 'text' ? (
-                      <p className="leading-relaxed text-xs md:text-sm">{card.content}</p>
+                      <p className="leading-relaxed text-sm md:text-base">{card.content}</p>
                     ) : (
-                      <ul className="space-y-2 text-xs md:text-sm leading-relaxed">
+                      <ul className="space-y-2 text-sm md:text-base leading-relaxed">
                         {card.items.map((item: string, itemIndex: number) => (
                           <li key={itemIndex}>• {item}</li>
                         ))}
@@ -182,8 +207,8 @@ export default async function EarlyLife() {
               <div className="space-y-4 md:space-y-6">
                 {section.content.map((influence: any, index: number) => (
                   <div key={index} className={`border-l-4 ${getBorderColorClass(influence.color)} pl-4 md:pl-6 bg-white/30 md:bg-transparent rounded-r p-3 md:p-0`}>
-                    <h4 className="font-bold text-amber-800 text-sm md:text-base">{influence.title}</h4>
-                    <ul className="mt-2 space-y-1 text-xs md:text-sm leading-relaxed">
+                    <h4 className="font-bold text-amber-800 text-base md:text-lg">{influence.title}</h4>
+                    <ul className="mt-2 space-y-1 text-sm md:text-base leading-relaxed">
                       {influence.items.map((item: string, itemIndex: number) => (
                         <li key={itemIndex}>• {item}</li>
                       ))}
@@ -197,8 +222,64 @@ export default async function EarlyLife() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {section.content.map((memory: any, index: number) => (
                   <div key={index} className="bg-amber-50/50 md:bg-amber-50/30 rounded-lg p-4 md:p-6 border border-amber-300">
-                    <h4 className="font-bold text-amber-800 mb-3 text-sm md:text-base">{memory.title}</h4>
-                    <p className="text-xs md:text-sm leading-relaxed">{memory.content}</p>
+                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg">{memory.title}</h4>
+                    <p className="text-sm md:text-base leading-relaxed">{memory.content}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {section.type === 'detailed_memories' && (
+              <div className="space-y-4 md:space-y-6">
+                {section.content.map((memory: any, index: number) => (
+                  <div key={index} className="bg-white/40 md:bg-amber-50/30 rounded-lg p-4 md:p-6 border border-amber-300">
+                    <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                      <h4 className="font-bold text-amber-800 text-base md:text-lg">{memory.title}</h4>
+                      <span className="text-sm md:text-base text-amber-600 font-medium italic">{memory.age}</span>
+                    </div>
+                    <p className="text-sm md:text-base leading-relaxed mb-3">{memory.content}</p>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+                      <div className="bg-amber-50/50 rounded p-3 border border-amber-200">
+                        <h5 className="font-semibold text-amber-700 mb-1">Significance:</h5>
+                        <p className="text-amber-600">{memory.significance}</p>
+                      </div>
+                      
+                      {memory.literary_connection && (
+                        <div className="bg-amber-50/50 rounded p-3 border border-amber-200">
+                          <h5 className="font-semibold text-amber-700 mb-1">Literary Connection:</h5>
+                          <p className="text-amber-600">{memory.literary_connection}</p>
+                        </div>
+                      )}
+                      
+                      {memory.scholarly_note && (
+                        <div className="bg-amber-50/50 rounded p-3 border border-amber-200 md:col-span-2">
+                          <h5 className="font-semibold text-amber-700 mb-1">Scholarly Note:</h5>
+                          <p className="text-amber-600">{memory.scholarly_note}</p>
+                        </div>
+                      )}
+                      
+                      {memory.character_development && (
+                        <div className="bg-amber-50/50 rounded p-3 border border-amber-200">
+                          <h5 className="font-semibold text-amber-700 mb-1">Character Development:</h5>
+                          <p className="text-amber-600">{memory.character_development}</p>
+                        </div>
+                      )}
+                      
+                      {memory.later_influence && (
+                        <div className="bg-amber-50/50 rounded p-3 border border-amber-200">
+                          <h5 className="font-semibold text-amber-700 mb-1">Later Influence:</h5>
+                          <p className="text-amber-600">{memory.later_influence}</p>
+                        </div>
+                      )}
+                      
+                      {memory.philosophical_development && (
+                        <div className="bg-amber-50/50 rounded p-3 border border-amber-200">
+                          <h5 className="font-semibold text-amber-700 mb-1">Philosophical Development:</h5>
+                          <p className="text-amber-600">{memory.philosophical_development}</p>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>

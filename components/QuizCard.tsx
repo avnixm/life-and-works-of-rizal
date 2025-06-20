@@ -32,7 +32,7 @@ export default function QuizCard({
           </span>
         </div>
         
-        <h3 className="text-xl font-bold text-amber-900 leading-relaxed">
+        <h3 className="text-2xl font-bold text-amber-900 leading-relaxed">
           {question.question}
         </h3>
       </div>
@@ -97,7 +97,7 @@ export default function QuizCard({
           <h4 className="font-bold text-blue-800 mb-2 flex items-center">
             💡 Explanation
           </h4>
-          <p className="text-blue-700 text-sm leading-relaxed">
+          <p className="text-blue-700 text-base leading-relaxed">
             {question.explanation}
           </p>
         </div>

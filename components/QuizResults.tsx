@@ -209,7 +209,7 @@ export default function QuizResults({
                   
                   <p className="text-gray-800 mb-3">{question.question}</p>
                   
-                  <div className="space-y-2 text-sm">
+                  <div className="space-y-2 text-base">
                     <div className={`font-medium ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
                       Your answer: {question.options[userAnswer] || 'No answer'}
                     </div>
@@ -234,17 +234,17 @@ export default function QuizResults({
         <div className="grid md:grid-cols-3 gap-4 mb-8">
           <div className="bg-blue-50 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-blue-600">{correctAnswers}</div>
-            <div className="text-sm text-blue-700">Correct Answers</div>
+            <div className="text-base text-blue-700">Correct Answers</div>
           </div>
           
           <div className="bg-red-50 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-red-600">{totalQuestions - correctAnswers}</div>
-            <div className="text-sm text-red-700">Incorrect Answers</div>
+            <div className="text-base text-red-700">Incorrect Answers</div>
           </div>
           
           <div className="bg-amber-50 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-amber-600">{Math.round((correctAnswers / totalQuestions) * 100)}%</div>
-            <div className="text-sm text-amber-700">Accuracy</div>
+            <div className="text-base text-amber-700">Accuracy</div>
           </div>
         </div>
 
@@ -273,7 +273,7 @@ export default function QuizResults({
             <p className="text-amber-800 italic">
               "The youth is the hope of our future" - Dr. José Rizal
             </p>
-            <p className="text-amber-700 text-sm mt-2">
+            <p className="text-amber-700 text-base mt-2">
               Keep learning about our national hero and be inspired by his legacy!
             </p>
           </div>

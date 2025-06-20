@@ -4,7 +4,7 @@
   "sections": [
     {
       "id": "novels",
-      "icon": "📖",
+      "icon": "book",
       "title": "Novels",
       "type": "novels",
       "content": [
@@ -13,48 +13,269 @@
           "title": "Noli Me Tangere (1887)",
           "subtitle": "\"Touch Me Not\" - A Social Cancer",
           "color": "blue",
-          "summary": "Exposes the abuses of Spanish colonial rule and the corruption of the Catholic Church in the Philippines through the story of Crisóstomo Ibarra and his quest for justice.",
-          "themes": [
-            "Colonial oppression and abuse",
-            "Religious hypocrisy",
-            "Social inequality",
-            "Education and reform",
-            "Love and sacrifice"
+          "publication_details": {
+            "publisher": "Berliner Buchdruckerei-Aktiengesellschaft",
+            "location": "Berlin, Germany",
+            "date": "March 29, 1887",
+            "pages": "463 pages",
+            "first_edition": "2,000 copies",
+            "funding": "Rizal's personal savings plus loans from friends",
+            "cost": "300 pesos (significant sum at the time)",
+            "cost_analysis": {
+              "printing_cost": "300 pesos for 2,000 copies",
+              "cost_per_book": "Approximately 0.15 pesos per copy at printing cost",
+              "actual_selling_price": "Likely 1-2 pesos per copy for general public",
+              "modern_value_2025": {
+                "printing_cost_today": "₱300 in 1887 ≈ ₱450,000-600,000 PHP today (2025)",
+                "per_book_cost_today": "₱0.15 in 1887 ≈ ₱225-300 PHP per book today",
+                "selling_price_today": "₱1-2 in 1887 ≈ ₱1,500-3,000 PHP per book today",
+                "inflation_factor": "Approximately 1,500-2,000x inflation from 1887 to 2025"
+              }
+            }
+          },
+          "comprehensive_summary": "The novel exposes the abuses of Spanish colonial rule and the corruption of the Catholic Church in the Philippines through the story of Crisóstomo Ibarra, a young Filipino who returns from Europe with idealistic plans to reform his country through education. The narrative reveals the complex social dynamics of colonial society, the hypocrisy of religious authorities, and the suffering of the Filipino people under Spanish rule.",
+          "detailed_themes": [
+            {
+              "theme": "Colonial Oppression and Abuse",
+              "description": "Systematic exploitation of Filipinos by Spanish authorities",
+              "examples": "Kapitan Tiago's subservience, the guardia civil's brutality"
+            },
+            {
+              "theme": "Religious Hypocrisy",
+              "description": "Criticism of friars who abuse their spiritual authority",
+              "examples": "Padre Dámaso's corruption, Padre Salví's lust"
+            },
+            {
+              "theme": "Social Inequality",
+              "description": "Rigid class system separating Europeans, mestizos, and indios",
+              "examples": "María Clara's privileged position vs. Sisa's poverty"
+            },
+            {
+              "theme": "Education as Liberation",
+              "description": "Ibarra's school project as symbol of enlightenment",
+              "examples": "The proposed school in San Diego, Rizal's own educational philosophy"
+            },
+            {
+              "theme": "Love and Sacrifice",
+              "description": "Personal relationships tested by social and political pressures",
+              "examples": "Ibarra and María Clara's doomed love, Elías's sacrifice"
+            }
           ],
-          "characters": [
-            "Crisóstomo Ibarra - Protagonist",
-            "María Clara - Love interest",
-            "Padre Dámaso - Antagonist friar",
-            "Elías - Revolutionary friend",
-            "Sisa - Tragic mother"
-          ]
+          "major_characters": [
+            {
+              "name": "Crisóstomo Ibarra",
+              "role": "Protagonist",
+              "description": "Young, wealthy, idealistic Filipino educated in Europe",
+              "symbolism": "Represents the ilustrado class and peaceful reform",
+              "character_arc": "From naive idealist to disillusioned revolutionary"
+            },
+            {
+              "name": "María Clara",
+              "role": "Heroine/Love interest",
+              "description": "Beautiful, virtuous daughter of Kapitan Tiago",
+              "symbolism": "Represents the Philippines itself - pure but subjugated",
+              "secret": "Actually Padre Dámaso's illegitimate daughter"
+            },
+            {
+              "name": "Padre Dámaso",
+              "role": "Primary antagonist",
+              "description": "Corrupt, racist Franciscan friar",
+              "symbolism": "Represents worst aspects of Spanish colonial clergy",
+              "crimes": "Falsely accused Ibarra's father, fathered María Clara"
+            },
+            {
+              "name": "Elías",
+              "role": "Revolutionary friend",
+              "description": "Mysterious boatman with tragic past",
+              "symbolism": "Represents the oppressed masses and violent revolution",
+              "background": "Descendant of victims of false accusations"
+            },
+            {
+              "name": "Sisa",
+              "role": "Tragic mother figure",
+              "description": "Mother driven to madness by loss of her sons",
+              "symbolism": "Represents the suffering of the Filipino people",
+              "fate": "Dies calling for her lost children Basilio and Crispín"
+            }
+          ],
+          "literary_significance": {
+            "style": "Realistic novel influenced by European literary movements",
+            "structure": "64 chapters with episodic narrative",
+            "language": "Written in Spanish to reach educated audience",
+            "influences": "Inspired by Victor Hugo's Les Misérables and Harriet Beecher Stowe's Uncle Tom's Cabin",
+            "innovation": "First novel to realistically portray Filipino colonial society"
+          },
+          "historical_impact": {
+            "immediate": "Banned by Spanish authorities, copies smuggled into Philippines",
+            "political": "Inspired Philippine independence movement",
+            "cultural": "Awakened Filipino national consciousness",
+            "literary": "Established tradition of protest literature in Philippines"
+          }
         },
         {
           "id": "el-filibusterismo",
           "title": "El Filibusterismo (1891)",
           "subtitle": "\"The Reign of Greed\" - The Revolution",
           "color": "red",
-          "summary": "The sequel to Noli Me Tangere, showing the return of Ibarra as Simoun, a wealthy jeweler plotting revolution against the Spanish government.",
-          "themes": [
-            "Revolution and violence",
-            "Revenge and justice",
-            "Corruption in society",
-            "Moral decay",
-            "Hope and redemption"
+          "publication_details": {
+            "publisher": "F. Meyer-Van Loo Press",
+            "location": "Ghent, Belgium",
+            "address": "No. 66 Viaanderen Street, Ghent",
+            "date": "September 18, 1891",
+            "pages": "279 pages",
+            "first_edition": "First edition copies in wooden boxes",
+            "cost": "400 pesetas per copy (extremely high price due to rarity from Spanish confiscation)",
+            "cost_analysis": {
+              "original_selling_price": "400 Spanish pesetas per copy in 1891",
+              "peso_equivalent": "400 pesetas ≈ 80-100 Philippine pesos (estimated 1891 exchange rate)",
+              "purchasing_power_1891": "400 pesetas = approximately 3-4 months' wages for average worker",
+              "modern_value_2025": {
+                "actual_price_today": "₱80-100 in 1891 ≈ ₱120,000-200,000 PHP today (2025)",
+                "normal_price_today": "₱20-25 in 1891 ≈ ₱30,000-50,000 PHP per book today (without confiscation)",
+                "inflation_factor": "Approximately 1,500-2,000x inflation from 1891 to 2025",
+                "comparison": "El Filibusterismo cost 40-50x more than Noli Me Tangere due to rarity"
+              },
+              "euro_conversion": "400 pesetas = 2.40 euros (1999 conversion rate: 166.386 pesetas = 1 euro)",
+              "rarity_factor": "Price inflated 10-20x normal book price due to Spanish confiscation",
+              "normal_price_estimate": "Without confiscation, likely would have sold for 20-40 pesetas per copy"
+            },
+            "dedication": "To the memory of the priests Gómez, Burgos, and Zamora",
+            "financial_struggles": {
+              "payment_method": "Printed on installment basis due to Rizal's limited funds",
+              "initial_funding": "Rizal pawned his jewels for down payment and early installments",
+              "additional_support": "Received money from Basa and ₱200 from Rodriguez Arias (from Morga's Sucesos sales)",
+              "crisis": "Printing suspended on August 6, 1891 due to lack of funds",
+              "rescue": "Valentin Ventura provided the necessary amount to complete publication",
+              "post_publication_value": "Rare first edition copies sold for as high as 400 pesetas each",
+              "manuscript_value": "Original manuscript later acquired by Bureau of Public Libraries for ₱10,000",
+              "cost_saving": "Foreword and Warning sections omitted from print to save costs"
+            },
+            "living_conditions": {
+              "accommodation": "Lived frugally in cheap boarding house with Jose Alejandro",
+              "economic_measures": "Prepared own breakfast to save on living expenses",
+              "desperate_moment": "Almost burned the manuscript in despair when funds ran out",
+              "gratitude": "Gave original manuscript and autographed copy to Valentin Ventura"
+            },
+            "distribution": {
+              "shipping": "Copies shipped to Hong Kong in wooden boxes",
+              "confiscation": "Most copies confiscated by Spanish authorities",
+              "immediate_recipients": "Sent first 2 copies to Basa and Sixto Lopez in Hong Kong",
+              "rarity": "Book became immediately rare due to widespread confiscation"
+            }
+          },
+          "comprehensive_summary": "Set thirteen years after Noli Me Tangere, the novel follows the return of Crisóstomo Ibarra as Simoun, a wealthy jeweler who has adopted a revolutionary path. Disillusioned with peaceful reform, Simoun plots to incite a revolution by encouraging government corruption and abuse, believing that only through violence can the Philippines achieve freedom. The novel explores the moral complexities of revolution versus reform through interconnected stories of students, farmers, and colonial officials.",
+          "detailed_themes": [
+            {
+              "theme": "Revolution versus Reform",
+              "description": "Central conflict between violent uprising and peaceful change",
+              "examples": "Simoun's revolutionary plotting vs. Basilio's moderate approach, student activism vs. armed rebellion"
+            },
+            {
+              "theme": "Corruption and Moral Decay",
+              "description": "Systemic corruption in colonial government and society",
+              "examples": "Bribery in government positions, ecclesiastical abuse of power, Chinese merchant exploitation"
+            },
+            {
+              "theme": "Social Justice and Revenge",
+              "description": "Quest for justice often becomes personal vendetta",
+              "examples": "Simoun's personal revenge against those who wronged him, Cabesang Tales' transformation from victim to bandit"
+            },
+            {
+              "theme": "Education and Youth Idealism",
+              "description": "Student movements and the power of education to awaken consciousness",
+              "examples": "Spanish language academy proposal, student protests, Isagani's romantic nationalism"
+            },
+            {
+              "theme": "Love and Sacrifice",
+              "description": "Personal relationships tested by political commitments",
+              "examples": "Isagani's love for Paulita vs. his principles, Julí's sacrifice to save her grandfather"
+            },
+            {
+              "theme": "Colonial Oppression and Resistance",
+              "description": "Various forms of resistance against Spanish rule",
+              "examples": "Passive resistance by farmers, student activism, armed rebellion, intellectual opposition"
+            }
           ],
-          "characters": [
-            "Simoun - Ibarra's alter ego",
-            "Basilio - Student revolutionary",
-            "Isagani - Idealistic poet",
-            "Paulita Gómez - Love interest",
-            "Kabesang Tales - Oppressed farmer"
-          ]
+          "major_characters": [
+            {
+              "name": "Simoun (Crisóstomo Ibarra)",
+              "role": "Protagonist/Antihero",
+              "description": "Wealthy jeweler plotting revolution, former idealistic reformer",
+              "symbolism": "Represents the disillusionment of the ilustrado class and the turn to violent revolution",
+              "character_arc": "From peaceful reformer to vengeful revolutionary to repentant dying man",
+              "secret": "Actually Crisóstomo Ibarra in disguise, seeks revenge on those who destroyed his life"
+            },
+            {
+              "name": "Basilio",
+              "role": "Medical student, voice of moderation",
+              "description": "Orphaned child from Noli, now a medical student avoiding politics",
+              "symbolism": "Represents the younger generation choosing education over revolution",
+              "background": "Son of Sisa, witnessed his mother's madness and brother's death",
+              "philosophy": "Believes in gradual reform through professional achievement"
+            },
+            {
+              "name": "Isagani",
+              "role": "Student leader and poet",
+              "description": "Passionate student activist advocating for Spanish language academy",
+              "symbolism": "Represents youthful idealism and romantic nationalism",
+              "love_interest": "Paulita Gómez, whom he loses to Juanito Peláez",
+              "character_growth": "From naive idealist to more realistic understanding of society"
+            },
+            {
+              "name": "Cabesang Tales",
+              "role": "Farmer turned bandit",
+              "description": "Hardworking farmer whose land is stolen by friars, becomes outlaw",
+              "symbolism": "Represents the oppressed masses driven to violence by injustice",
+              "tragedy": "Loses everything to colonial greed, daughter sells herself to save him",
+              "transformation": "From peaceful farmer to revolutionary bandit leader"
+            },
+            {
+              "name": "Paulita Gómez",
+              "role": "Love interest, socialite",
+              "description": "Beautiful young woman torn between idealism and social ambition",
+              "symbolism": "Represents the Filipino elite's choice of comfort over principles",
+              "decision": "Chooses wealthy Juanito Peláez over idealistic Isagani",
+              "significance": "Embodies the conflict between love and social status"
+            },
+            {
+              "name": "Julí",
+              "role": "Tragic heroine",
+              "description": "Cabesang Tales' daughter who sacrifices herself for family",
+              "symbolism": "Represents the innocent victims of colonial oppression",
+              "sacrifice": "Sells herself into servitude to raise money for father's ransom",
+              "fate": "Dies rather than submit to Father Camorra's advances"
+            },
+            {
+              "name": "Father Florentino",
+              "role": "Moral compass, enlightened priest",
+              "description": "Isagani's uncle, represents progressive Christianity",
+              "symbolism": "Shows possibility of moral authority within the Church",
+              "role_in_ending": "Counsels dying Simoun and disposes of his revolutionary treasures",
+              "philosophy": "Believes in God's will and gradual moral progress"
+            }
+          ],
+          "literary_significance": {
+            "style": "Darker, more complex narrative than Noli Me Tangere",
+            "structure": "39 chapters with multiple interconnected storylines",
+            "language": "Written in Spanish with more sophisticated political discourse",
+            "influences": "Reflects Rizal's growing pessimism about peaceful reform",
+            "innovation": "First Filipino novel to seriously examine revolutionary ideology",
+            "narrative_technique": "Multiple perspectives showing different responses to oppression"
+          },
+          "historical_impact": {
+            "immediate": "Also banned by Spanish authorities, considered more dangerous than Noli",
+            "political": "Provided intellectual framework for Philippine Revolution of 1896",
+            "cultural": "Deepened Filipino understanding of colonial psychology and resistance",
+            "literary": "Influenced subsequent revolutionary and post-colonial literature",
+            "educational": "Used to teach about moral complexities of resistance movements",
+            "international": "Recognized as significant work of post-colonial literature globally"
+          }
         }
       ]
     },
     {
       "id": "historical-annotations",
-      "icon": "📚",
+      "icon": "books",
       "title": "Historical Annotations",
       "type": "historical_work",
       "content": {
@@ -126,7 +347,7 @@
     },
     {
       "id": "essays-articles",
-      "icon": "📰",
+      "icon": "newspaper",
       "title": "Essays & Articles",
       "type": "essays",
       "content": [
@@ -175,7 +396,7 @@
     },
     {
       "id": "poems",
-      "icon": "📝",
+      "icon": "writing",
       "title": "Poems",
       "type": "poems",
       "content": [
@@ -197,7 +418,7 @@
     },
     {
       "id": "letters",
-      "icon": "✉️",
+      "icon": "mail",
       "title": "Letters",
       "type": "letters",
       "content": [

@@ -79,23 +79,64 @@
         {
           "id": "trial-proceedings",
           "icon": "🏛️",
-          "title": "Military Trial Proceedings",
+          "title": "Military Trial Proceedings (December 1896)",
           "color": "yellow",
-          "court_details": {
-            "left_column": [
-              "Military court (court martial)",
-              "Presided by Spanish officers",
-              "No Filipino judges",
-              "Limited defense rights"
-            ],
-            "right_column": [
-              "Proceedings in Spanish",
-              "Predetermined outcome",
-              "Political rather than legal trial",
-              "Meant to send message to rebels"
+          "trial_structure": {
+            "title": "Court Composition and Procedures:",
+            "court_details": [
+              "Military court martial presided by Colonel José Togores Arjona",
+              "Seven Spanish military officers as judges",
+              "No Filipino representation in the tribunal",
+              "Defense attorney: Lieutenant Luis Taviel de Andrade (Spanish)",
+              "Prosecutor: Lieutenant Colonel Miguel Primo de Rivera",
+              "Proceedings conducted entirely in Spanish language",
+              "Trial lasted only a few days with predetermined outcome"
             ]
           },
-          "rizal_defense": "Rizal maintained his innocence of direct involvement in the revolution. He argued that his writings promoted peaceful reform, not violent rebellion. He denied knowledge of the Katipunan's armed plans."
+          "legal_violations": {
+            "title": "Violations of Legal Due Process:",
+            "items": [
+              "No proper investigation of actual involvement with Katipunan",
+              "Guilt by association and ideological connection rather than direct evidence",
+              "Limited time for defense preparation",
+              "Denial of right to call witnesses in his favor",
+              "No appeals process available for the verdict",
+              "Political motivations overrode legal procedures"
+            ]
+          },
+          "evidence_presented": {
+            "title": "Evidence Against Rizal:",
+            "prosecution_evidence": [
+              "Novels 'Noli Me Tangere' and 'El Filibusterismo' as seditious literature",
+              "Essays criticizing Spanish colonial policies",
+              "Founding of La Liga Filipina reform organization",
+              "Letters to fellow reformists discussing political changes",
+              "Alleged influence on revolutionary leaders like Bonifacio",
+              "Testimony from witnesses claiming he inspired rebellion"
+            ],
+            "defense_arguments": [
+              "La Liga Filipina was a peaceful civic organization, not revolutionary",
+              "His novels called for moral and educational reform, not armed revolt",
+              "No direct communication or coordination with the Katipunan",
+              "Consistently advocated peaceful means of achieving reforms",
+              "His writings predated the Katipunan and were not instructions for revolution",
+              "Distance from Philippines during crucial period of revolutionary planning"
+            ]
+          },
+          "key_testimonies": {
+            "title": "Key Testimonies and Witnesses:",
+            "against_rizal": [
+              "Pio Valenzuela testified (under duress) about Rizal's alleged support for revolution",
+              "Spanish officials claimed his writings directly incited rebellion",
+              "Former associates testified about his political activities"
+            ],
+            "rizal_statements": [
+              "Consistently denied direct involvement with armed revolution",
+              "Maintained that reform, not revolution, was his goal",
+              "Expressed regret that peaceful means had failed",
+              "Acknowledged influence but denied intention to incite violence"
+            ]
+          }
         },
         {
           "id": "verdict",
@@ -136,7 +177,7 @@
         },
         {
           "id": "final-visitors",
-          "icon": "👥",
+          "icon": "people",
           "title": "Final Visitors",
           "color": "green",
           "family_members": [
@@ -158,7 +199,7 @@
     },
     {
       "id": "execution",
-      "icon": "💀",
+      "icon": "skull",
       "title": "Execution at Bagumbayan",
       "type": "execution_details",
       "content": {
@@ -185,13 +226,13 @@
     },
     {
       "id": "national-mourning",
-      "icon": "😢",
+                "icon": "mourning",
       "title": "National Mourning and Hero Status",
       "type": "mourning_hero_status",
       "content": [
         {
           "id": "immediate-impact",
-          "icon": "🇵🇭",
+          "icon": "philippines",
           "title": "Immediate Impact",
           "color": "purple",
           "public_reaction": [
@@ -211,7 +252,7 @@
         },
         {
           "id": "national-hero-recognition",
-          "icon": "🏆",
+          "icon": "trophy",
           "title": "Recognition as National Hero",
           "color": "blue",
           "official_declaration": "While never officially proclaimed by law, Rizal was recognized as the national hero through popular acclaim and government recognition. His heroism was acknowledged by American colonial government and later by the Philippine Republic.",
@@ -227,13 +268,13 @@
     },
     {
       "id": "monuments",
-      "icon": "🗿",
+      "icon": "monument",
       "title": "Monuments and Global Recognition",
       "type": "monuments_recognition",
       "content": [
         {
           "id": "major-monuments",
-          "icon": "🏛️",
+          "icon": "building",
           "title": "Major Monuments",
           "color": "green",
           "rizal_monument_manila": [
@@ -253,7 +294,7 @@
         },
         {
           "id": "international-recognition",
-          "icon": "🌍",
+          "icon": "world",
           "title": "International Recognition",
           "color": "orange",
           "countries": [
@@ -287,7 +328,7 @@
     },
     {
       "id": "nationalism-influence",
-      "icon": "🔥",
+      "icon": "fire",
       "title": "Influence on Philippine Nationalism",
       "type": "lasting_legacy",
       "content": {

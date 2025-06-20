@@ -11,31 +11,232 @@
         {
           "id": "government-structure",
           "icon": "👑",
-          "title": "Government Structure",
+          "title": "Spanish Colonial Government Structure",
           "color": "blue",
-          "type": "grid",
-          "details": [
-            {
-              "subtitle": "Central Authority:",
-              "items": [
-                "Governor-General appointed by Spanish monarch",
-                "Highest authority with executive, legislative, judicial powers",
-                "Represented the Spanish Crown in the Philippines",
-                "Resided in Malacañang Palace in Manila",
-                "Term of office typically 3-6 years"
-              ]
-            },
-            {
-              "subtitle": "Provincial Administration:",
-              "items": [
-                "Alcaldes mayores governed provinces",
-                "Appointed by Governor-General",
-                "Combined civil and military authority",
-                "Responsible for tax collection and law enforcement",
-                "Often engaged in corrupt practices"
-              ]
-            }
-          ]
+          "type": "comprehensive_government",
+          "central_authority": {
+            "subtitle": "Governor-General (Captain-General):",
+            "powers_and_responsibilities": [
+              "Supreme civil, military, and ecclesiastical authority in the Philippines",
+              "Appointed directly by the Spanish Crown through the Minister of Colonies",
+              "Represented the Spanish monarch with vice-regal powers",
+              "Resided in Malacañang Palace (built 1750, renovated 1863)",
+              "Term of office typically 3-6 years, subject to political changes in Spain",
+              "Controlled all military forces including regular army and local militia",
+              "Final authority on death sentences and major judicial decisions"
+            ],
+            "notable_governors_general": [
+              "Narciso Clavería y Zaldúa (1844-1849) - Administrative reforms, surname decree",
+              "Carlos María de la Torre (1869-1871) - Liberal policies, ended during Cavite Mutiny",
+              "Rafael de Izquierdo (1871-1873) - Conservative, harsh response to Cavite Mutiny",
+              "Domingo Moriones y Murillo (1877-1880) - Infrastructure development",
+              "Eulogio Despujol (1891-1893) - Served during Rizal's second return"
+            ]
+          },
+          "provincial_administration": {
+            "subtitle": "Provincial and Local Government:",
+            "alcaldes_mayores": [
+              "Governed individual provinces with combined civil and military authority",
+              "Appointed by Governor-General, usually Spanish peninsulares",
+              "Served as chief executive, judge, and military commander",
+              "Responsible for tax collection (tribute, bandala, polo y servicio)",
+              "Often engaged in illegal trade and corruption (indulto de comercio)",
+              "Controlled local guardia civil and military forces",
+              "Administered justice with minimal oversight from Manila"
+            ],
+            "municipal_government": [
+              "Gobernadorcillo (little governor) - chief town official",
+              "Selected from principalia class through complex electoral process",
+              "Served two-year terms without salary",
+              "Assisted by cabeza de barangay (village heads)",
+              "Responsible for implementing colonial policies at local level",
+              "Collected tribute and supervised public works projects",
+              "Often caught between Spanish demands and Filipino community needs"
+            ]
+          },
+          "administrative_challenges": {
+            "subtitle": "Systemic Problems and Inefficiencies:",
+            "structural_issues": [
+              "Communication delays between Manila and remote provinces",
+              "Frequent changes in policies due to political instability in Spain",
+              "Lack of qualified personnel for administrative positions",
+              "Cultural and language barriers between Spanish officials and Filipino population",
+              "Inadequate funding for essential government services",
+              "Overlapping jurisdictions between civil and ecclesiastical authorities"
+            ],
+            "corruption_patterns": [
+              "Sale of government positions to highest bidders",
+              "Embezzlement of tax revenues and government funds",
+              "Illegal monopolies and forced trade with natives",
+              "Bribery in judicial proceedings and administrative decisions",
+              "Exploitation of forced labor systems for personal profit",
+              "Failure to maintain proper records and accountability"
+            ]
+          }
+        },
+        {
+          "id": "taxation-system",
+          "icon": "💸",
+          "title": "Spanish Colonial Taxation System",
+          "color": "orange",
+          "type": "complex_taxation",
+          "taxation_overview": {
+            "subtitle": "Colonial Revenue System:",
+            "description": "The Spanish colonial government relied on multiple forms of taxation to finance administration, defense, and extract wealth for the Crown. The taxation system was complex, often oppressive, and a major source of Filipino grievances."
+          },
+          "direct_taxes": {
+            "subtitle": "Direct Taxes on Individuals:",
+            "taxes": [
+              {
+                "name": "Tributo (Tribute)",
+                "description": "Annual personal tax paid by every adult male Filipino",
+                "details": [
+                  "Originally 8 reales per year, later increased to 12 reales",
+                  "Could be paid in rice, gold, cotton, or cash",
+                  "Collected by cabeza de barangay who was personally responsible",
+                  "Exemptions for Spanish, mestizos, and principalia in some periods",
+                  "Failure to pay resulted in forced labor or imprisonment"
+                ]
+              },
+              {
+                "name": "Sanctorum (Church Tax)",
+                "description": "Additional tax for church construction and maintenance",
+                "details": [
+                  "Usually 2 reales per tribute payer",
+                  "Funded construction of churches and convents",
+                  "Administered by parish priests",
+                  "Separate from regular church donations and fees"
+                ]
+              },
+              {
+                "name": "Donativo de Zamboanga",
+                "description": "Special tax for fortress maintenance in Mindanao",
+                "details": [
+                  "1-2 reales per tributary",
+                  "Specifically for defense against Moro raids",
+                  "Irregular collection based on military needs"
+                ]
+              }
+            ]
+          },
+          "trade_taxes": {
+            "subtitle": "Commercial and Trade Taxes:",
+            "taxes": [
+              {
+                "name": "Almojarifazgo",
+                "description": "Import and export duties on goods",
+                "details": [
+                  "Originally 7.5%, later reduced to 3% for intercontinental trade",
+                  "5% for intercolonial trade within Spanish empire",
+                  "Applied to all goods entering or leaving ports",
+                  "Major source of royal revenue",
+                  "Collected at customs houses (casas de contratación)"
+                ]
+              },
+              {
+                "name": "Alcabala",
+                "description": "Sales tax on commercial transactions",
+                "details": [
+                  "2-6% tax on sale of goods and properties",
+                  "Applied to both Spanish and native merchants",
+                  "Collected at markets and during trade transactions",
+                  "Often evaded through informal trading arrangements"
+                ]
+              },
+              {
+                "name": "Derecho de Toneladas",
+                "description": "Tonnage tax on ships",
+                "details": [
+                  "Based on ship capacity and cargo tonnage",
+                  "Funded maintenance of ports and harbors",
+                  "Collected from all vessels entering Philippine ports"
+                ]
+              }
+            ]
+          },
+          "forced_systems": {
+            "subtitle": "Forced Labor and Requisition Systems:",
+            "systems": [
+              {
+                "name": "Polo y Servicio",
+                "description": "Forced labor obligation for public works",
+                "details": [
+                  "40 days of unpaid labor annually for men aged 16-60",
+                  "Could be commuted for 1.5 reales per day (falla)",
+                  "Used for road construction, fortifications, and government buildings",
+                  "Often extended illegally for personal projects of officials",
+                  "Major source of resentment among Filipino population"
+                ]
+              },
+              {
+                "name": "Bandala",
+                "description": "Forced sale of agricultural products to government",
+                "details": [
+                  "Rice, cotton, tobacco, and other crops sold at below-market prices",
+                  "Quotas assigned to each town and barangay",
+                  "Government resold products at higher prices",
+                  "Transportation costs borne by producers",
+                  "Failure to meet quotas resulted in penalties"
+                ]
+              },
+              {
+                "name": "Vandala (Corvée Labor)",
+                "description": "Unpaid labor for local government projects",
+                "details": [
+                  "Separate from polo y servicio",
+                  "Used for local infrastructure and church construction",
+                  "Organized by local officials and parish priests",
+                  "No legal limit on duration"
+                ]
+              }
+            ]
+          },
+          "monopoly_revenues": {
+            "subtitle": "Government Monopolies:",
+            "monopolies": [
+              {
+                "name": "Tobacco Monopoly (1782-1884)",
+                "description": "Government control over tobacco production and sales",
+                "details": [
+                  "Farmers required to sell tobacco only to government",
+                  "Government controlled prices and distribution",
+                  "Severe penalties for illegal tobacco trade",
+                  "Major source of colonial revenue",
+                  "Particularly oppressive in tobacco-growing regions"
+                ]
+              },
+              {
+                "name": "Basi Wine Monopoly",
+                "description": "Government control over local wine production",
+                "details": [
+                  "Restricted production of basi (sugarcane wine)",
+                  "Government-controlled distilleries",
+                  "Licensed sellers only",
+                  "Led to Basi Revolt in Ilocos (1807)"
+                ]
+              },
+              {
+                "name": "Gunpowder and Playing Cards",
+                "description": "Monopoly on strategic and luxury items",
+                "details": [
+                  "Government control over explosive materials",
+                  "Licensed production and sale of playing cards",
+                  "High prices due to monopoly control"
+                ]
+              }
+            ]
+          },
+          "tax_collection_problems": {
+            "subtitle": "Problems with Tax Collection:",
+            "issues": [
+              "Widespread corruption among tax collectors",
+              "Abuse of power by cabeza de barangay",
+              "Illegal surcharges and fees",
+              "Punishment of entire communities for individual non-payment",
+              "No appeals process for tax disputes",
+              "Conversion of communal property to meet tax obligations"
+            ]
+          }
         },
         {
           "id": "local-governance",
@@ -496,7 +697,7 @@
         },
         {
           "id": "educational-problems",
-          "icon": "❌",
+          "icon": "cross",
           "title": "Problems and Limitations",
           "color": "red",
           "type": "educational_issues",

@@ -3,50 +3,26 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-type TeamMember = {
-  name: string;
-  imageUrl: string;
-  profileUrl: string;
-};
-
-const TEAM_MEMBERS: TeamMember[] = [
-  {
-    name: "Nikka",
-    imageUrl: "/nikka.svg",
-    profileUrl: "https://www.facebook.com/avnixm/",
-  },
-  {
-    name: "Krecel",
-    imageUrl: "/krecel.svg",
-    profileUrl: "https://www.facebook.com/liezel.dorerocapalar.1",
-  },
-  {
-    name: "Chalve",
-    imageUrl: "/chalve.svg",
-    profileUrl: "https://www.facebook.com/chalve.elizan.16",
-  },
-  {
-    name: "Karla",
-    imageUrl: "/karla.svg",
-    profileUrl: "https://www.facebook.com/profile.php?id=100093054081598",
-  },
+const TEAM_MEMBERS = [
+  { name: 'Chalve', imageUrl: '/chalve.svg', profileUrl: '#' },
+  { name: 'Nikka', imageUrl: '/nikka.svg', profileUrl: '#' },
+  { name: 'Karla', imageUrl: '/karla.svg', profileUrl: '#' },
+  { name: 'Krecel', imageUrl: '/krecel.svg', profileUrl: '#' },
 ];
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
   const [isHovered, setIsHovered] = useState(false);
+  const currentYear = new Date().getFullYear();
 
   return (
     <div
-      className="fixed left-0 right-0 bottom-[-60px] md:bottom-[-30px] h-[140px] w-full z-50"
+      className="hidden md:block fixed left-0 right-0 bottom-[-60px] md:bottom-[-30px] h-[140px] w-full z-50"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{ pointerEvents: 'auto' }}
     >
       <div className="relative w-full h-full flex items-center justify-center">
-        {/* Blurred content when hovered */}
-        <div className={`w-full h-full flex flex-col items-center justify-center transition-all duration-500 ${isHovered ? 'blur-md' : ''}`}
-        >
+        <div className={`w-full h-full flex flex-col items-center justify-center transition-all duration-500 ${isHovered ? 'blur-sm' : ''}`}>
           <div className="flex items-center justify-center space-x-4 mb-2">
             {TEAM_MEMBERS.map((member) => (
               <div key={member.name} className="relative">
@@ -66,7 +42,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        {/* Overlay tribute text */}
+        
         {isHovered && (
           <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
             <p

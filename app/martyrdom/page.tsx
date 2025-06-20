@@ -188,7 +188,7 @@ export default async function Martyrdom() {
               <>
                 {section.content.map((item: any) => (
                   <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)} mb-4 md:mb-6`}>
-                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
+                    <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
                       {getSubIconComponent(item.id)}
                       {item.title}
                     </h4>
@@ -197,20 +197,20 @@ export default async function Martyrdom() {
                     {item.travel_details && item.revolution_context && (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                         <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base md:text-lg">
                             {item.travel_details.title}
                           </h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                             {item.travel_details.items.map((detail: string, index: number) => (
                               <li key={index}>• {detail}</li>
                             ))}
                           </ul>
                         </div>
                         <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base md:text-lg">
                             {item.revolution_context.title}
                           </h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                             {item.revolution_context.items.map((detail: string, index: number) => (
                               <li key={index}>• {detail}</li>
                             ))}
@@ -223,18 +223,18 @@ export default async function Martyrdom() {
                     {item.arrest_details && item.prison_details && (
                       <div className="space-y-3">
                         <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base md:text-lg">
                             {item.arrest_details.title}
                           </h5>
-                          <p className="text-xs md:text-sm leading-relaxed">
+                          <p className="text-sm md:text-base leading-relaxed">
                             {item.arrest_details.description}
                           </p>
                         </div>
                         <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base md:text-lg">
                             {item.prison_details.title}
                           </h5>
-                          <p className="text-xs md:text-sm leading-relaxed">
+                          <p className="text-sm md:text-base leading-relaxed">
                             {item.prison_details.description}
                           </p>
                         </div>
@@ -248,126 +248,147 @@ export default async function Martyrdom() {
             {/* Trial Proceedings */}
             {section.type === 'trial_proceedings' && (
               <div className="space-y-3 md:space-y-4">
-                {section.content.map((item: any) => (
-                  <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
-                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
-                      {getSubIconComponent(item.id)}
-                      {item.title}
-                    </h4>
-                    
-                    {/* Charges */}
-                    {item.primary_charges && item.evidence_presented && (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Primary Charges:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.primary_charges.map((charge: string, index: number) => (
-                              <li key={index}>• {charge}</li>
-                            ))}
-                          </ul>
-                        </div>
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Evidence Presented:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.evidence_presented.map((evidence: string, index: number) => (
-                              <li key={index}>• {evidence}</li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Court details */}
-                    {item.court_details && (
-                      <div className="space-y-3">
-                        <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Court Details:</h5>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-                            <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                              {item.court_details.left_column.map((detail: string, index: number) => (
-                                <li key={index}>• {detail}</li>
+                {section.content.map((item: any) => {
+                  if (item.id === 'charges') {
+                    return (
+                      <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
+                        <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                          {getSubIconComponent(item.id) || <TrialIcon />}
+                          {item.title}
+                        </h4>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <div>
+                            <h5 className="font-semibold text-amber-700 mb-2 text-base">Primary Charges:</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                              {item.primary_charges.map((charge: string, index: number) => (
+                                <li key={index}>• {charge}</li>
                               ))}
                             </ul>
-                            <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                              {item.court_details.right_column.map((detail: string, index: number) => (
-                                <li key={index}>• {detail}</li>
+                          </div>
+                          <div>
+                            <h5 className="font-semibold text-amber-700 mb-2 text-base">Evidence Presented:</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                              {item.evidence_presented.map((evidence: string, index: number) => (
+                                <li key={index}>• {evidence}</li>
                               ))}
                             </ul>
                           </div>
                         </div>
-                        {item.rizal_defense && (
-                          <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Rizal's Defense:</h5>
-                            <p className="text-xs md:text-sm leading-relaxed">{item.rizal_defense}</p>
-                          </div>
-                        )}
                       </div>
-                    )}
+                    );
+                  }
 
-                    {/* Verdict */}
-                    {item.verdict && (
-                      <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                        <div className="text-center mb-3 md:mb-4">
-                          <h5 className="font-bold text-red-800 text-base md:text-lg">{item.verdict}</h5>
-                          <p className="text-xs md:text-sm italic">{item.date}</p>
+                  if (item.id === 'trial-proceedings') {
+                    return (
+                      <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
+                        <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                          {getSubIconComponent(item.id) || <TrialIcon />}
+                          {item.title}
+                        </h4>
+                        <div className="space-y-4">
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-base md:text-lg">{item.trial_structure.title}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                              {item.trial_structure.court_details.map((point: string, index: number) => (
+                                <li key={index}>• {point}</li>
+                              ))}
+                            </ul>
+                          </div>
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-base md:text-lg">{item.legal_violations.title}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                              {item.legal_violations.items.map((violation: string, index: number) => (
+                                <li key={index}>• {violation}</li>
+                              ))}
+                            </ul>
+                          </div>
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-base md:text-lg">{item.evidence_presented.title}</h5>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm md:text-base">
+                              <ul className="space-y-1">
+                                {item.evidence_presented.prosecution_evidence.map((doc: string, index: number) => <li key={index}>• {doc}</li>)}
+                              </ul>
+                              <ul className="space-y-1">
+                                {item.evidence_presented.defense_arguments.map((test: string, index: number) => <li key={index}>• {test}</li>)}
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="bg-amber-50/30 rounded p-3 border border-amber-200">
+                            <h5 className="font-semibold text-amber-800 mb-2 text-base md:text-lg">{item.key_testimonies.title}</h5>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm md:text-base">
+                               <ul className="space-y-1">
+                                 <h6 className="font-semibold text-amber-700 mb-2 text-sm">Testimonies Against Rizal:</h6>
+                                 {item.key_testimonies.against_rizal.map((doc: string, index: number) => <li key={index}>• {doc}</li>)}
+                               </ul>
+                               <ul className="space-y-1">
+                                 <h6 className="font-semibold text-amber-700 mb-2 text-sm">Rizal's Statements:</h6>
+                                 {item.key_testimonies.rizal_statements.map((test: string, index: number) => <li key={index}>• {test}</li>)}
+                               </ul>
+                             </div>
+                          </div>
                         </div>
-                        <p className="text-xs md:text-sm leading-relaxed">{item.description}</p>
                       </div>
-                    )}
-                  </div>
-                ))}
+                    );
+                  }
+
+                  if (item.id === 'verdict') {
+                    return (
+                      <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
+                        <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                          {getSubIconComponent(item.id) || <TrialIcon />}
+                          {item.title}
+                        </h4>
+                        <div className="text-center mb-3">
+                          <h5 className="font-bold text-red-800 text-xl">{item.verdict}</h5>
+                          <p className="text-sm md:text-base italic">{item.date}</p>
+                        </div>
+                        <p className="text-sm md:text-base">{item.description}</p>
+                      </div>
+                    );
+                  }
+
+                  return null;
+                })}
               </div>
             )}
 
             {/* Final Preparations */}
             {section.type === 'final_preparations' && (
-              <div className="space-y-3 md:space-y-4">
+              <div className="space-y-4 md:space-y-6">
                 {section.content.map((item: any) => (
                   <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
-                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
-                      {getSubIconComponent(item.id)}
+                    <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                      {getSubIconComponent(item.id) || <WritingIcon />}
                       {item.title}
                     </h4>
-                    
-                    {/* Last works */}
-                    {item.mi_ultimo_adios && item.final_letters && (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">"Mi Último Adiós":</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.mi_ultimo_adios.map((detail: string, index: number) => (
-                              <li key={index}>• {detail}</li>
-                            ))}
+                    {item.mi_ultimo_adios && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Mi Último Adiós:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.mi_ultimo_adios.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Final Letters:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.final_letters.map((letter: string, index: number) => (
-                              <li key={index}>• {letter}</li>
-                            ))}
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Final Letters:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.final_letters.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
                       </div>
                     )}
-
-                    {/* Final visitors */}
-                    {item.family_members && item.religious_preparation && (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Family Members:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.family_members.map((member: string, index: number) => (
-                              <li key={index}>• {member}</li>
-                            ))}
+                    {item.family_members && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Family Members:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.family_members.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Religious Preparation:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.religious_preparation.map((prep: string, index: number) => (
-                              <li key={index}>• {prep}</li>
-                            ))}
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Religious Preparation:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.religious_preparation.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
                       </div>
@@ -379,86 +400,55 @@ export default async function Martyrdom() {
 
             {/* Execution Details */}
             {section.type === 'execution_details' && (
-              <div className={`rounded-lg p-4 md:p-6 border ${getColorClasses(section.content.color)} mb-4 md:mb-6`}>
-                <h4 className="font-bold text-amber-800 mb-3 md:mb-4 text-base md:text-lg flex items-center">
-                  <SunriseIcon />
-                  {section.content.date_time}
-                </h4>
-                
-                <div className="space-y-3 md:space-y-4">
-                  <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                    <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Final Moments:</h5>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-                      <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                        {section.content.final_moments.left_column.map((moment: string, index: number) => (
-                          <li key={index}>• {moment}</li>
-                        ))}
-                      </ul>
-                      <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                        {section.content.final_moments.right_column.map((moment: string, index: number) => (
-                          <li key={index}>• {moment}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="bg-amber-50/60 md:bg-amber-50/50 rounded p-3 md:p-4 border md:border-0">
-                    <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Witnesses and Atmosphere:</h5>
-                    <p className="text-xs md:text-sm leading-relaxed">
-                      {section.content.witnesses_atmosphere}
-                    </p>
-                  </div>
+              <div className={`rounded-lg p-4 md:p-6 border ${getColorClasses(section.content.color)}`}>
+                 <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                    <SunriseIcon />
+                    Execution at Bagumbayan ({section.content.date_time})
+                  </h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                  <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                    {section.content.final_moments.left_column.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
+                  </ul>
+                  <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                    {section.content.final_moments.right_column.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
+                  </ul>
                 </div>
+                <p className="text-sm md:text-base leading-relaxed italic bg-amber-50/50 p-3 rounded">{section.content.witnesses_atmosphere}</p>
               </div>
             )}
 
             {/* Mourning and Hero Status */}
             {section.type === 'mourning_hero_status' && (
-              <div className="space-y-3 md:space-y-4">
+              <div className="space-y-4 md:space-y-6">
                 {section.content.map((item: any) => (
                   <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
-                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
-                      {getSubIconComponent(item.id)}
+                    <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                      {getSubIconComponent(item.id) || <HeroIcon />}
                       {item.title}
                     </h4>
-                    
-                    {/* Immediate impact */}
-                    {item.public_reaction && item.revolutionary_response && (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Public Reaction:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.public_reaction.map((reaction: string, index: number) => (
-                              <li key={index}>• {reaction}</li>
-                            ))}
+                    {item.public_reaction && (
+                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Public Reaction:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.public_reaction.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Revolutionary Response:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.revolutionary_response.map((response: string, index: number) => (
-                              <li key={index}>• {response}</li>
-                            ))}
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Revolutionary Response:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.revolutionary_response.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
                       </div>
                     )}
-
-                    {/* Hero recognition */}
                     {item.official_declaration && (
-                      <div className="space-y-3">
-                        <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Official Declaration:</h5>
-                          <p className="text-xs md:text-sm leading-relaxed">{item.official_declaration}</p>
-                        </div>
-                        <div className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Why Rizal Became the National Hero:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.why_national_hero.map((reason: string, index: number) => (
-                              <li key={index}>• {reason}</li>
-                            ))}
-                          </ul>
-                        </div>
+                      <div>
+                        <p className="text-sm md:text-base leading-relaxed mb-3 italic">{item.official_declaration}</p>
+                        <h5 className="font-semibold text-amber-700 mb-2 text-base">Reasons for Hero Status:</h5>
+                        <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                          {item.why_national_hero.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
+                        </ul>
                       </div>
                     )}
                   </div>
@@ -468,46 +458,36 @@ export default async function Martyrdom() {
 
             {/* Monuments and Recognition */}
             {section.type === 'monuments_recognition' && (
-              <div className="space-y-3 md:space-y-4">
+              <div className="space-y-4 md:space-y-6">
                 {section.content.map((item: any) => (
                   <div key={item.id} className={`rounded-lg p-4 md:p-6 border ${getColorClasses(item.color)}`}>
-                    <h4 className="font-bold text-amber-800 mb-3 text-base md:text-lg flex items-center">
-                      {getSubIconComponent(item.id)}
+                    <h4 className="font-bold text-amber-800 mb-3 text-lg md:text-xl flex items-center">
+                      {getSubIconComponent(item.id) || <MonumentIcon />}
                       {item.title}
                     </h4>
-                    
-                    {/* Major monuments */}
-                    {item.rizal_monument_manila && item.other_monuments && (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Rizal Monument, Manila:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.rizal_monument_manila.map((detail: string, index: number) => (
-                              <li key={index}>• {detail}</li>
-                            ))}
+                     {item.rizal_monument_manila && (
+                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Rizal Monument (Manila):</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.rizal_monument_manila.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
-                        <div className="bg-white/40 md:bg-transparent rounded p-3 md:p-0 border md:border-0">
-                          <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">Other Notable Monuments:</h5>
-                          <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
-                            {item.other_monuments.map((monument: string, index: number) => (
-                              <li key={index}>• {monument}</li>
-                            ))}
+                        <div>
+                          <h5 className="font-semibold text-amber-700 mb-2 text-base">Other Monuments:</h5>
+                          <ul className="space-y-1 text-sm md:text-base leading-relaxed">
+                            {item.other_monuments.map((detail: string, i: number) => <li key={i}>• {detail}</li>)}
                           </ul>
                         </div>
                       </div>
                     )}
-
-                    {/* International recognition */}
                     {item.countries && (
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
-                        {item.countries.map((country: any, index: number) => (
-                          <div key={index} className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 text-center border md:border-0">
-                            <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{country.name}</h5>
-                            <ul className="text-xs leading-relaxed space-y-1">
-                              {country.recognitions.map((recognition: string, idx: number) => (
-                                <li key={idx}>• {recognition}</li>
-                              ))}
+                      <div className="space-y-3">
+                        {item.countries.map((country: any, i: number) => (
+                          <div key={i}>
+                            <h5 className="font-semibold text-amber-700 mb-1 text-base">{country.name}</h5>
+                            <ul className="space-y-1 text-sm md:text-base leading-relaxed list-disc list-inside">
+                              {country.recognitions.map((rec: string, j: number) => <li key={j}>{rec}</li>)}
                             </ul>
                           </div>
                         ))}
@@ -531,7 +511,7 @@ export default async function Martyrdom() {
                     {section.content.legacy_areas.slice(0, 2).map((area: any, index: number) => (
                       <div key={index} className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
                         <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{area.title}</h5>
-                        <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                        <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                           {area.items.map((item: string, idx: number) => (
                             <li key={idx}>• {item}</li>
                           ))}
@@ -544,7 +524,7 @@ export default async function Martyrdom() {
                     {section.content.legacy_areas.slice(2, 4).map((area: any, index: number) => (
                       <div key={index} className="bg-white/60 md:bg-white/50 rounded p-3 md:p-4 border md:border-0">
                         <h5 className="font-semibold text-amber-700 mb-2 text-sm md:text-base">{area.title}</h5>
-                        <ul className="space-y-1 text-xs md:text-sm leading-relaxed">
+                        <ul className="space-y-1 text-sm md:text-base leading-relaxed">
                           {area.items.map((item: string, idx: number) => (
                             <li key={idx}>• {item}</li>
                           ))}
@@ -559,7 +539,7 @@ export default async function Martyrdom() {
                     <ThoughtIcon />
                     Eternal Message:
                   </h5>
-                  <p className="text-xs md:text-sm leading-relaxed text-center italic">
+                  <p className="text-sm md:text-base leading-relaxed text-center italic">
                     {section.content.eternal_message}
                   </p>
                 </div>
