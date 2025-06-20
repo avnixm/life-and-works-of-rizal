@@ -46,10 +46,11 @@
         "parents": [
           {
             "icon": "👨",
-            "title": "Father - Francisco Mercado Rizal",
+            "title": "Father - Francisco Mercado Rizal (1818-1898)",
             "color": "blue",
             "items": [
               "Born in Biñan, Laguna",
+              "Lived for 80 years, witnessing most of José's life",
               "Studied in Colegio de San José in Manila",
               "Successful farmer and businessman",
               "Known for his integrity and industry",
@@ -59,10 +60,11 @@
           },
           {
             "icon": "👩",
-            "title": "Mother - Teodora Alonso Realonda",
+            "title": "Mother - Teodora Alonso Realonda (1827-1911)",
             "color": "pink",
             "items": [
               "From a well-educated Chinese-Filipino family",
+              "Lived for 84 years, surviving José by 15 years",
               "Highly intelligent and cultured woman",
               "José's first teacher",
               "Taught him prayers, reading, and writing",
@@ -76,48 +78,48 @@
           "icon": "👫",
           "children": [
             {
-              "name": "Saturnina (Neneng)",
-              "description": "Eldest sister, married Manuel Hidalgo"
+              "name": "Saturnina (Neneng) - 1850-1913",
+              "description": "Eldest sister, married Manuel Hidalgo. Lived 63 years."
             },
             {
-              "name": "Paciano",
-              "description": "Only brother, José's mentor and supporter"
+              "name": "Paciano - 1851-1930",
+              "description": "Only brother, José's mentor and supporter. Lived 79 years, surviving José by 34 years."
             },
             {
-              "name": "Narcisa (Sisa)",
-              "description": "Close to José, married Antonio López"
+              "name": "Narcisa (Sisa) - 1852-1939",
+              "description": "Close to José, married Antonio López. Lived 87 years."
             },
             {
-              "name": "Olimpia",
-              "description": "Married Silvestre Ubaldo"
+              "name": "Olimpia - 1855-1887",
+              "description": "Married Silvestre Ubaldo. Died young at 32 years old."
             },
             {
-              "name": "Lucia",
-              "description": "Married Mariano Herbosa"
+              "name": "Lucia - 1857-1919",
+              "description": "Married Mariano Herbosa. Lived 62 years."
             },
             {
-              "name": "Maria (Biang)",
-              "description": "Married Daniel Faustino Cruz"
+              "name": "Maria (Biang) - 1859-1945",
+              "description": "Married Daniel Faustino Cruz. Lived 86 years, one of the longest-lived siblings."
             },
             {
-              "name": "José Rizal",
-              "description": "7th child, the national hero"
+              "name": "José Rizal - 1861-1896",
+              "description": "7th child, the national hero. Executed at 35 years old."
             },
             {
-              "name": "Concepcion (Concha)",
-              "description": "Died young, deeply mourned by José"
+              "name": "Concepcion (Concha) - 1862-1865",
+              "description": "Died as a child at 3 years old, deeply mourned by José."
             },
             {
-              "name": "Josefa (Panggoy)",
-              "description": "Remained unmarried, died as spinster"
+              "name": "Josefa (Panggoy) - 1865-1945",
+              "description": "Remained unmarried, lived 80 years."
             },
             {
-              "name": "Trinidad (Trining)",
-              "description": "José's confidante, remained unmarried"
+              "name": "Trinidad (Trining) - 1868-1951",
+              "description": "José's confidante, remained unmarried. Lived 83 years, the longest-lived sibling."
             },
             {
-              "name": "Soledad (Choleng)",
-              "description": "Youngest sister, married Pantaleon Quintero"
+              "name": "Soledad (Choleng) - 1870-1929",
+              "description": "Youngest sister, married Pantaleon Quintero. Lived 59 years."
             }
           ]
         }
